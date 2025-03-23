@@ -16,7 +16,7 @@ website:
 
   sidebar:
     background: "#a01f35" #"#E46C4E"
-    logo: "images/logo.png"
+    logo: "images/logo2.png"
     pinned: true
     align: center 
     tools:

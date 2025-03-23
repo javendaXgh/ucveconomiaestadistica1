@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n40\ntreatment\nno event\n\n\n204\ntreatment\nno event\n\n\n383\ncontrol\nno event\n\n\n385\ncontrol\nno event\n\n\n389\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n181\ntreatment\nno event\n\n\n255\ncontrol\nno event\n\n\n275\ncontrol\nno event\n\n\n347\ncontrol\nno event\n\n\n441\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -202,7 +202,7 @@
     "href": "index.html",
     "title": "Actividades",
     "section": "",
-    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n🖥️ láminas clase 01🛠️ Notebook Clase 01  Ejecutar Notebook en Google Colab\n\n\n2\nmar, 25 mar.\n\n\n\n\n\n\n\n\njue, 27 mar.\n\n\n\n\n\n\n3\nmar, 1 abr.\n\n\n\n\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.\n\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nEntrega Proyecto Final\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nPresentación Proyecto Final",
+    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n\n\n\n\n2\nmar, 25 mar.\nTablas Sumario- Contigencia\n🖥️ láminas clase 01🛠️ Notebook Clase 01  Ejecutar Notebook en Google Colab\n\n\n\n\njue, 27 mar.\n\n\n\n\n\n\n3\nmar, 1 abr.\n\n\n\n\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.",
     "crumbs": [
       "Sobre el Curso",
       "Actividades"
@@ -319,7 +319,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n7000\n17.09\n36\nD\nAZ\n55000\nown\n\n\n15000\n9.92\n36\nB\nCA\n185000\nrent\n\n\n40000\n12.62\n36\nC\nTX\n192000\nmortgage\n\n\n16000\n7.35\n36\nA\nCT\n100000\nrent\n\n\n35000\n11.98\n60\nB\nRI\n245000\nmortgage\n\n\n35000\n6.71\n36\nA\nMD\n325000\nmortgage\n\n\n6500\n6.08\n36\nA\nIL\n32000\nrent\n\n\n24000\n10.90\n60\nB\nIL\n71000\nrent",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n38500\n12.62\n60\nC\nCA\n160000\nmortgage\n\n\n30000\n7.35\n36\nA\nCA\n103000\nrent\n\n\n13500\n18.06\n60\nD\nHI\n68700\nrent\n\n\n6500\n6.08\n36\nA\nIL\n32000\nrent\n\n\n16000\n7.35\n36\nA\nCT\n100000\nrent\n\n\n18500\n12.62\n60\nC\nFL\n192000\nmortgage\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent",
     "crumbs": [
       "Clases",
       "Clase 1"
