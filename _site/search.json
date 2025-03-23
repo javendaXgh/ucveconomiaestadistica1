@@ -103,7 +103,7 @@
     "href": "clases/clase_01.html#tabla-resultados",
     "title": "Estadística I",
     "section": "Tabla Resultados",
-    "text": "Tabla Resultados",
+    "text": "Tabla Resultados\n\n\n           pain_free\ngroup       no yes\n  control   44   2\n  treatment 33  10",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -114,7 +114,7 @@
     "href": "clases/clase_01.html#preguntas-a-responder",
     "title": "Estadística I",
     "section": "Preguntas a Responder",
-    "text": "Preguntas a Responder\na) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?\n(b) ¿Qué porcentaje del grupo de control no tuvo dolor?\nSe realizaron pruebas repetidas con el dolorímetro.\n(c) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?\n(d) Sus hallazgos hasta el momento podrían sugerir que la acupuntura es un tratamiento eficaz para las migrañas en todas las personas que las padecen. \nSin embargo, esta no es la única conclusión posible que se puede extraer con base en sus hallazgos. \n¿Cuál es otra posible explicación para la diferencia observada entre los porcentajes de pacientes sin dolor 24 horas después de recibir acupuntura en los dos grupos?",
+    "text": "Preguntas a Responder\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nno N = 771\nyes N = 121\n\n\n\n\ngroup\n\n\n\n\n\n\n    control\n44 (57%)\n2 (17%)\n\n\n    treatment\n33 (43%)\n10 (83%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\na) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?\n(b) ¿Qué porcentaje del grupo de control no tuvo dolor? Se realizaron pruebas repetidas con el dolorímetro.",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -147,7 +147,7 @@
     "href": "clases/clase_01.html#ejercicio",
     "title": "Estadística I",
     "section": "Ejercicio",
-    "text": "Ejercicio\nLa migraña es un tipo de dolor de cabeza particularmente doloroso, que los pacientes a veces desean tratar con acupuntura. \nPara determinar si la acupuntura alivia el dolor migrañoso, los investigadores realizaron un estudio controlado aleatorizado en el que 89 mujeres diagnosticadas con migraña fueron asignadas aleatoriamente a uno de dos grupos: tratamiento o control. 43 pacientes del grupo de tratamiento recibieron acupuntura específicamente diseñada para tratar las migrañas. 46 pacientes del grupo control recibieron acupuntura placebo (inserción de agujas en puntos distintos a los de acupuntura). \n24 después de recibir la acupuntura, se les preguntó si no sentían dolor.",
+    "text": "Ejercicio\nLa migraña es un tipo de dolor de cabeza particularmente doloroso, que los pacientes a veces desean tratar con acupuntura. \nPara determinar si la acupuntura alivia el dolor migrañoso, los investigadores realizaron un estudio controlado aleatorizado en el que 89 mujeres diagnosticadas con migraña fueron asignadas aleatoriamente a uno de dos grupos:\n\ngrupo tratamiento: 43 pacientes del grupo de tratamiento recibieron acupuntura específicamente diseñada para tratar las migrañas.\ngrupo control: 46 pacientes del grupo control recibieron acupuntura placebo (inserción de agujas en puntos distintos a los de acupuntura). \n\n24 después de recibir la acupuntura, se les preguntó si no sentían dolor.",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n105\ntreatment\nno event\n\n\n153\ntreatment\nno event\n\n\n182\ntreatment\nno event\n\n\n210\ntreatment\nno event\n\n\n260\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n90\ntreatment\nno event\n\n\n124\ntreatment\nno event\n\n\n135\ntreatment\nno event\n\n\n265\ncontrol\nno event\n\n\n447\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -298,6 +298,72 @@
     "title": "Estadística I",
     "section": "",
     "text": "Los científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#preguntas-a-responder--continuación",
+    "href": "clases/clase_01.html#preguntas-a-responder--continuación",
+    "title": "Estadística I",
+    "section": "Preguntas a Responder- continuación:",
+    "text": "Preguntas a Responder- continuación:\n(d) Sus hallazgos hasta el momento podrían sugerir que la acupuntura es un tratamiento eficaz para las migrañas en todas las personas que las padecen. \nSin embargo, esta no es la única conclusión posible que se puede extraer con base en sus hallazgos. \n¿Cuál es otra posible explicación para la diferencia observada entre los porcentajes de pacientes sin dolor 24 horas después de recibir acupuntura en los dos grupos?",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#variables-conjunto-de-datos",
+    "href": "clases/clase_01.html#variables-conjunto-de-datos",
+    "title": "Estadística I",
+    "section": " Variables Conjunto de Datos",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n25000\n7.96\n36\nA\nMN\n65000\nmortgage\n\n\n7500\n7.34\n36\nA\nMD\n70000\nrent\n\n\n13500\n18.06\n60\nD\nHI\n68700\nrent\n\n\n20000\n10.91\n60\nB\nNJ\n42000\nmortgage\n\n\n3000\n17.09\n36\nD\nNY\n28800\nrent\n\n\n18500\n12.62\n60\nC\nFL\n192000\nmortgage\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent\n\n\n17000\n17.09\n36\nD\nMD\n73000\nrent",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#descripción-variables",
+    "href": "clases/clase_01.html#descripción-variables",
+    "title": "Estadística I",
+    "section": "Descripción Variables",
+    "text": "Descripción Variables\nClaro, aquí tienes la tabla en Markdown con la traducción de la imagen:\n\n\n\n\n\n\n\nVariable\nDescripción\n\n\nloan_amount\nMonto del préstamo recibido, en dólares estadounidenses.\n\n\ninterest_rate\nTasa de interés del préstamo, en porcentaje anual.\n\n\nterm\nEl plazo del préstamo, que siempre se establece como un número entero de meses.\n\n\ngrade\nCalificación del préstamo, que toma valores de A a G y representa la calidad del préstamo y su probabilidad de ser reembolsado.\n\n\nstate\nEstado de EE.UU. donde reside el prestatario.\n\n\ntotal_income\nIngreso total del prestatario, incluyendo cualquier segundo ingreso, en dólares estadounidenses.\n\n\nhomeownership\nIndica si la persona es propietaria, es propietaria pero tiene una hipoteca, o alquila.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#clasificar-cada-variable-según-tipo",
+    "href": "clases/clase_01.html#clasificar-cada-variable-según-tipo",
+    "title": "Estadística I",
+    "section": "Clasificar Cada Variable Según Tipo",
+    "text": "Clasificar Cada Variable Según Tipo\n\n\n\nVariable\nTipo Variable\n\n\nloan_amount\n\n\n\ninterest_rate\n\n\n\nterm\n\n\n\ngrade\n\n\n\nstate\n\n\n\ntotal_income\n\n\n\nhomeownership",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#ejercicio-1",
+    "href": "clases/clase_01.html#ejercicio-1",
+    "title": "Estadística I",
+    "section": "Ejercicio:",
+    "text": "Ejercicio:\nCrear una estructura de datos tabulares con el plan de evaluación del curso\n\n\n\n\n🔗 Estadística 1",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#preguntas-a-responder-1",
+    "href": "clases/clase_01.html#preguntas-a-responder-1",
+    "title": "Estadística I",
+    "section": "Preguntas a Responder",
+    "text": "Preguntas a Responder\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nno N = 771\nyes N = 121\n\n\n\n\ngroup\n\n\n\n\n\n\n    control\n44 (57%)\n2 (17%)\n\n\n    treatment\n33 (43%)\n10 (83%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\n(c) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?",
     "crumbs": [
       "Clases",
       "Clase 1"

@@ -194,17 +194,26 @@ table(migraine)
 
 ##  Preguntas a Responder
 
-a\) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?
-
-\(b\) ¿Qué porcentaje del grupo de control no tuvo dolor? Se realizaron pruebas repetidas con el dolorímetro.
-
-\(c\) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?
-
 ```{r}
 tbl_summary(migraine,
             include=group,
             by= pain_free)
 ```
+
+a\) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?
+
+\(b\) ¿Qué porcentaje del grupo de control no tuvo dolor? Se realizaron pruebas repetidas con el dolorímetro.
+
+## Preguntas a Responder
+
+```{r}
+
+tbl_summary(migraine,
+            include=group,
+            by= pain_free)
+```
+
+\(c\) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?
 
 ## Preguntas a Responder- continuación:
 
