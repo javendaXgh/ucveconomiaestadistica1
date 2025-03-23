@@ -2,6 +2,8 @@
 title: "Tarea 1"
 ---
 
+### Actividades Propuestas
+
 Nota: esta tarea no tiene evaluación
 
 -   Hacer lectura en la página del curso las siguientes publicaciones:
@@ -36,4 +38,8 @@ Nota: esta tarea no tiene evaluación
 
 -   Leer el texto de introducción a los jupyter notebooks en <https://github.com/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/jupyter_intro.ipynb>
 
-Las actividades señaladas se deben cumplir antes del 27 de marzo.
+### Lecturas recomendadas:
+
+-   Del libro Open Intro <https://rpubs.com/javenda/openintroes> , hasta la sección 1.3
+
+Las actividades señaladas se sugiere cumplirlas antes del 27 de marzo.
