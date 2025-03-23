@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n64\ntreatment\nno event\n\n\n245\ncontrol\nno event\n\n\n255\ncontrol\nno event\n\n\n291\ncontrol\nno event\n\n\n383\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n71\ntreatment\nno event\n\n\n224\ntreatment\nno event\n\n\n255\ncontrol\nno event\n\n\n382\ncontrol\nno event\n\n\n430\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -319,7 +319,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent\n\n\n6000\n10.42\n36\nB\nTX\n60000\nmortgage\n\n\n20000\n10.91\n60\nB\nNJ\n42000\nmortgage\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n29400\n24.85\n60\nE\nTX\n98000\nmortgage\n\n\n4500\n9.44\n36\nB\nWV\n80000\nmortgage\n\n\n35000\n11.98\n60\nB\nRI\n245000\nmortgage\n\n\n15000\n16.02\n36\nC\nNJ\n50000\nrent",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n24000\n9.93\n36\nB\nMI\n85000\nmortgage\n\n\n18000\n9.93\n60\nB\nMA\n218000\nmortgage\n\n\n25000\n26.30\n36\nE\nSC\n75000\nmortgage\n\n\n16500\n5.31\n36\nA\nNE\n105000\nmortgage\n\n\n6000\n9.92\n36\nB\nCA\n60000\nrent\n\n\n18200\n10.42\n60\nB\nCA\n144000\nrent\n\n\n29400\n24.85\n60\nE\nTX\n98000\nmortgage\n\n\n18500\n12.62\n60\nC\nFL\n192000\nmortgage",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -352,7 +352,7 @@
     "href": "clases/clase_01.html#ejercicio-1",
     "title": "Estadística I",
     "section": "Ejercicio:",
-    "text": "Ejercicio:\nCrear una estructura de datos tabulares con el plan de evaluación del curso\n\n\n\n\n🔗 Estadística 1",
+    "text": "Ejercicio:\nCrear una estructura de datos tabulares con el plan de evaluación del curso",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -428,5 +428,38 @@
     "title": "UCV Economía Estadística I",
     "section": "¿Qué es un notebook?",
     "text": "¿Qué es un notebook?\nUn cuaderno de Jupyter se compone de celdas, cada una de las cuales contiene texto o código. Esta celda contiene texto. La siguiente celda contiene código.\n\nprint('Hola')\n\nHaz clic en la celda anterior para seleccionarla. Deberías ver un botón a la izquierda con un triángulo dentro de un círculo, que es el icono de “Reproducir”. Al pulsarlo, Jupyter ejecuta el código de la celda y muestra el resultado. Al ejecutar código en un notebook por primera vez, puede tardar unos segundos en iniciarse. Y si se trata de un notebook que no has escrito tú, podrías recibir un mensaje de advertencia. Si ejecutas un notebook de una fuente de confianza, como espero que yo también, puedes pulsar “Ejecutar de todas formas”.\nEn lugar de hacer clic en el botón “Reproducir”, también puedes ejecutar el código en una celda manteniendo presionada la tecla Mayús y presionando Enter. Si está ejecutando este cuaderno en Colab, debería ver botones en la parte superior izquierda que dicen “+ Code” (código) y “+ Text” (texto).\nEl primero agrega una celda de código y el segundo agrega una celda de texto. Si quieres probarlos, selecciona esta celda haciendo clic en ella, luego presiona el botón “+ Text”. Debería aparecer una nueva celda debajo de esta.\nAgrega algo de texto a la celda. Puede usar los botones para formatearlo o puede marcar el texto usando Markdown. Cuando haya terminado, mantenga presionada la tecla Mayús y presione Entrar, lo que formateará el texto que acaba de escribir y luego pasará a la siguiente celda.\nEn cualquier momento Jupyter está en uno de dos modos: En el modo comando, puedes realizar operaciones que afectan a las celdas, como agregar y eliminar celdas enteras.\nEn el modo de edición, puede editar el contenido de una celda. Con las celdas de texto, es obvio en qué modo se encuentra. En el modo de edición, la celda se divide verticalmente, con el texto que estás editando a la izquierda y el texto formateado a la derecha. Y verás herramientas de edición de texto en la parte superior. En el modo de comando, solo ve el texto formateado.\nCon las celdas de código, la diferencia es más sutil, pero si hay un cursor en la celda, estás en modo de edición. Para pasar del modo de edición al modo de comando, presione ESC. Para pasar del modo comando al modo edición, presione Enter.\nSi quieres obtener más información sobre markdown accede a https://www.markdownguide.org/basic-syntax/\nCuando haya terminado de trabajar en una libreta, puede cerrar la ventana, pero todos los cambios que haya realizado desaparecerán. Si realiza algún cambio que desee conservar, abra el menú Archivo en la parte superior izquierda. Verás varias formas de guardar el cuaderno.\nSi tiene una cuenta de Google, puede guardar la libreta en su Drive.\nSi tiene una cuenta de GitHub, puede guardarla en GitHub.\nO si desea guardar el cuaderno en su computadora, seleccione “Descargar” y luego “Descargar .ipynb”. El sufijo “.ipynb” indica que es un archivo de cuaderno, a diferencia de “.R”, que indica un archivo que contiene código R únicamente.\nPara más información sobre Colab, haz click en el siguiente enlace https://colab.research.google.com/notebooks/basic_features_overview.ipynb.\nTexto adaptado de https://colab.research.google.com/github/AllenDowney/ThinkStats/blob/v3/nb/jupyter_intro.ipynb#scrollTo=IrqR-x8ZFCdj “Think Stats” por Allen B. Downey"
+  },
+  {
+    "objectID": "clases/clase_01.html#relaciones-entre-variables",
+    "href": "clases/clase_01.html#relaciones-entre-variables",
+    "title": "Estadística I",
+    "section": "Relaciones Entre Variables",
+    "text": "Relaciones Entre Variables",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#variables-asociadas",
+    "href": "clases/clase_01.html#variables-asociadas",
+    "title": "Estadística I",
+    "section": "Variables Asociadas",
+    "text": "Variables Asociadas\nCuando dos variables muestran algún tipo de conexión se dice que están asociadas.\n\n\n\n\n\n\n\nDebido a que hay una tendencia a la baja en la Figura 1.8 (los condados con más unidades en estructuras de unidades múltiples están asociados con una menor propiedad de vivienda), se dice que estas variables están asociadas negativamente. Se muestra una asociación positiva en la relación entre el ingreso medio hh y el cambio pop en la Figura 1.9, donde los condados con un ingreso familiar medio más alto tienden a tener tasas más altas de crecimiento poblacional.\nSi dos variables no están asociadas se dice que son independientes. Es decir, dos variables son independientes si no existe una relación evidente entre ellas.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#variables-explicativas-y-de-respuesta.",
+    "href": "clases/clase_01.html#variables-explicativas-y-de-respuesta.",
+    "title": "Estadística I",
+    "section": "Variables explicativas y de respuesta.",
+    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética.\n\n\n\n\n\n🔗 Estadística 1",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
   }
 ]

@@ -18,6 +18,7 @@ library(openintro)
 library(tidyverse)
 library(gtsummary)
 library(gt)
+library(plotly)
 stents <- stent30%>%
   mutate(paciente= row_number())%>%
   rename('0-30 días'= outcome)%>%
@@ -285,3 +286,46 @@ gt(loan50%>%
 ## Ejercicio:
 
 Crear una estructura de datos tabulares con el plan de evaluación del curso
+
+## Relaciones Entre Variables
+
+```{r}
+plot_ly(data = county,
+        y = ~homeownership,
+        x = ~multi_unit,
+        text= ~name)%>%
+  layout(title = '',
+         xaxis = list(title = 'Percent of Units in Multi−Unit Structures'),
+         yaxis = list(title = 'tasa de homeownership'))
+```
+
+##  Variables Asociadas
+
+Cuando dos variables muestran algún tipo de conexión se dice que están asociadas.
+
+```{r}
+plot_ly(data = county,
+        y = ~pop_change,
+        x = ~median_hh_income,
+        text= ~name)%>%
+  layout(title = '"Population Change" contra "Median Household Income"',
+         xaxis = list(title = 'Median Household Income'),
+         yaxis = list(title = 'Population Change'))
+
+```
+
+::: notes
+Debido a que hay una tendencia a la baja en la Figura 1.8 (los condados con más unidades en estructuras de unidades múltiples están asociados con una menor propiedad de vivienda), se dice que estas variables están asociadas negativamente. Se muestra una asociación positiva en la relación entre el ingreso medio hh y el cambio pop en la Figura 1.9, donde los condados con un ingreso familiar medio más alto tienden a tener tasas más altas de crecimiento poblacional.
+
+Si dos variables no están asociadas se dice que son independientes. Es decir, dos variables son independientes si no existe una relación evidente entre ellas.
+:::
+
+## **Variables explicativas y de respuesta.**
+
+-   **Variables Explicativas:** Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, "explicativa" captura esta esencia.
+
+-   **Variable de Respuesta:** Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, "de respuesta" es la traducción precisa.
+
+::: notes
+Cuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética.
+:::
