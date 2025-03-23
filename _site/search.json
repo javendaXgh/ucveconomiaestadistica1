@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n181\ntreatment\nno event\n\n\n255\ncontrol\nno event\n\n\n275\ncontrol\nno event\n\n\n347\ncontrol\nno event\n\n\n441\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n64\ntreatment\nno event\n\n\n245\ncontrol\nno event\n\n\n255\ncontrol\nno event\n\n\n291\ncontrol\nno event\n\n\n383\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -235,7 +235,7 @@
     "href": "tarea_01.html",
     "title": "Tarea 1",
     "section": "",
-    "text": "Nota: esta tarea no tiene evaluación\n\nHacer lectura en la página del curso las siguientes publicaciones:\n\nCódigo de Conducta\nPrograma\nPlan de Evaluación\nRecursos Disponibles\n\n\nCrear cuentas de usuario en:\n\nhttps://login.posit.cloud/register\ngoogle - gmail. En caso de contar con una no es necesario crear una nueva.\n\nLas actividades señaladas se deben cumplir antes del 27 de marzo.",
+    "text": "Nota: esta tarea no tiene evaluación\n\nHacer lectura en la página del curso las siguientes publicaciones:\n\nCódigo de Conducta\nPrograma\nPlan de Evaluación\nRecursos Disponibles\n\nCrear cuentas de usuario en:\n\nhttps://login.posit.cloud/register\ngoogle - gmail. En caso de contar con una no es necesario crear una nueva.\n\nDe la playlist https://www.youtube.com/playlist?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8 ver los videos\n\n1 Case Study: Using Stents to Prevent Strokes\n2 Data Basics: Observations, Variable, and Data Matrices\n\nLos vídeos se puede configurar para que sean traducidos de forma automática a español\n\n\n\n\n\n\n\nVer el vídeo “Hans Rosling’s 200 Countries, 200 Years, 4 Minutes” https://www.youtube.com/watch?v=jbkSRLYSojo&list=PLkIselvEzpM5nFf4nu--q2OGccA_0alYO\nDescarga del libro versión inglés (opcional): para aquellos que quieran tener la edición del texto en inglés que se usará a lo largo del curso, pueden acceder a la página https://leanpub.com/os . Pueden hacer el pago del libro o seleccionar en el slider “you pay” el monto cero, y proceder a realizar la descarga.\nLeer el texto de introducción a los jupyter notebooks en https://github.com/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/jupyter_intro.ipynb\n\nLas actividades señaladas se deben cumplir antes del 27 de marzo.",
     "crumbs": [
       "Tareas",
       "tarea 1"
@@ -319,7 +319,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n38500\n12.62\n60\nC\nCA\n160000\nmortgage\n\n\n30000\n7.35\n36\nA\nCA\n103000\nrent\n\n\n13500\n18.06\n60\nD\nHI\n68700\nrent\n\n\n6500\n6.08\n36\nA\nIL\n32000\nrent\n\n\n16000\n7.35\n36\nA\nCT\n100000\nrent\n\n\n18500\n12.62\n60\nC\nFL\n192000\nmortgage\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent\n\n\n6000\n10.42\n36\nB\nTX\n60000\nmortgage\n\n\n20000\n10.91\n60\nB\nNJ\n42000\nmortgage\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n29400\n24.85\n60\nE\nTX\n98000\nmortgage\n\n\n4500\n9.44\n36\nB\nWV\n80000\nmortgage\n\n\n35000\n11.98\n60\nB\nRI\n245000\nmortgage\n\n\n15000\n16.02\n36\nC\nNJ\n50000\nrent",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -403,5 +403,30 @@
     "title": "Estadística I, Clase 1: Describir los Datos",
     "section": "Tabla de Contingencia para C.D. con Múltiples Tipos de Datos",
     "text": "Tabla de Contingencia para C.D. con Múltiples Tipos de Datos\nSi queremos crear una tabla resumen del atributo homeownership (tipo propietario), llamamos a loan50 y usamos el operador $ para seleccionar la variable homeownership.\n\ntable(loan50$homeownership)\n\nSi queremos crear una tabla de contigencia para las variables homeownership y grade (grado de la hipoteca), usamos nuevamente la función table y llamamos a las dos variables\n\ntable(loan50$homeownership,\n      loan50$grade)"
+  },
+  {
+    "objectID": "clases/clase_01.html#pregunta-clave-a-responder",
+    "href": "clases/clase_01.html#pregunta-clave-a-responder",
+    "title": "Estadística I",
+    "section": "Pregunta Clave a Responder",
+    "text": "Pregunta Clave a Responder\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "notebooks/jupyter_intro.html",
+    "href": "notebooks/jupyter_intro.html",
+    "title": "UCV Economía Estadística I",
+    "section": "",
+    "text": "Un cuaderno Jupyter es un documento que contiene texto, código y los resultados de su ejecución. Puedes leer un cuaderno como si fuera un libro, pero también puedes ejecutar el código, modificarlo y desarrollar nuevos programas. Los cuadernos Jupyter se ejecutan en un navegador web, por lo que puedes ejecutarlos sin instalar ningún software nuevo. Sin embargo, deben conectarse a un servidor Jupyter. Puedes instalar y ejecutar un servidor tú mismo, pero para empezar es más fácil usar un servicio como Colab, operado por Google. En la página del curso encontrarás algunas clases que tiene enlaces a un cuaderno Jupyter. Si haces clic en uno de estos enlaces, se abrirá un cuaderno en Colab. Si estás leyendo este cuaderno en Colab, deberías ver un logotipo naranja en la esquina superior izquierda que se parece a las letras CO. Si no estás ejecutando este cuaderno en Colab, puedes hacer clic aquí para abrirlo."
+  },
+  {
+    "objectID": "notebooks/jupyter_intro.html#qué-es-un-notebook",
+    "href": "notebooks/jupyter_intro.html#qué-es-un-notebook",
+    "title": "UCV Economía Estadística I",
+    "section": "¿Qué es un notebook?",
+    "text": "¿Qué es un notebook?\nUn cuaderno de Jupyter se compone de celdas, cada una de las cuales contiene texto o código. Esta celda contiene texto. La siguiente celda contiene código.\n\nprint('Hola')\n\nHaz clic en la celda anterior para seleccionarla. Deberías ver un botón a la izquierda con un triángulo dentro de un círculo, que es el icono de “Reproducir”. Al pulsarlo, Jupyter ejecuta el código de la celda y muestra el resultado. Al ejecutar código en un notebook por primera vez, puede tardar unos segundos en iniciarse. Y si se trata de un notebook que no has escrito tú, podrías recibir un mensaje de advertencia. Si ejecutas un notebook de una fuente de confianza, como espero que yo también, puedes pulsar “Ejecutar de todas formas”.\nEn lugar de hacer clic en el botón “Reproducir”, también puedes ejecutar el código en una celda manteniendo presionada la tecla Mayús y presionando Enter. Si está ejecutando este cuaderno en Colab, debería ver botones en la parte superior izquierda que dicen “+ Code” (código) y “+ Text” (texto).\nEl primero agrega una celda de código y el segundo agrega una celda de texto. Si quieres probarlos, selecciona esta celda haciendo clic en ella, luego presiona el botón “+ Text”. Debería aparecer una nueva celda debajo de esta.\nAgrega algo de texto a la celda. Puede usar los botones para formatearlo o puede marcar el texto usando Markdown. Cuando haya terminado, mantenga presionada la tecla Mayús y presione Entrar, lo que formateará el texto que acaba de escribir y luego pasará a la siguiente celda.\nEn cualquier momento Jupyter está en uno de dos modos: En el modo comando, puedes realizar operaciones que afectan a las celdas, como agregar y eliminar celdas enteras.\nEn el modo de edición, puede editar el contenido de una celda. Con las celdas de texto, es obvio en qué modo se encuentra. En el modo de edición, la celda se divide verticalmente, con el texto que estás editando a la izquierda y el texto formateado a la derecha. Y verás herramientas de edición de texto en la parte superior. En el modo de comando, solo ve el texto formateado.\nCon las celdas de código, la diferencia es más sutil, pero si hay un cursor en la celda, estás en modo de edición. Para pasar del modo de edición al modo de comando, presione ESC. Para pasar del modo comando al modo edición, presione Enter.\nSi quieres obtener más información sobre markdown accede a https://www.markdownguide.org/basic-syntax/\nCuando haya terminado de trabajar en una libreta, puede cerrar la ventana, pero todos los cambios que haya realizado desaparecerán. Si realiza algún cambio que desee conservar, abra el menú Archivo en la parte superior izquierda. Verás varias formas de guardar el cuaderno.\nSi tiene una cuenta de Google, puede guardar la libreta en su Drive.\nSi tiene una cuenta de GitHub, puede guardarla en GitHub.\nO si desea guardar el cuaderno en su computadora, seleccione “Descargar” y luego “Descargar .ipynb”. El sufijo “.ipynb” indica que es un archivo de cuaderno, a diferencia de “.R”, que indica un archivo que contiene código R únicamente.\nPara más información sobre Colab, haz click en el siguiente enlace https://colab.research.google.com/notebooks/basic_features_overview.ipynb.\nTexto adaptado de https://colab.research.google.com/github/AllenDowney/ThinkStats/blob/v3/nb/jupyter_intro.ipynb#scrollTo=IrqR-x8ZFCdj “Think Stats” por Allen B. Downey"
   }
 ]

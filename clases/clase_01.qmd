@@ -47,7 +47,7 @@ t2 <- tbl_summary(stent365,
 
 Los científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. 
 
-[La estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible]{style="color:#184e77; font-size:1.3em"}[.]{style="color:#f48c06"}
+[La estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible.]{style="color:#dc2f02; font-size:1.3em"}
 
 # Propiedades de los Datos
 
@@ -171,6 +171,18 @@ Esta segunda pregunta es sutil. Supongamos que lanzamos una moneda 100 veces. Si
 PRECAUCION: NO GENERALIZAR
 ```
 :::
+
+## Pregunta Clave a Responder {.small}
+
+### ¿Los datos representados muestran que existe una diferencia entre los dos grupos? {style="color:#ff6d00"}
+
+Supongamos que lanzas una moneda **100** veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.
+
+La diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.
+
+Dado que la diferencia es bastante grande, es más creíble que sea real.
+
+[Utilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar]{style="color:#dc2f02"}[.]{style="color:"}
 
 ## Ejercicio {.small}
 

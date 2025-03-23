@@ -14,10 +14,24 @@ Nota: esta tarea no tiene evaluación
 
     -   Recursos Disponibles
 
-Crear cuentas de usuario en:
+-   Crear cuentas de usuario en:
 
--   <https://login.posit.cloud/register>
+    -   <https://login.posit.cloud/register>
 
--   google - gmail. En caso de contar con una no es necesario crear una nueva.
+    -   google - gmail. En caso de contar con una no es necesario crear una nueva.
+
+-   De la playlist <https://www.youtube.com/playlist?list=PLkIselvEzpM6pZ76FD3NoCvvgkj_p-dE8> ver los videos
+
+    -   1 **Case Study: Using Stents to Prevent Strokes**
+
+    -   2 **Data Basics: Observations, Variable, and Data Matrices**
+
+    Los vídeos se puede configurar para que sean traducidos de forma automática a español
+
+![](images/subtitulo.gif){fig-align="center"}
+
+-   Ver el vídeo "**Hans Rosling's 200 Countries, 200 Years, 4 Minutes"** <https://www.youtube.com/watch?v=jbkSRLYSojo&list=PLkIselvEzpM5nFf4nu--q2OGccA_0alYO>
+
+-   Descarga del libro versión inglés (opcional): para aquellos que quieran tener la edición del texto en inglés que se usará a lo largo del curso, pueden acceder a la página <https://leanpub.com/os> . Pueden hacer el pago del libro o seleccionar en el *slider* "you pay" el monto cero, y proceder a realizar la descarga.
 
 Las actividades señaladas se deben cumplir antes del 27 de marzo.
