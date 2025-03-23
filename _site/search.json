@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n90\ntreatment\nno event\n\n\n124\ntreatment\nno event\n\n\n135\ntreatment\nno event\n\n\n265\ncontrol\nno event\n\n\n447\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n40\ntreatment\nno event\n\n\n204\ntreatment\nno event\n\n\n383\ncontrol\nno event\n\n\n385\ncontrol\nno event\n\n\n389\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -202,7 +202,7 @@
     "href": "index.html",
     "title": "Actividades",
     "section": "",
-    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n🖥️ láminas clase 01\n\n\n2\nmar, 25 mar.\n\n\n\n\n\n\n\n\njue, 27 mar.\n\n\n\n\n\n\n3\nmar, 1 abr.\n\n\n\n\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.\n\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nEntrega Proyecto Final\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nPresentación Proyecto Final",
+    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n🖥️ láminas clase 01🛠️ Notebook Clase 01  Ejecutar Notebook en Google Colab\n\n\n2\nmar, 25 mar.\n\n\n\n\n\n\n\n\njue, 27 mar.\n\n\n\n\n\n\n3\nmar, 1 abr.\n\n\n\n\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.\n\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nEntrega Proyecto Final\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nPresentación Proyecto Final",
     "crumbs": [
       "Sobre el Curso",
       "Actividades"
@@ -318,8 +318,8 @@
     "objectID": "clases/clase_01.html#variables-conjunto-de-datos",
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
-    "section": " Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n25000\n7.96\n36\nA\nMN\n65000\nmortgage\n\n\n7500\n7.34\n36\nA\nMD\n70000\nrent\n\n\n13500\n18.06\n60\nD\nHI\n68700\nrent\n\n\n20000\n10.91\n60\nB\nNJ\n42000\nmortgage\n\n\n3000\n17.09\n36\nD\nNY\n28800\nrent\n\n\n18500\n12.62\n60\nC\nFL\n192000\nmortgage\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent\n\n\n17000\n17.09\n36\nD\nMD\n73000\nrent",
+    "section": "Variables Conjunto de Datos",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n7000\n17.09\n36\nD\nAZ\n55000\nown\n\n\n15000\n9.92\n36\nB\nCA\n185000\nrent\n\n\n40000\n12.62\n36\nC\nTX\n192000\nmortgage\n\n\n16000\n7.35\n36\nA\nCT\n100000\nrent\n\n\n35000\n11.98\n60\nB\nRI\n245000\nmortgage\n\n\n35000\n6.71\n36\nA\nMD\n325000\nmortgage\n\n\n6500\n6.08\n36\nA\nIL\n32000\nrent\n\n\n24000\n10.90\n60\nB\nIL\n71000\nrent",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -330,7 +330,7 @@
     "href": "clases/clase_01.html#descripción-variables",
     "title": "Estadística I",
     "section": "Descripción Variables",
-    "text": "Descripción Variables\nClaro, aquí tienes la tabla en Markdown con la traducción de la imagen:\n\n\n\n\n\n\n\nVariable\nDescripción\n\n\nloan_amount\nMonto del préstamo recibido, en dólares estadounidenses.\n\n\ninterest_rate\nTasa de interés del préstamo, en porcentaje anual.\n\n\nterm\nEl plazo del préstamo, que siempre se establece como un número entero de meses.\n\n\ngrade\nCalificación del préstamo, que toma valores de A a G y representa la calidad del préstamo y su probabilidad de ser reembolsado.\n\n\nstate\nEstado de EE.UU. donde reside el prestatario.\n\n\ntotal_income\nIngreso total del prestatario, incluyendo cualquier segundo ingreso, en dólares estadounidenses.\n\n\nhomeownership\nIndica si la persona es propietaria, es propietaria pero tiene una hipoteca, o alquila.",
+    "text": "Descripción Variables\n\n\n\n\n\n\n\nVariable\nDescripción\n\n\nloan_amount\nMonto del préstamo recibido, en dólares estadounidenses.\n\n\ninterest_rate\nTasa de interés del préstamo, en porcentaje anual.\n\n\nterm\nEl plazo del préstamo, que siempre se establece como un número entero de meses.\n\n\ngrade\nCalificación del préstamo, que toma valores de A a G y representa la calidad del préstamo y su probabilidad de ser reembolsado.\n\n\nstate\nEstado de EE.UU. donde reside el prestatario.\n\n\ntotal_income\nIngreso total del prestatario, incluyendo cualquier segundo ingreso, en dólares estadounidenses.\n\n\nhomeownership\nIndica si la persona es propietaria, es propietaria pero tiene una hipoteca, o alquila.",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -368,5 +368,40 @@
       "Clases",
       "Clase 1"
     ]
+  },
+  {
+    "objectID": "notebooks/clase_01_estadistica.html#conjunto-de-datos-seleccionado",
+    "href": "notebooks/clase_01_estadistica.html#conjunto-de-datos-seleccionado",
+    "title": "Estadística I, Clase 1: Describir los Datos",
+    "section": "Conjunto de Datos Seleccionado",
+    "text": "Conjunto de Datos Seleccionado\nEstaremos trabajando con el conjunto stent30 y stent365.\nPrimero usaremos la función head para ver las primeras 6 filas. Es importante ver que luego de enununciar la función usamos el paréntesis para indicar el nombre del conjunto de datos.\n\nhead(stent30)\n\n\nhead(stent365)\n\nSi queremos ver las últimas filas se usa la función tail.\n\ntail(stent30)\n\nSi queremos generar para este conjunto de datos una tabla de contingencia se usa la función table. Una tabla de contigencia muestra el resumen de los datos de dos variables categóricas en forma cruzada. Ver https://es.wikipedia.org/wiki/Tabla_de_contingencia\n\ntable(stent30)\n\n\ntable(stent365)"
+  },
+  {
+    "objectID": "notebooks/clase_01_estadistica.html#usando-r-como-una-calculadora",
+    "href": "notebooks/clase_01_estadistica.html#usando-r-como-una-calculadora",
+    "title": "Estadística I, Clase 1: Describir los Datos",
+    "section": "Usando R como una calculadora",
+    "text": "Usando R como una calculadora\n\nSumar\n\n214 + 191\n\n\n\nDividir\n\n191/(214 + 191)"
+  },
+  {
+    "objectID": "notebooks/clase_01_estadistica.html#inspeccionar-conjunto-de-datos-loans",
+    "href": "notebooks/clase_01_estadistica.html#inspeccionar-conjunto-de-datos-loans",
+    "title": "Estadística I, Clase 1: Describir los Datos",
+    "section": "Inspeccionar Conjunto de Datos Loans",
+    "text": "Inspeccionar Conjunto de Datos Loans\nSi queremos obtener ayuda sobre una función o queremos saber cuáles datos contiene un conjunto de datos, podemos usar la función ?\n\n?loan50\n\n\n?head\n\n\n# el numeral se usa para colocar comentarios en los códigos.\n# vamos a inspeccionar las primeras filas del conjunto de datos (c.d.) loan50\nhead(loan50)\n\nVamos a usar la función select para seleccionar solo unas columnas de nuestro c.d. loan50.\n\nloan50%&gt;%\n   sample_n(10)%&gt;%\n   select(loan_amount,\n          interest_rate,\n          term,\n          grade,\n          state,\n          total_income,\n          homeownership)\n\nLa función sample_n acompañada del argumento 10 se usó para seleccionar aleatoriamente 10 observaciones del c.d.\nAhora debemos indicar para cada una de las columnas el tipo de variable que tenemos representada."
+  },
+  {
+    "objectID": "notebooks/clase_01_estadistica.html#otras-funciones-de-interés",
+    "href": "notebooks/clase_01_estadistica.html#otras-funciones-de-interés",
+    "title": "Estadística I, Clase 1: Describir los Datos",
+    "section": "Otras funciones de interés",
+    "text": "Otras funciones de interés\n\nmean: permite obtener el promedio para una serie de datos.\nsum: permite sumar todos los valores de una serie de datos\n\n\nmean(loan50$interest_rate)\n\nel operador $ se usa para acceder a todos los valores que tiene una columna de un c.d.\n\nloan50$interest_rate\n\n\nsum(loan50$loan_amount)\n\nPodemos ver con sum(loan50$loan_amount) la suma de todos los montos otorgados en prestamos."
+  },
+  {
+    "objectID": "notebooks/clase_01_estadistica.html#tabla-de-contingencia-para-c.d.-con-múltiples-tipos-de-datos",
+    "href": "notebooks/clase_01_estadistica.html#tabla-de-contingencia-para-c.d.-con-múltiples-tipos-de-datos",
+    "title": "Estadística I, Clase 1: Describir los Datos",
+    "section": "Tabla de Contingencia para C.D. con Múltiples Tipos de Datos",
+    "text": "Tabla de Contingencia para C.D. con Múltiples Tipos de Datos\nSi queremos crear una tabla resumen del atributo homeownership (tipo propietario), llamamos a loan50 y usamos el operador $ para seleccionar la variable homeownership.\n\ntable(loan50$homeownership)\n\nSi queremos crear una tabla de contigencia para las variables homeownership y grade (grado de la hipoteca), usamos nuevamente la función table y llamamos a las dos variables\n\ntable(loan50$homeownership,\n      loan50$grade)"
   }
 ]

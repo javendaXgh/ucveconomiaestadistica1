@@ -66,8 +66,6 @@ gt(stents_if)%>%
 
 Hay observaciones que generalmente en los datos tabulares estarán representados por [(filas)]{style="color:red"} , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las [(columnas)]{style="color:#0077b6"}.
 
-<br>
-
 ```{r}
 gt(stent30%>%
      mutate(paciente=row_number())%>%
@@ -197,7 +195,9 @@ table(migraine)
 ```{r}
 tbl_summary(migraine,
             include=group,
-            by= pain_free)
+            by= pain_free)%>%
+   as_gt()%>%
+  tab_options(table.font.size = 28)
 ```
 
 a\) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?
@@ -210,7 +210,9 @@ a\) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 
 
 tbl_summary(migraine,
             include=group,
-            by= pain_free)
+            by= pain_free)%>%
+  as_gt()%>%
+  tab_options(table.font.size = 28)
 ```
 
 \(c\) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?
@@ -225,7 +227,9 @@ Sin embargo, esta no es la única conclusión posible que se puede extraer con b
 
 ## Tipos de Variables
 
-## ![](images/clase01/variables.png){width="700"}  Variables Conjunto de Datos  
+![](images/clase01/variables.png){fig-align="center" width="800"}
+
+## Variables Conjunto de Datos 
 
 ```{r}
 gt(loan50%>%
@@ -240,9 +244,7 @@ gt(loan50%>%
 
 ```
 
-## Descripción Variables
-
-Claro, aquí tienes la tabla en Markdown con la traducción de la imagen:
+## Descripción Variables {.small}
 
 |  |  |
 |-----------------|-------------------------------------------------------|
