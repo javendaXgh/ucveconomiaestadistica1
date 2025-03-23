@@ -34,4 +34,6 @@ Nota: esta tarea no tiene evaluación
 
 -   Descarga del libro versión inglés (opcional): para aquellos que quieran tener la edición del texto en inglés que se usará a lo largo del curso, pueden acceder a la página <https://leanpub.com/os> . Pueden hacer el pago del libro o seleccionar en el *slider* "you pay" el monto cero, y proceder a realizar la descarga.
 
+-   Leer el texto de introducción a los jupyter notebooks en <https://github.com/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/jupyter_intro.ipynb>
+
 Las actividades señaladas se deben cumplir antes del 27 de marzo.
