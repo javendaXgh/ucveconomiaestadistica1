@@ -1,0 +1,23 @@
+---
+title: "Tarea 1"
+---
+
+Nota: esta tarea no tiene evaluación
+
+-   Hacer lectura en la página del curso las siguientes publicaciones:
+
+    -   Código de Conducta
+
+    -   Programa
+
+    -   Plan de Evaluación
+
+    -   Recursos Disponibles
+
+Crear cuentas de usuario en:
+
+-   <https://login.posit.cloud/register>
+
+-   google - gmail. En caso de contar con una no es necesario crear una nueva.
+
+Las actividades señaladas se deben cumplir antes del 27 de marzo.

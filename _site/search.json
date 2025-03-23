@@ -1,0 +1,306 @@
+[
+  {
+    "objectID": "clases/clase_01.html#aproximación-concepto-estadística",
+    "href": "clases/clase_01.html#aproximación-concepto-estadística",
+    "title": "Estadística I",
+    "section": "Aproximación Concepto “Estadística”",
+    "text": "Aproximación Concepto “Estadística”\nLos científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#estudio-de-caso",
+    "href": "clases/clase_01.html#estudio-de-caso",
+    "title": "Estadística I",
+    "section": "Estudio de caso: ",
+    "text": "Estudio de caso: \nUso de stents para prevenir accidentes cerebro vasculares\n\n\n\n\n\n\n\n\n\npaciente\ngroup\n0-30 días\n0-365 días\n\n\n\n\n1\ntreatment\nstroke\nstroke\n\n\n2\ntreatment\nstroke\nstroke\n\n\n3\ntreatment\nstroke\nstroke\n\n\n450\ncontrol\nno event\nno event\n\n\n451\ncontrol\nno event\nno event",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#asignados-por-grupo",
+    "href": "clases/clase_01.html#asignados-por-grupo",
+    "title": "Estadística I",
+    "section": "Asignados por Grupo",
+    "text": "Asignados por Grupo\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nN = 4511\n\n\n\n\ngroup\n\n\n\n\n    control\n227 (50%)\n\n\n    treatment\n224 (50%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\n\nCantidad de pacientes en grupo de:\n\ntratamiento (50%)\ncontrol (50%)\n\n\n\ngrupos están balanceados",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#tabla-con-estadística-descriptiva",
+    "href": "clases/clase_01.html#tabla-con-estadística-descriptiva",
+    "title": "Estadística I",
+    "section": "Tabla con Estadística Descriptiva: ",
+    "text": "Tabla con Estadística Descriptiva: \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n\n0-30 días\n\n\n0-365 días\n\n\n\nno event N = 4051\nstroke N = 461\nno event N = 3781\nstroke N = 731\n\n\n\n\ngroup\n\n\n\n\n\n\n\n\n\n\n    control\n214 (94%)\n13 (5.7%)\n199 (88%)\n28 (12%)\n\n\n    treatment\n191 (85%)\n33 (15%)\n179 (80%)\n45 (20%)\n\n\n\n1 n (%)",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#cálculos-de-valores-estadísticos-representativos",
+    "href": "clases/clase_01.html#cálculos-de-valores-estadísticos-representativos",
+    "title": "Estadística I",
+    "section": "Cálculos de Valores Estadísticos Representativos",
+    "text": "Cálculos de Valores Estadísticos Representativos\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\n\n0-30 días\n\n\n0-365 días\n\n\n\nno event N = 4051\nstroke N = 461\nno event N = 3781\nstroke N = 731\n\n\n\n\ngroup\n\n\n\n\n\n\n\n\n\n\n    control\n214 (94%)\n13 (5.7%)\n199 (88%)\n28 (12%)\n\n\n    treatment\n191 (85%)\n33 (15%)\n179 (80%)\n45 (20%)\n\n\n\n1 n (%)",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#cálculos-preliminares",
+    "href": "clases/clase_01.html#cálculos-preliminares",
+    "title": "Estadística I",
+    "section": "Cálculos Preliminares",
+    "text": "Cálculos Preliminares",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#análisis-resultados-obtenidos",
+    "href": "clases/clase_01.html#análisis-resultados-obtenidos",
+    "title": "Estadística I",
+    "section": "Análisis Resultados Obtenidos",
+    "text": "Análisis Resultados Obtenidos\n\nDe los 224 pacientes del grupo de tratamiento:\n\n33 sufrieron un ACV antes de los 30 primeros días\n45 sufrieron un ACV al antes del final de primer año\n\nDe los 227 pacientes del grupo de control:\n\n13 sufrieron un ACV antes de los 30 primeros días\n28 sufrieron un ACV al antes del final de primer año\n\n\n\nEn primer lugar, es contrario a lo que los médicos esperaban, que era que los stents reducirían la tasa de accidentes cerebrovasculares. En segundo lugar, nos lleva a una pregunta estadística: ¿muestran los datos una diferencia real entre los grupos?\nEsta segunda pregunta es sutil. Supongamos que lanzamos una moneda 100 veces. Si bien la probabilidad de que una moneda salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos. Es posible que la diferencia del 8 % en el estudio de los stents se deba a esta variación natural. Sin embargo, cuanto mayor sea la diferencia que observamos (para un tamaño de muestra determinado), menos creíble es que se deba al azar. Por lo tanto, lo que realmente nos preguntamos es lo siguiente: ¿es la diferencia tan grande que deberíamos rechazar la idea de que se debió al azar?\n\nPRECAUCION: NO GENERALIZAR",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#resultados-obtenidos",
+    "href": "clases/clase_01.html#resultados-obtenidos",
+    "title": "Estadística I",
+    "section": "Resultados Obtenidos",
+    "text": "Resultados Obtenidos",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#small",
+    "href": "clases/clase_01.html#small",
+    "title": "Estadística I",
+    "section": "Estudio de caso: ",
+    "text": "Estudio de caso: \nUso de stents para prevenir accidentes cardiácos\n\n\n\n\n\n\n\n\npaciente\ngroup\n0-30 días\n0-365 días\n\n\n\n\n1\ntreatment\nstroke\nstroke\n\n\n2\ntreatment\nstroke\nstroke\n\n\n3\ntreatment\nstroke\nstroke\n\n\n450\ncontrol\nno event\nno event\n\n\n451\ncontrol\nno event\nno event\n\n\n\n\n\n\n\nHay observaciones (filas) compuestas por atributos o variables que son observadas (columnas).",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#tabla-resultados",
+    "href": "clases/clase_01.html#tabla-resultados",
+    "title": "Estadística I",
+    "section": "Tabla Resultados",
+    "text": "Tabla Resultados",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#preguntas-a-responder",
+    "href": "clases/clase_01.html#preguntas-a-responder",
+    "title": "Estadística I",
+    "section": "Preguntas a Responder",
+    "text": "Preguntas a Responder\na) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?\n(b) ¿Qué porcentaje del grupo de control no tuvo dolor?\nSe realizaron pruebas repetidas con el dolorímetro.\n(c) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?\n(d) Sus hallazgos hasta el momento podrían sugerir que la acupuntura es un tratamiento eficaz para las migrañas en todas las personas que las padecen. \nSin embargo, esta no es la única conclusión posible que se puede extraer con base en sus hallazgos. \n¿Cuál es otra posible explicación para la diferencia observada entre los porcentajes de pacientes sin dolor 24 horas después de recibir acupuntura en los dos grupos?",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#tipos-de-variables",
+    "href": "clases/clase_01.html#tipos-de-variables",
+    "title": "Estadística I",
+    "section": "Tipos de Variables",
+    "text": "Tipos de Variables",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#section",
+    "href": "clases/clase_01.html#section",
+    "title": "Estadística I",
+    "section": "",
+    "text": "🔗 Estadística 1",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#ejercicio",
+    "href": "clases/clase_01.html#ejercicio",
+    "title": "Estadística I",
+    "section": "Ejercicio",
+    "text": "Ejercicio\nLa migraña es un tipo de dolor de cabeza particularmente doloroso, que los pacientes a veces desean tratar con acupuntura. \nPara determinar si la acupuntura alivia el dolor migrañoso, los investigadores realizaron un estudio controlado aleatorizado en el que 89 mujeres diagnosticadas con migraña fueron asignadas aleatoriamente a uno de dos grupos: tratamiento o control. 43 pacientes del grupo de tratamiento recibieron acupuntura específicamente diseñada para tratar las migrañas. 46 pacientes del grupo control recibieron acupuntura placebo (inserción de agujas en puntos distintos a los de acupuntura). \n24 después de recibir la acupuntura, se les preguntó si no sentían dolor.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#xsmall",
+    "href": "clases/clase_01.html#xsmall",
+    "title": "Estadística I",
+    "section": "Estudio de caso: ",
+    "text": "Estudio de caso: \nUso de stents para prevenir accidentes cardiácos\n\n\n\n\n\n\n\n\npaciente\ngroup\n0-30 días\n0-365 días\n\n\n\n\n1\ntreatment\nstroke\nstroke\n\n\n2\ntreatment\nstroke\nstroke\n\n\n3\ntreatment\nstroke\nstroke\n\n\n450\ncontrol\nno event\nno event\n\n\n451\ncontrol\nno event\nno event",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#datos-tabulares",
+    "href": "clases/clase_01.html#datos-tabulares",
+    "title": "Estadística I",
+    "section": "Datos Tabulares",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n105\ntreatment\nno event\n\n\n153\ntreatment\nno event\n\n\n182\ntreatment\nno event\n\n\n210\ntreatment\nno event\n\n\n260\ncontrol\nno event",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#resultados-0-a-30-días",
+    "href": "clases/clase_01.html#resultados-0-a-30-días",
+    "title": "Estadística I",
+    "section": "Resultados 0 a 30 días:",
+    "text": "Resultados 0 a 30 días:\n\n\n           outcome\ngroup       no event stroke\n  control        214     13\n  treatment      191     33",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html#resultado-0-a-365-días",
+    "href": "clases/clase_01.html#resultado-0-a-365-días",
+    "title": "Estadística I",
+    "section": "Resultado 0 a 365 días:",
+    "text": "Resultado 0 a 365 días:\n\n\n           outcome\ngroup       no event stroke\n  control        199     28\n  treatment      179     45",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Actividades",
+    "section": "",
+    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n🖥️ láminas clase 01\n\n\n2\nmar, 25 mar.\n\n\n\n\n\n\n\n\njue, 27 mar.\n\n\n\n\n\n\n3\nmar, 1 abr.\n\n\n\n\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.\n\n\n\n\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nEntrega Proyecto Final\n\n\n\n\nNA\n\n\n\n\n\n\n\n\nNA\n\n\nPresentación Proyecto Final",
+    "crumbs": [
+      "Sobre el Curso",
+      "Actividades"
+    ]
+  },
+  {
+    "objectID": "codigoconducta.html",
+    "href": "codigoconducta.html",
+    "title": "Código de Conducta del Estudiante",
+    "section": "",
+    "text": "1. Asistencia a Clases:\n2. Plagio:\n3. Uso de IA Generativas:\n4. Participación:\n5. Entrega de Trabajos:\n6. Respeto:\n7. Comunicación:\n1",
+    "crumbs": [
+      "Sobre el Curso",
+      "Código de Conducta"
+    ]
+  },
+  {
+    "objectID": "codigoconducta.html#footnotes",
+    "href": "codigoconducta.html#footnotes",
+    "title": "Código de Conducta del Estudiante",
+    "section": "Notas",
+    "text": "Notas\n\n\nEste Código de Conducta fue generado con la asistencia parcial de Google Gemini.↩︎",
+    "crumbs": [
+      "Sobre el Curso",
+      "Código de Conducta"
+    ]
+  },
+  {
+    "objectID": "tarea_01.html",
+    "href": "tarea_01.html",
+    "title": "Tarea 1",
+    "section": "",
+    "text": "Nota: esta tarea no tiene evaluación\n\nHacer lectura en la página del curso las siguientes publicaciones:\n\nCódigo de Conducta\nPrograma\nPlan de Evaluación\nRecursos Disponibles\n\n\nCrear cuentas de usuario en:\n\nhttps://login.posit.cloud/register\ngoogle - gmail. En caso de contar con una no es necesario crear una nueva.\n\nLas actividades señaladas se deben cumplir antes del 27 de marzo.",
+    "crumbs": [
+      "Tareas",
+      "tarea 1"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "recursos.html",
+    "href": "recursos.html",
+    "title": "Recursos Disponibles",
+    "section": "",
+    "text": "A continuación se listan una serie de recursos altamente valiosos que sirven de apoyo para el desarrollo del curso.\n\nLibros Recomendados\n\nOpenIntro Labs for R and tidyverse OpenIntro Labs, fomenta la comprensión y la aplicación de la estadística mediante el análisis de datos aplicados. Los laboratorios se titulan según el área temática, que corresponde a capítulos específicos de las tres versiones de OpenIntro Statistics.\nhttps://www.openintro.org/book/stat/: https://www.openintro.org/book/os/ OpenIntro Statistics es una versión dinámica del plan de estudios tradicional, que se utiliza con éxito en colegios comunitarios y en la Ivy League.\nAcceso de descarga libro en inglés: https://leanpub.com/os Nota: seleccionar you-pay $0.00\nAn Introduction to Statistical Learning Download ISL with R Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani.\nIntroducción a R : https://cran.r-project.org/doc/contrib/R-intro-1.1.0-espanol.1.pdf por R Development Core Team Modelado (machine learning y estadístico) https://github.com/tidymodels/learntidymodels\nR para profesionales de los datos: una introducción https://www.datanalytics.com/libro_r/ por Carlos J. Gil Bellosta\n\n\n\nRepositorios de librerías-paquetes\n\nhttps://cran.r-project.org/\nhttps://ropensci.org/packages/\nhttps://www.bioconductor.org/packages/release/BiocViews.html#___Software\n\n\n\nTutoriales, info general sobre R y sus aplicaciones:\n\nhttps://www.r-bloggers.com/\nhttps://github.com/josersosa/Programando_en_R\nhttps://swcarpentry.github.io/r-novice-gapminder-es/\nhttps://gonzalezgouveia.com/curso-de-r-studio-gratis/\nhttps://www.infoworld.com/profile/sharon-machlis/\nhttps://rafael-zambrano-blog-ds.netlify.app/blog\nhttps://intro-r-eph.netlify.app/bio , https://intro-r-eph.netlify.app/0a_diapositivas/01b_r_intro_presentacion#1\n\n\n\nSoftware y descargas:\n\nLenguaje R: https://cran.r-project.org/ versión actual R-4.4.3. Video instalación: pendiente por agregar\nRStudio Desktop https://posit.co/download/rstudio-desktop/ : entorno de desarrollo de fácil integración con el lenguaje R Video instalación: pendiente por agregar",
+    "crumbs": [
+      "Sobre el Curso",
+      "Recursos Disponibles"
+    ]
+  },
+  {
+    "objectID": "planeval.html",
+    "href": "planeval.html",
+    "title": "Plan de Evaluación",
+    "section": "",
+    "text": "Detalle\nPorcentaje\n\n\n\n\n6 Tareas\n20 %\n\n\nIntervenciones- Discusión Libro\n10 %\n\n\n8 Talleres (laboratorio)\n15 %\n\n\nAsistencia\n5 %\n\n\nParcial I\n20 %\n\n\nParcial II\n30 %",
+    "crumbs": [
+      "Sobre el Curso",
+      "Plan de Evaluación"
+    ]
+  },
+  {
+    "objectID": "curso-programa.html",
+    "href": "curso-programa.html",
+    "title": "Contenido",
+    "section": "",
+    "text": "El orden en que serán impartidos los temas puedes ser sujeto a modificaciones.\n\n\n\n\n\n\n\n\nConceptos básicos de la estadística. Definición, estadística descriptiva e inferencial. Conceptos de Población, Muestra, Variable, clasificación de las variables. Niveles de medición de la variable. |\n\n\n\n\nPresentación de datos. Tablas de frecuencia para variables cualitativas y cuantitativas. Gráficos estadísticos.\n\n\n\n\n\nMedidas de tendencia central. Definición. Media aritmética, propiedades y aplicaciones. Media geométrica. Media armónica. Moda. Mediana\n\n\n\n\n\nMedidas de ubicación. Definición. Cuartiles, Deciles, Percentiles. Aplicaciones de las medidas de ubicación\n\n\n\n\nMedidas de dispersión. Concepto. El Rango. Desviación media. Desviación cuartil. La Varianza, propiedades. Desviación típica. El coeficiente de variación, aplicaciones. Momentos. Medidas de asimetría y curtosis\n\n\n\n\n\nNúmeros índice. Definiciones, propiedades, tipos y aplicaciones\n\n\n\n\nAnálisis de correlación y regresión lineal |\n\n\n\n\nIntroducción a la teoría de la probabilidad\n\n\n\n\n\nIntroducción al estudio de las variables aleatorias.",
+    "crumbs": [
+      "Sobre el Curso",
+      "Contenido del Curso"
+    ]
+  },
+  {
+    "objectID": "curso-equipo.html",
+    "href": "curso-equipo.html",
+    "title": "Equipo de Profesores",
+    "section": "",
+    "text": "Prof. José Miguel Avendaño I.:\nProfesor Escuela de Economía (U.C.V.), Magister en Ciencias de la Computación (U.C.V.) y Economista (U.C.V.). Trabaja con datos desde hace más de dos décadas. Sus investigaciones se centran en el uso del procesamiento del lenguaje natural (NLP), incluyendo los Largos Modelos de Lenguaje (LLM´s), el cual es un campo de estudio del machine learning.\nSu interés por la Ciencia de Datos lo ha acercado al desarrollo de aplicaciones web donde los datos, su manipulación y representación, son los pilares en que sustentan.\n\n\n\nHoras de Consulta\nSitio\n\n\n\n\nPor definir",
+    "crumbs": [
+      "Sobre el Curso",
+      "Equipo de Profesores"
+    ]
+  },
+  {
+    "objectID": "clases/clase_01.html",
+    "href": "clases/clase_01.html",
+    "title": "Estadística I",
+    "section": "",
+    "text": "Los científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible.",
+    "crumbs": [
+      "Clases",
+      "Clase 1"
+    ]
+  }
+]

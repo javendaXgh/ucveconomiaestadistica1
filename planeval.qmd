@@ -1,0 +1,12 @@
+---
+title: "Plan de Evaluación"
+---
+
+|             Detalle             | Porcentaje |
+|:-------------------------------:|:----------:|
+|            6 Tareas             |    20 %    |
+| Intervenciones- Discusión Libro |    10 %    |
+|    8 Talleres (laboratorio)     |    15 %    |
+|           Asistencia            |    5 %     |
+|            Parcial I            |    20 %    |
+|           Parcial II            |    30 %    |
