@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/clases/clase_01.html</loc>
-    <lastmod>2025-03-23T04:39:01.646Z</lastmod>
+    <lastmod>2025-03-24T01:31:09.375Z</lastmod>
   </url>
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/index.html</loc>
-    <lastmod>2025-03-23T04:00:28.114Z</lastmod>
+    <lastmod>2025-03-24T01:29:31.548Z</lastmod>
   </url>
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/codigoconducta.html</loc>
@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/tarea_01.html</loc>
-    <lastmod>2025-03-23T18:20:41.191Z</lastmod>
+    <lastmod>2025-03-24T01:31:07.485Z</lastmod>
   </url>
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/about.html</loc>
@@ -22,7 +22,7 @@
   </url>
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/recursos.html</loc>
-    <lastmod>2025-03-23T18:15:54.266Z</lastmod>
+    <lastmod>2025-03-24T01:34:05.142Z</lastmod>
   </url>
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/planeval.html</loc>
@@ -43,5 +43,13 @@
   <url>
     <loc>https://ucveconomia-estadistica1.netlify.app/notebooks/jupyter_intro.html</loc>
     <lastmod>2025-03-23T03:53:16.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ucveconomia-estadistica1.netlify.app/data_in/OI_google.html</loc>
+    <lastmod>2025-03-23T18:08:23.076Z</lastmod>
+  </url>
+  <url>
+    <loc>https://ucveconomia-estadistica1.netlify.app/oi/OI.html</loc>
+    <lastmod>2025-03-24T01:28:04.772Z</lastmod>
   </url>
 </urlset>

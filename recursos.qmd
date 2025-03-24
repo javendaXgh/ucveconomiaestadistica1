@@ -6,7 +6,7 @@ A continuación se listan una serie de recursos altamente valiosos que sirven de
 
 ### Libros Recomendados
 
--   OpenIntro Statistics versión español: <https://rpubs.com/javenda/openintroes> Esta versión está sujeta a correcciones.
+-   OpenIntro Statistics versión español: [OpenIntro](/oi/oi.html) dentro del site o en <https://rpubs.com/javenda/openintroes> Esta versión está sujeta a correcciones.
 
 -   OpenIntro Statistics: Acceso de descarga al libro en inglés: <https://leanpub.com/os> Nota: seleccionar `you-pay $0.00` .
 

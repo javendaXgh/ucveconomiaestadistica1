@@ -203,7 +203,7 @@ Para determinar si la acupuntura alivia el dolor migrañoso, los investigadores 
 table(migraine)
 ```
 
-##  Preguntas a Responder
+## Preguntas a Responder
 
 ```{r}
 tbl_summary(migraine,
@@ -242,7 +242,7 @@ Sin embargo, esta no es la única conclusión posible que se puede extraer con b
 
 ![](images/clase01/variables.png){fig-align="center" width="800"}
 
-## Variables Conjunto de Datos 
+## Variables Conjunto de Datos
 
 ```{r}
 gt(loan50%>%
@@ -260,7 +260,7 @@ gt(loan50%>%
 ## Descripción Variables {.small}
 
 |  |  |
-|-----------------|-------------------------------------------------------|
+|----|----|
 | **Variable** | **Descripción** |
 | loan_amount | Monto del préstamo recibido, en dólares estadounidenses. |
 | interest_rate | Tasa de interés del préstamo, en porcentaje anual. |
@@ -299,7 +299,7 @@ plot_ly(data = county,
          yaxis = list(title = 'tasa de homeownership'))
 ```
 
-##  Variables Asociadas
+## Variables Asociadas
 
 Cuando dos variables muestran algún tipo de conexión se dice que están asociadas.
 
