@@ -114,7 +114,7 @@
     "href": "clases/clase_01.html#preguntas-a-responder",
     "title": "Estadística I",
     "section": "Preguntas a Responder",
-    "text": "Preguntas a Responder\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nno N = 771\nyes N = 121\n\n\n\n\ngroup\n\n\n\n\n\n\n    control\n44 (57%)\n2 (17%)\n\n\n    treatment\n33 (43%)\n10 (83%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\na) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?\n(b) ¿Qué porcentaje del grupo de control no tuvo dolor? Se realizaron pruebas repetidas con el dolorímetro.",
+    "text": "Preguntas a Responder\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nno N = 771\nyes N = 121\n\n\n\n\ngroup\n\n\n\n\n\n\n    control\n44 (96%)\n2 (4.3%)\n\n\n    treatment\n33 (77%)\n10 (23%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\na) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 horas después de recibir acupuntura?\n(b) ¿Qué porcentaje del grupo de control no tuvo dolor? Se realizaron pruebas repetidas con el dolorímetro.",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n61\ntreatment\nno event\n\n\n125\ntreatment\nno event\n\n\n205\ntreatment\nno event\n\n\n266\ncontrol\nno event\n\n\n361\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n15\ntreatment\nstroke\n\n\n170\ntreatment\nno event\n\n\n198\ntreatment\nno event\n\n\n263\ncontrol\nno event\n\n\n371\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -319,7 +319,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n15000\n9.92\n36\nB\nCA\n185000\nrent\n\n\n16000\n7.35\n36\nA\nCT\n100000\nrent\n\n\n22000\n10.90\n60\nB\nNJ\n59000\nrent\n\n\n20000\n9.43\n36\nB\nIL\n103000\nown\n\n\n7500\n7.34\n36\nA\nMD\n70000\nrent\n\n\n18000\n19.42\n60\nD\nFL\n76000\nmortgage\n\n\n24000\n10.90\n60\nB\nIL\n71000\nrent\n\n\n12800\n9.44\n36\nB\nCA\n87000\nmortgage",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n40000\n20.00\n60\nD\nWI\n168000\nmortgage\n\n\n3000\n7.96\n36\nA\nCA\n34000\nrent\n\n\n5825\n10.91\n36\nB\nNH\n50000\nrent\n\n\n30000\n7.35\n36\nA\nCA\n103000\nrent\n\n\n25000\n26.30\n36\nE\nSC\n75000\nmortgage\n\n\n20000\n5.32\n36\nA\nMA\n270000\nrent\n\n\n16500\n5.31\n36\nA\nNE\n105000\nmortgage\n\n\n25000\n9.43\n60\nB\nOH\n254000\nmortgage",
     "crumbs": [
       "Clases",
       "Clase 1"

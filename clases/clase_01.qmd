@@ -208,7 +208,8 @@ table(migraine)
 ```{r}
 tbl_summary(migraine,
             include=group,
-            by= pain_free)%>%
+            by= pain_free,
+            percent = 'row')%>%
    as_gt()%>%
   tab_options(table.font.size = 28)
 ```
@@ -260,7 +261,7 @@ gt(loan50%>%
 ## Descripción Variables {.small}
 
 |  |  |
-|----|----|
+|------------------------------------|------------------------------------|
 | **Variable** | **Descripción** |
 | loan_amount | Monto del préstamo recibido, en dólares estadounidenses. |
 | interest_rate | Tasa de interés del préstamo, en porcentaje anual. |
