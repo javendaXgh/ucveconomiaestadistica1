@@ -224,7 +224,8 @@ a\) ¿Qué porcentaje de pacientes del grupo de tratamiento no tenían dolor 24 
 
 tbl_summary(migraine,
             include=group,
-            by= pain_free)%>%
+            by= pain_free,
+            percent = 'row')%>%
   as_gt()%>%
   tab_options(table.font.size = 28)
 ```

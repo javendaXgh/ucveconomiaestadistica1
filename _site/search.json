@@ -169,7 +169,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n15\ntreatment\nstroke\n\n\n170\ntreatment\nno event\n\n\n198\ntreatment\nno event\n\n\n263\ncontrol\nno event\n\n\n371\ncontrol\nno event",
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n7\ntreatment\nstroke\n\n\n144\ntreatment\nno event\n\n\n160\ntreatment\nno event\n\n\n252\ncontrol\nno event\n\n\n387\ncontrol\nno event",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -319,7 +319,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n40000\n20.00\n60\nD\nWI\n168000\nmortgage\n\n\n3000\n7.96\n36\nA\nCA\n34000\nrent\n\n\n5825\n10.91\n36\nB\nNH\n50000\nrent\n\n\n30000\n7.35\n36\nA\nCA\n103000\nrent\n\n\n25000\n26.30\n36\nE\nSC\n75000\nmortgage\n\n\n20000\n5.32\n36\nA\nMA\n270000\nrent\n\n\n16500\n5.31\n36\nA\nNE\n105000\nmortgage\n\n\n25000\n9.43\n60\nB\nOH\n254000\nmortgage",
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n18000\n9.93\n60\nB\nMA\n218000\nmortgage\n\n\n24000\n10.90\n60\nB\nIL\n71000\nrent\n\n\n4400\n18.45\n36\nD\nIL\n58000\nrent\n\n\n3000\n17.09\n36\nD\nNY\n28800\nrent\n\n\n15000\n6.08\n36\nA\nTX\n77500\nmortgage\n\n\n6000\n10.42\n36\nB\nTX\n60000\nmortgage\n\n\n10000\n7.97\n60\nA\nFL\n34000\nrent\n\n\n29400\n24.85\n60\nE\nTX\n98000\nmortgage",
     "crumbs": [
       "Clases",
       "Clase 1"
@@ -363,7 +363,7 @@
     "href": "clases/clase_01.html#preguntas-a-responder-1",
     "title": "Estadística I",
     "section": "Preguntas a Responder",
-    "text": "Preguntas a Responder\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nno N = 771\nyes N = 121\n\n\n\n\ngroup\n\n\n\n\n\n\n    control\n44 (57%)\n2 (17%)\n\n\n    treatment\n33 (43%)\n10 (83%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\n(c) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?",
+    "text": "Preguntas a Responder\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharacteristic\nno N = 771\nyes N = 121\n\n\n\n\ngroup\n\n\n\n\n\n\n    control\n44 (96%)\n2 (4.3%)\n\n\n    treatment\n33 (77%)\n10 (23%)\n\n\n\n1 n (%)\n\n\n\n\n\n\n\n\n(c) ¿En qué grupo hubo un mayor porcentaje de pacientes que no sintieron dolor 24 horas después de recibir acupuntura?",
     "crumbs": [
       "Clases",
       "Clase 1"
