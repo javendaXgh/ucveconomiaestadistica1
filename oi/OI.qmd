@@ -1,13 +1,7 @@
 ---
-title: "Estadística de OpenIntro Cuarta Edición"
-# format: html
-lang: es
-# editor: visual
-toc: true
-toc-depth: 2
-# embed-resources: true
+title: "Estadística de OpenIntro"
+subtitle: "Cuarta Edición"
 ---
-
 David Diez Científico de Datos OpenIntro
 
 Mine Çetinkaya-Rundel Profesora Asociada de la Práctica, Universidad de Duke Educadora Profesional, RStudio
@@ -1161,7 +1155,7 @@ Este ejemplo utilizó lo que se llama una media ponderada. Para obtener más inf
 Los diagramas de puntos muestran el valor exacto para cada observación. Esto es útil para conjuntos de datos pequeños, pero pueden volverse difíciles de leer con muestras más grandes. En lugar de mostrar el valor de cada observación, preferimos pensar en el valor como perteneciente a un intervalo. Por ejemplo, en el conjunto de datos loan50, creamos una tabla de recuentos para el número de préstamos con tasas de interés entre 5.0% y 7.5%, luego el número de préstamos con tasas entre 7.5% y 10.0%, y así sucesivamente. Las observaciones que caen en el límite de un intervalo (por ejemplo, 10.00%) se asignan al intervalo inferior. Esta tabulación se muestra en la Figura [2.5.](#page-44-0) Estos recuentos agrupados se representan como barras en la Figura [2.6](#page-44-1) en lo que se llama un histograma, que se asemeja a una versión más agrupada del diagrama de puntos apilados que se muestra en la Figura [2.4.](#page-42-0)
 
 | Tasa de interés | 5.0% - 7.5% | 7.5% - 10.0% | 10.0% - 12.5% | 12.5% - 15.0% | · · · | 25.0% - 27.5% |
-|----------|----------|----------|----------|----------|----------|----------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | Recuento | 11 | 15 | 8 | 4 | · · · | 1 |
 
 Figura 2.5: Recuentos para los datos de la tasa de interés agrupados.
@@ -1335,7 +1329,7 @@ Usando la Figura [2.10,](#page-48-0) estime los siguientes valores para la tasa 
 Figura 2.11: Gráficos de puntos de los datos originales de la tasa de interés y dos conjuntos de datos modificados.
 
 |                                        | robusto |       | no robusto |       |     |
-|--------------------------|---------|---------|---------|---------|---------|
+|--------------------------|----------|----------|----------|----------|----------|
 | escenario                              | mediana | IQR   | ¯x         | s     |     |
 | datos originales de la tasa de interés | 9.93%   | 5.76% | 11.57%     | 5.05% |     |
 | mover 26.3% → 15%                      | 9.93%   | 5.76% | 11.34%     | 4.61% |     |
@@ -1460,7 +1454,7 @@ Figura 2.16: [(a)](#page-54-2) Mapa de intensidad de la tasa de propiedad de viv
 [**2.8**](#page-384-27) **Medianas y RICs.** Para cada parte, compare las distribuciones (1) y (2) según sus medianas y RICs. No es necesario que calcule estas estadísticas; simplemente indique cómo se comparan las medianas y los RICs. Asegúrese de explicar su razonamiento.
 
 | \(a\) (1) 3, 5, 6, 7, 9 |                      | \(c\) (1) 1, 2, 3, 4, 5      |
-|-----------------------|---------------------|----------------------------|
+|------------------------|---------------------|----------------------------|
 |                         | \(2\) 3, 5, 6, 7, 20 | \(2\) 6, 7, 8, 9, 10         |
 | \(b\) (1) 3, 5, 6, 7, 9 |                      | \(d\) (1) 0, 10, 50, 60, 100 |
 |                         | \(2\) 3, 5, 7, 8, 9  | \(2\) 0, 100, 500, 600, 1000 |
@@ -2876,7 +2870,6 @@ Si el clasificador ML sugiere que una foto no trata sobre moda, entonces provien
 La Figura [3.11](#page-94-1) incluye los totales de filas y columnas para cada variable por separado en el conjunto de datos de clasificación de fotos. Estos totales representan las probabilidades marginales para la muestra, que son las probabilidades basadas en una sola variable sin tener en cuenta ninguna otra variable. Por ejemplo, una probabilidad basada únicamente en la variable mach learn es una probabilidad marginal:
 
 $$P(\text{mach\\_1earn es } \text{pred\\_fashion}) = \frac{219}{1822} = 0.12$$
-
 Una probabilidad de resultados para dos o más variables o procesos se denomina probabilidad conjunta:
 
 $$P(\text{mach.}\text{1earn} \text{ es } \text{pred.}\text{fashtion y truth es } \text{fashtion}) = \frac{197}{1822} = 0.11$$
@@ -12553,7 +12546,7 @@ Independientemente de si utiliza R<sup>2</sup> ajustado o el enfoque del valor p
 [**9.9**](#page-400-14) **Pesos de bebés, Parte V.** El ejercicio [9.3](#page-350-0) proporciona la salida de regresión para el modelo completo (incluidas todas las variables explicativas disponibles en el conjunto de datos) para predecir el peso al nacer de los bebés. En este ejercicio consideramos un algoritmo de selección hacia adelante y agregamos variables al modelo una a la vez. La tabla siguiente muestra el valor p y el R 2 ajustado de cada modelo donde incluimos solo el predictor correspondiente. Según esta tabla, ¿qué variable debería agregarse primero al modelo?
 
 | variable      | gestación   | paridad | edad   | altura       | peso       | fumar       |
-|----------|----------|----------|----------|----------|----------|----------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | valor p       | 2.2 × 10−16 | 0.1052  | 0.2375 | 2.97 × 10−12 | 8.2 × 10−8 | 2.2 × 10−16 |
 | 2<br>R<br>adj | 0.1657      | 0.0013  | 0.0003 | 0.0386       | 0.0229     | 0.0569      |
 

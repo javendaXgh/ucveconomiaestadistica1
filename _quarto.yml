@@ -56,17 +56,20 @@ website:
         contents: 
           - href: tarea_01.qmd
             text: tarea 1
-      - section: "Talleres"
+          - href: tarea_02.qmd
+            text: tarea 2
+      - section: "Talleres-Otros"
         contents:
+          - href: glos.qmd
+            text: Glosario Funciones R
+          - href: clases/playground.qmd
+            text: Zona para Programar en R
       - section: "Tutoriales"
         contents:
       - section: "Videos de Apoyo"
         contents:
-
-      - section: "Clases"
-        contents:
-        - href: clases/clase_01.qmd
-          text: "Clase 1"
+          - href: vidlist.qmd
+            text: vínculos
 
 
   page-footer:

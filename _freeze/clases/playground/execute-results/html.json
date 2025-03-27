@@ -1,0 +1,15 @@
+{
+  "hash": "0cd57c199bbbb1d760b62f5c7ef9f920",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Zona de Programación en R<br> ir a siguiente lámina\"\nformat: revealjs\nincremental: true\nauto-stretch: false\nengine: knitr\nfilters:\n  - webr\n---\n\n\n\n\n\n## [Codificar]{style=\"color:red\"}\n\n\n\n\n\n::: {.cell}\n\n```{.webr .cell-code}\n#\n\n\n\n\n\n\n\n\n\n\n#\n```\n:::\n\n\n\n\n\n## [Codificar]{style=\"color:red\"}\n\n\n\n\n\n::: {.cell}\n\n```{.webr .cell-code}\n#\n\n\n\n\n\n\n\n\n\n\n#\n```\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

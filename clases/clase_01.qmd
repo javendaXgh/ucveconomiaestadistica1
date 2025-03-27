@@ -3,6 +3,7 @@ title: "Estadística I"
 subtitle: "Clase 1: Describir los Datos"
 date: "20/marzo/2025"
 format: revealjs
+lang: es
 incremental: true
 auto-stretch: false
 fig-align: center

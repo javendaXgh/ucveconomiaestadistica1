@@ -1,0 +1,19 @@
+---
+title: "tarea 02"
+---
+
+Esta tarea no tiene evaluación.
+
+-   Revisar en la página la sección Glosario Funciones R.
+
+-   Lectura Capítulo 1, libro QELE para el día jueves 3 de abril de 2025 (cuenta para nota de Intervenciones).
+
+-   Con el conjunto de datos `mtcars` que viene precargado en R:
+
+    -   Crear celdas en el notebook que se trabajó anteriormente, para ir inspeccionando los datos.
+
+    -   Definir cuáles tipos de variables lo conforman
+
+    -   Crear tabla de contigencia cruzada para las variables `cyl` y `gear`.
+
+-   Plantear dudas, en caso que existan, en grupo de whatsapp.
