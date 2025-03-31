@@ -1602,8 +1602,8 @@
     "objectID": "clases/playground.html#codificar",
     "href": "clases/playground.html#codificar",
     "title": "Zona de Programación en R ir a siguiente lámina",
-    "section": "Codificar",
-    "text": "Codificar\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "section": "",
+    "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres-Otros",
       "Zona para Programar en R"
@@ -1614,7 +1614,7 @@
     "href": "clases/playground.html#codificar-1",
     "title": "Zona de Programación en R ir a siguiente lámina",
     "section": "Codificar",
-    "text": "Codificar\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.\n\n\n\n\n\n🔗 Estadística 1",
+    "text": "Codificar\n\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
       "Talleres-Otros",
       "Zona para Programar en R"
@@ -1629,6 +1629,17 @@
     "crumbs": [
       "Talleres-Otros",
       "Zona para Programar en R"
+    ]
+  },
+  {
+    "objectID": "participantes.html",
+    "href": "participantes.html",
+    "title": "Listado Participantes",
+    "section": "",
+    "text": "N.\nNombre\ncédula de identidad\n\n\n\n\n1\nAntonio Silva\n27.348.642\n\n\n2\nAris Alzuro\n27.111.755\n\n\n3\nCarlos Diz\n29.625.588\n\n\n4\nDavid Pizarro\n31.187.123\n\n\n5\nGabriel Carrillo\n28.448.377\n\n\n6\nKleiver Pirrito\n28.136.114\n\n\n7\nMarco Zapata\n31.184.708\n\n\n8\nMaría Fernanda Cuervo\n27.988.880\n\n\n9\nRicardo A. Rivas L.\n25.363.549\n\n\n10\nYonahan Fuentes\nNA",
+    "crumbs": [
+      "Sobre el Curso",
+      "Alumnos Curso"
     ]
   }
 ]

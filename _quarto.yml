@@ -52,6 +52,8 @@ website:
             text: Código de Conducta
           - href: recursos.qmd
             text: Recursos Disponibles
+          - href: participantes.qmd
+            text: Alumnos Curso
       - section: Tareas
         contents: 
           - href: tarea_01.qmd
