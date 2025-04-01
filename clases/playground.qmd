@@ -1,8 +1,8 @@
 ---
-title: "Zona de Programación en R<br> ir a siguiente lámina"
-format: revealjs
-incremental: true
-auto-stretch: false
+title: "Zona de Programación en R"
+#format: revealjs
+#incremental: true
+#auto-stretch: false
 engine: knitr
 filters:
   - webr
@@ -22,13 +22,9 @@ filters:
 
 
 
-#
-```
 
-## [Codificar]{style="color:red"}
 
-```{webr}
-#
+
 
 
 

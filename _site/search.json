@@ -129,7 +129,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n61\ntreatment\nno event\n\n\n223\ntreatment\nno event\n\n\n263\ncontrol\nno event\n\n\n281\ncontrol\nno event\n\n\n367\ncontrol\nno event"
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n85\ntreatment\nno event\n\n\n133\ntreatment\nno event\n\n\n156\ntreatment\nno event\n\n\n266\ncontrol\nno event\n\n\n386\ncontrol\nno event"
   },
   {
     "objectID": "clases/clase_01.html#resultados-0-a-30-días",
@@ -150,7 +150,7 @@
     "href": "index.html",
     "title": "Actividades",
     "section": "",
-    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n\n\n\n\n2\nmar, 25 mar.\nTablas Sumario- Contigencia\n🖥️ láminas clase 01🛠️ Notebook Clase 01  Ejecutar Notebook en Google Colab\n\n\n\n\njue, 27 mar.\nVariables Relacionadas/ Estudios Observacionales/Muestreo\n🖥️ láminas clase 02: Variables Relacionadas🖥️ láminas clase 02: Estudios Observacionales y Muestreo🎦 videos 3 y 4 de la playlist\n\n\n3\nmar, 1 abr.\n\n\n\n\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.",
+    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n\n\n\n\n2\nmar, 25 mar.\nTablas Sumario- Contigencia\n🖥️ láminas clase 01 🛠️ Ejecutar Notebook en Google Colab\n\n\n\n\njue, 27 mar.\nVariables Relacionadas/ Estudios Observacionales/Muestreo\n🖥️ láminas clase 02: Variables Relacionadas🖥️ láminas clase 02: Estudios Observacionales y Muestreo🎦 videos 3 y 4 de la playlist\n\n\n3\nmar, 1 abr.\nExperimentos / Repaso tema I\n🖥️ láminas clase 03: experimentos🎦 video 5 de la playlist🛠️ Ejecutar Notebook Laboratorio 1 en Google Colab\n\n\n\n\njue, 3 abr.\n\n\n\n\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\n\n\n\n\n\n\n5\nmar, 22 abr.\n\n\n\n\n\n\n\n\njue, 24 abr.\n\n\n\n\n\n\n6\nmar, 29 abr.\n\n\n\n\n\n\n\n\nmar, 6 may.\n\n\n\n\n\n\n7\njue, 8 may.\n\n\n\n\n\n\n\n\nmar, 13 may.\n\n\n\n\n\n\n8\njue, 15 may.\n\n\n\n\n\n\n\n\nmar, 27 may.\n\n\n\n\n\n\n9\njue, 29 may.\n\n\n\n\n\n\n\n\nmar, 3 jun.\n\n\n\n\n\n\n10\njue, 5 jun.\n\n\n\n\n\n\n\n\nmar, 10 jun.\n\n\n\n\n\n\n11\njue, 12 jun.\n\n\n\n\n\n\n\n\nmar, 17 jun.\n\n\n\n\n\n\n12\njue, 19 jun.\n\n\n\n\n\n\n\n\njue, 26 jun.\n\n\n\n\n\n\n13\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n14\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.",
     "crumbs": [
       "Sobre el Curso",
       "Actividades"
@@ -259,7 +259,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n20000\n9.43\n36\nB\nIL\n103000\nown\n\n\n38500\n12.62\n60\nC\nCA\n160000\nmortgage\n\n\n15000\n6.08\n36\nA\nTX\n77500\nmortgage\n\n\n24000\n9.93\n36\nB\nMI\n85000\nmortgage\n\n\n30000\n21.45\n36\nD\nNV\n58500\nmortgage\n\n\n20000\n5.32\n36\nA\nMA\n270000\nrent\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n6500\n6.08\n36\nA\nIL\n32000\nrent"
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n3000\n7.96\n36\nA\nCA\n34000\nrent\n\n\n32000\n9.44\n36\nB\nNV\n112000\nmortgage\n\n\n15000\n16.02\n36\nC\nNJ\n50000\nrent\n\n\n35000\n6.71\n36\nA\nMD\n325000\nmortgage\n\n\n16500\n5.31\n36\nA\nNE\n105000\nmortgage\n\n\n17000\n17.09\n36\nD\nMD\n73000\nrent\n\n\n6000\n10.42\n36\nB\nTX\n60000\nmortgage\n\n\n12800\n9.44\n36\nB\nCA\n87000\nmortgage"
   },
   {
     "objectID": "clases/clase_01.html#descripción-variables",
@@ -1601,7 +1601,7 @@
   {
     "objectID": "clases/playground.html#codificar",
     "href": "clases/playground.html#codificar",
-    "title": "Zona de Programación en R ir a siguiente lámina",
+    "title": "Zona de Programación en R",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
@@ -1623,7 +1623,7 @@
   {
     "objectID": "clases/playground.html",
     "href": "clases/playground.html",
-    "title": "Zona de Programación en R ir a siguiente lámina",
+    "title": "Zona de Programación en R",
     "section": "",
     "text": "Please enable JavaScript to experience the dynamic code cell content on this page.",
     "crumbs": [
