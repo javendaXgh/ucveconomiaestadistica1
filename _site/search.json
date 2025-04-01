@@ -3,8 +3,8 @@
     "objectID": "clases/clase_01.html#aproximación-concepto-estadística",
     "href": "clases/clase_01.html#aproximación-concepto-estadística",
     "title": "Estadística I",
-    "section": "",
-    "text": "Los científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible."
+    "section": "Aproximación Concepto “Estadística”",
+    "text": "Aproximación Concepto “Estadística”\nLos científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible."
   },
   {
     "objectID": "clases/clase_01.html#estudio-de-caso",
@@ -129,7 +129,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n116\ntreatment\nno event\n\n\n162\ntreatment\nno event\n\n\n217\ntreatment\nno event\n\n\n285\ncontrol\nno event\n\n\n326\ncontrol\nno event"
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n61\ntreatment\nno event\n\n\n223\ntreatment\nno event\n\n\n263\ncontrol\nno event\n\n\n281\ncontrol\nno event\n\n\n367\ncontrol\nno event"
   },
   {
     "objectID": "clases/clase_01.html#resultados-0-a-30-días",
@@ -259,7 +259,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n20000\n5.32\n36\nA\nMA\n270000\nrent\n\n\n15000\n16.02\n36\nC\nNJ\n50000\nrent\n\n\n12000\n5.31\n36\nA\nHI\n120000\nmortgage\n\n\n6000\n7.96\n36\nA\nCA\n100000\nrent\n\n\n6400\n9.92\n36\nB\nIN\n67000\nmortgage\n\n\n30000\n7.35\n36\nA\nCA\n103000\nrent\n\n\n18000\n9.93\n60\nB\nMA\n218000\nmortgage\n\n\n15000\n6.08\n36\nA\nTX\n77500\nmortgage"
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n20000\n9.43\n36\nB\nIL\n103000\nown\n\n\n38500\n12.62\n60\nC\nCA\n160000\nmortgage\n\n\n15000\n6.08\n36\nA\nTX\n77500\nmortgage\n\n\n24000\n9.93\n36\nB\nMI\n85000\nmortgage\n\n\n30000\n21.45\n36\nD\nNV\n58500\nmortgage\n\n\n20000\n5.32\n36\nA\nMA\n270000\nrent\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n6500\n6.08\n36\nA\nIL\n32000\nrent"
   },
   {
     "objectID": "clases/clase_01.html#descripción-variables",
@@ -329,7 +329,7 @@
     "href": "clases/clase_01.html#pregunta-clave-a-responder",
     "title": "Estadística I",
     "section": "Pregunta Clave a Responder",
-    "text": "Pregunta Clave a Responder\n\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar."
+    "text": "Pregunta Clave a Responder\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar."
   },
   {
     "objectID": "notebooks/jupyter_intro.html",
@@ -364,7 +364,7 @@
     "href": "clases/clase_01.html#variables-explicativas-y-de-respuesta.",
     "title": "Estadística I",
     "section": "Variables explicativas y de respuesta.",
-    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética."
+    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "notebooks/clase_01_estadistica.html#gráficos-de-dispersión",
