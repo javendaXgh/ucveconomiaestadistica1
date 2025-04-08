@@ -20,7 +20,7 @@ ui <- fluidPage(
     sidebarLayout(
         sidebarPanel(
             sliderInput("bins",
-                        "Anchura de las barras:",
+                        "Cantidad de barras:",
                         min = 5,
                         max = 50,
                         step = 5,

@@ -62,7 +62,8 @@ server <- function(input, output) {
         geom_bar(stat = "identity", fill = "steelblue") +
         labs(title = "Frecuencia de lanzamientos", x = "Número del dado", y = "Porcentaje") +
         theme_minimal()
-    })
+    }) 
+    
     
     # Mostrar los resultados en texto
     output$resultado <- renderPrint({
