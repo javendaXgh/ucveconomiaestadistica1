@@ -1,11 +1,4 @@
 #
-# This is a Shiny web application. You can run the application by clicking
-# the 'Run App' button above.
-#
-# Find out more about building applications with Shiny here:
-#
-#    https://shiny.posit.co/
-#
 
 library(shiny)
 library(openintro)
@@ -21,10 +14,10 @@ ui <- fluidPage(
         sidebarPanel(
             sliderInput("bins",
                         "Cantidad de barras:",
-                        min = 5,
-                        max = 50,
-                        step = 5,
-                        value = 15)
+                        min = 4,
+                        max = 40,
+                        step = 2,
+                        value = 10)
         ),
 
         # Show a plot of the generated distribution
@@ -40,18 +33,30 @@ server <- function(input, output) {
     output$distPlot <- renderPlot({
         # generate bins based on input$bins from ui.R
       x    <- babies$age[!is.na(babies$age)]
-        # print(x[1:10])
-        bins <- seq(min(x), 
-                    max(x), 
-                    length.out = input$bins + 1)
+      #   # print(x[1:10])
+      #   bins <- seq(min(x), 
+      #               max(x), 
+      #               length.out = input$bins + 1)
 
         # draw the histogram with the specified number of bins
         hist(x,
-             breaks = bins, 
+             breaks = input$bins, 
              col = 'darkgray', 
              border = 'white',
              xlab = 'Edad Madre',
              main = 'Histograma of de Edades de Madres')
+        par(new=TRUE)
+        points(mean(x),
+               -.05, 
+               pch = 17, 
+               col = "red",
+               cex = 2)
+        
+        points(median(x),
+               -.05, 
+               pch = 17, 
+               col = "orange",
+               cex = 2)
     })
 }
 
