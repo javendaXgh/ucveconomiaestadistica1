@@ -2,7 +2,8 @@
 title: "Glosario Funciones R"
 execute:
   echo: true
-  eval: false
+  eval: true
+  warning: false
   fig-align: center
 ---
 
@@ -14,6 +15,7 @@ Las siguientes funciones fueron abordadas en el [1 er. notebook](https://colab.r
 
     ```{r}
     library (dplyr)
+    library(openintro)
     ```
 
 -   `head` : visualizar las 6 primeras filas de un conjunto de datos. Si la acompaño del argumento `n` , se pueden visualizar una cantidad de `n` filas.
@@ -51,11 +53,11 @@ Las siguientes funciones fueron abordadas en el [1 er. notebook](https://colab.r
 -   `sample_n` : pertenece al paquete `dplyr` y permite seleccionar de forma aleatoria una cantidad `n` de observaciones de un conjunto de datos
 
     ```{r}
-    sample_n(mtcats, n=20)
+    sample_n(mtcars, 10)
 
     # usando el operador %>% se puede rescribir el código como
     mtcars %>%
-      sample_n(n=20)
+      sample_n(5)
     ```
 
 -   `select` : pertenece al paquete `dplyr` y permite seleccionar columnas del conjunto de datos.
@@ -91,4 +93,10 @@ Las siguientes funciones fueron abordadas en el [1 er. notebook](https://colab.r
     ```{r}
     plot(x = county$median_hh_income,
          y = county$pop_change)
+    ```
+
+-   `hist` : crea un histograma sobre una variable y permite analizar la distribución que presenta tal variable. Puede usarse el argumento `breaks` para cambiar la cantidad de barras generadas de forma automática.
+
+    ```{r}
+    hist (mtcars$mpg, breaks= 6)
     ```
