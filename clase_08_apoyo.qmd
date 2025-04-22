@@ -1,0 +1,282 @@
+---
+title: "clase 08 apoyo"
+---
+
+```{r}
+#| warning: false
+library(ggplot2)
+library(dplyr)
+library(openintro)
+library(DescTools)
+```
+
+## Conjunto de Datos Loan 50
+
+Variable a estudiar "interest_rate"
+
+### Obtener Estadísticos Loan 50. Interest Rate
+
+```{r}
+loan50$interest_rate
+sort(loan50$interest_rate)
+max(loan50$interest_rate)
+min(loan50$interest_rate)
+abs(max(loan50$interest_rate)- min(loan50$interest_rate))
+mean(loan50$interest_rate)
+median(loan50$interest_rate)
+Mode(loan50$interest_rate)
+```
+
+## Dot Plot (gráfico de puntos) Loan 50
+
+```{r}
+plot(x= loan50$interest_rate, 
+     y=rep(0,length(loan50$interest_rate)),
+     main='Plot de puntos: Tasa de interés',
+     xlab='%',
+     ylab='',
+     pch= 1)
+
+par(new=TRUE)
+points(mean(loan50$interest_rate),
+       -.05, 
+       pch = 17, 
+       col = "red",
+       cex = 2)
+```
+
+Nota: triángulo rojo representa el promedio.
+
+Se usa función `plot` y se superponen dos gráficos
+
+## Modificar Conjunto de Datos Loan 50
+
+Redondear variable interest_rate sin décimales
+
+```{r}
+loan50_redondeado <- loan50%>%
+  mutate(interest_rate= round(interest_rate,0 ))
+
+head(loan50_redondeado[,c(1,10:14)])
+
+```
+
+### Obtener Estadísticos Loan 50 redondeado. Interest Rate
+
+```{r}
+loan50_redondeado$interest_rate
+sort(loan50_redondeado$interest_rate)
+max(loan50_redondeado$interest_rate)
+min(loan50_redondeado$interest_rate)
+abs(max(loan50_redondeado$interest_rate)-min(loan50_redondeado$interest_rate))
+mean(loan50_redondeado$interest_rate)
+median(loan50_redondeado$interest_rate)
+Mode(loan50_redondeado$interest_rate)
+
+```
+
+## Dot Plot Stacked (apilado)
+
+```{r}
+ggplot(loan50_redondeado, 
+       aes(x = interest_rate)) + 
+  geom_dotplot()+
+  scale_y_continuous(NULL, breaks = NULL)
+```
+
+-   ¿Cuál es la moda?
+
+-   ¿Regiones de mayor densidad?
+
+## Dot Plot Stacked con media
+
+```{r}
+ggplot(loan50_redondeado, 
+       aes(x = interest_rate)) + 
+  geom_dotplot()+
+  scale_y_continuous(NULL, breaks = NULL)+
+  annotate("pointrange",
+           x = mean(loan50$interest_rate),
+           y = -.01, 
+           ymin = -.01,
+           ymax = .2,
+           colour = "red")
+```
+
+## Dot Plot Stacked con Límites
+
+```{r}
+ggplot(loan50_redondeado, 
+       aes(x = interest_rate)) + 
+  geom_dotplot()+
+  scale_y_continuous(NULL, breaks = NULL)+
+  annotate("pointrange",
+         x = min(loan50_redondeado$interest_rate),
+         y = -.01, 
+         ymin = -.01,
+         ymax = .5,
+         colour = "blue")+
+  annotate("pointrange",
+           x = max(loan50_redondeado$interest_rate),
+           y = -.01, 
+           ymin = -.01,
+           ymax = .5,
+           colour = "blue")
+```
+
+## Rango Loan 50 redondeado
+
+```{r}
+max(loan50_redondeado$interest_rate)-min(loan50_redondeado$interest_rate)
+```
+
+## Sesgos en Loan 50 Redondeado
+
+```{r}
+ggplot(data= loan50_redondeado, aes(x=interest_rate))+
+  geom_histogram(bins=8, 
+                 fill='blue')
+
+ggplot(data= loan50_redondeado, aes(x=interest_rate))+
+  geom_histogram(bins=12, 
+                 fill='blue')
+```
+
+## Estadísticos Loan 50 -II
+
+```{r}
+sd(loan50$interest_rate)
+summary(loan50$interest_rate)
+```
+
+## Conjunto de Datos Babies
+
+### Selección muestra aleatória variable "age"
+
+```{r}
+set.seed(5313)
+babies_subset <- babies%>%
+  sample_n(50)
+
+```
+
+## Estadísticos babies_subset age
+
+```{r}
+babies_subset$age
+min(babies_subset$age)
+max(babies_subset$age)
+abs(max(babies_subset$age)-min(babies_subset$age))
+summary(babies_subset$age)
+mean(babies_subset$age)
+median(babies_subset$age)
+```
+
+## Dot Plot Stacked babies_subset age
+
+```{r}
+ggplot(data= babies_subset) + 
+  geom_dotplot(aes(x = age))+
+  scale_y_continuous(NULL, breaks = NULL)
+
+```
+
+```{r}
+ggplot(data= babies_subset) +
+  geom_dotplot(aes(x = age),
+               fill = "steelblue") + 
+  scale_y_continuous(NULL, breaks = NULL)+
+  annotate('point',
+           x=mean(babies_subset$age),
+           y=-.01,
+           col='red')
+
+
+
+```
+
+## Variaciones en Bins del Histográma babies_subset
+
+```{r}
+ggplot(data=babies_subset, 
+       aes(x=age))+
+  geom_histogram()
+
+ggplot(data=babies_subset, 
+       aes(x=age))+
+  geom_histogram(bins = 15)
+
+ggplot(data=babies_subset, 
+       aes(x=age))+
+  geom_histogram(bins = 10)
+
+ggplot(data=babies, 
+       aes(x=age))+
+  geom_histogram()
+
+
+
+
+```
+
+¿qué tipo de ..modal es?
+
+## Datos No Agrupados
+
+```{r}
+calificacion <- sample(c('⭐️',
+                          '⭐️⭐️',
+                          '⭐️⭐️⭐️',
+                          '⭐️⭐️⭐️⭐️',
+                          '⭐️⭐️⭐️⭐️⭐')
+                       , size= 30, 
+                       replace= TRUE,
+                       prob = c(.1,.1,.2,.4,.2))
+calificacion
+# crear las clases (intervalos) para 1 y 2\\
+
+table(calificacion)%>%
+  as_data_frame()%>%
+  dplyr::rename(fi=n)%>%
+  dplyr::rename(Xi=1)%>%
+  mutate(hi= (fi/sum(fi))*100)%>%
+  mutate(Fi= cumsum(fi))%>%
+  mutate(Hi= cumsum(hi))
+
+df_calificacion <- table(calificacion)%>%
+  as_data_frame()%>%
+  dplyr::rename(fi=n)%>%
+  dplyr::rename(Xi=1)%>%
+  mutate(hi= (fi/sum(fi))*100)%>%
+  mutate(Fi= cumsum(fi))%>%
+  mutate(Hi= cumsum(hi))
+
+df_calificacion
+
+```
+
+```{r}
+#| warning: false
+library(plyr)
+```
+
+```{r}
+
+
+calificacion2 <- as.numeric( mapvalues(calificacion,
+                                       c('⭐️','⭐️⭐️','⭐️⭐️⭐️','⭐️⭐️⭐️⭐️',"⭐️⭐️⭐️⭐️⭐"),
+                                       1:5))
+
+
+calificacion2
+
+sort(calificacion2)
+
+mean(calificacion2)
+
+median(calificacion2)
+
+Mode(calificacion2)
+
+hist(calificacion2, breaks = 4)
+```

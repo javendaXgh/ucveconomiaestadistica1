@@ -1,0 +1,45 @@
+---
+title: "tarea 04"
+---
+
+1.  Investigar conceptos:
+
+    1.  Distribución de Frecuencia
+
+    2.  Frecuencia Absoluta (fi)
+
+    3.  Frecuencia Relativa (hi)
+
+    4.  Frecuencia Absoluta Acumulada (Fi)
+
+    5.  Frecuencia Relativa Acumulada (Hi)
+
+2.  Datos Agrupados
+
+3.  Datos No Agrupados
+
+4.  Para datos no agrupados
+
+    1.  Valor mínimo :
+
+    2.  Valor máximo:
+
+    3.  Rango o Intervalo Total:
+
+    4.  Número de Clases:
+
+    5.  Intervalo de Clase:
+
+    6.  Límite inferior de frecuencia:
+
+    7.  Límites superior de frecuencia:
+
+    8.  Marca de clase:
+
+En el ejemplo, identificar las columnas asociadas a cada uno de los conceptos de datos no agrupados (solo las que se muestran)
+
+ver foto en materiales_admin intervalo
+
+```{r}
+
+```
