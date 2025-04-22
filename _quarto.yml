@@ -68,6 +68,8 @@ website:
             text: Glosario Funciones R
           - href: clases/playground.qmd
             text: Zona para Programar en R
+          - href: clase_08_apoyo.qmd
+            text: Guía Clase 08
       - section: "Tutoriales"
         contents:
       - section: "Videos de Apoyo"
