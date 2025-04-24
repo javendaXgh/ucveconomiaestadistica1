@@ -12,6 +12,6 @@ Su interés por la Ciencia de Datos lo ha acercado al desarrollo de aplicaciones
 |-----|
 |     |
 
-## Tesista Raúl Cardozo
+### Tesista Raúl Cardozo
 
 Preparador de la Catedra de Estadística de la Escuela de Economía de la Universidad Central de Venezuela en el semestre 1-2025.
