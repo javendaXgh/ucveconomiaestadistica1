@@ -45,7 +45,7 @@ website:
           - href: planeval.qmd
             text: Plan de Evaluación
           - href: curso-equipo.qmd
-            text: Equipo de Profesores
+            text: Equipo de Enseñanza
           # - href: faq.qmd
           #   text: Preguntas Frecuentes
           - href: codigoconducta.qmd

@@ -100,3 +100,35 @@ Las siguientes funciones fueron abordadas en el [1 er. notebook](https://colab.r
     ```{r}
     hist (mtcars$mpg, breaks= 6)
     ```
+
+-   `max` :
+
+-   `min` :
+
+-   `abs` :
+
+-   `sort` :
+
+-   `median` :
+
+-   `cunsum` :
+
+-   `round` :
+
+-   `sd`
+
+## Funciones dplyr
+
+-   `mutate` :
+
+-   `rename` :
+
+-   
+
+## Operadores
+
+-   `$` :
+
+-   `%>%` :
+
+-   

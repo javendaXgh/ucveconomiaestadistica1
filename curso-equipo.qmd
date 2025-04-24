@@ -1,5 +1,5 @@
 ---
-title: "Equipo de Profesores"
+title: "Equipo de Enseñanza"
 ---
 
 ### Prof. José Miguel Avendaño I.:
@@ -8,6 +8,10 @@ Profesor Escuela de Economía (U.C.V.), Magister en Ciencias de la Computación 
 
 Su interés por la Ciencia de Datos lo ha acercado al desarrollo de aplicaciones web donde los datos, su manipulación y representación, son los pilares en que sustentan.
 
-| Horas de Consulta | Sitio |
-|-------------------|-------|
-| Por definir       |       |
+|     |
+|-----|
+|     |
+
+## Tesista Raúl Cardozo
+
+Preparador de la Catedra de Estadística de la Escuela de Economía de la Universidad Central de Venezuela en el semestre 1-2025.
