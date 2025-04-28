@@ -6,7 +6,7 @@ title: "tarea 3"
 
 -   El enlace a la tarea es el siguiente: <https://colab.research.google.com/github/javendaXgh/ucveconomiar4ds-2025-1/blob/main/notebooks/Tarea_01.ipynb>
 
--   Esta tarea debe ser entregada antes de la medianoche de 27 de abril de 2028
+-   Esta tarea debe ser entregada antes de la medianoche de 27 de abril de 2025
 
 -   Para entregar la tarea el procedimiento es el siguiente:
 
