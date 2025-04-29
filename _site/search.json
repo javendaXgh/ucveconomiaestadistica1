@@ -2100,7 +2100,7 @@
     "href": "clases/clase_10.html#ejemplo-de-media-geométrica",
     "title": "Estadística I",
     "section": "Ejemplo de Media Geométrica",
-    "text": "Ejemplo de Media Geométrica\nLa economía de un país creció un 10% en el primer año, un 20% en el segundo año y decreció un 10% en el tercer año.\n¿Cuál es la tasa de crecimiento promedio anual?\n\nTasas de crecimiento de un país:\n\n\n\n\nAño\nTasa de crecimiento (%)\n\n\n\n\n1\n10%\n\n\n2\n20%\n\n\n3\n-10%\n\n\n\nConvertimos a factores: (1.10), (1.20), (0.90).\nMedia geométrica:\n\\[G = \\sqrt[3]{(1 + 0.10) \\times (1 + 0.20) \\times (1 - 0.10)} = \\sqrt[3]{1.10 \\times 1.20 \\times 0.90} = \\sqrt[3]{1.188} \\approx 1.059\\]\nLa tasa de crecimiento promedio anual es aproximadamente del 5,9 %."
+    "text": "Ejemplo de Media Geométrica\nLa economía de un país creció un 10% en el primer año, un 20% en el segundo año y decreció un 10% en el tercer año.\n¿Cuál es la tasa de crecimiento promedio anual?\n\nTasas de crecimiento de un país:\n\n\n\n\nAño\nTasa de crecimiento (%)\n\n\n\n\n1\n10%\n\n\n2\n20%\n\n\n3\n-10%\n\n\n\nConvertimos a factores: (1.10), (1.20), (0.90)."
   },
   {
     "objectID": "clases/clase_10.html#comparación-media-aritmética-vs.-media-geométrica",
@@ -2121,7 +2121,7 @@
     "href": "clases/clase_10.html#relación-entre-las-medias",
     "title": "Estadística I",
     "section": "Relación entre las Medias",
-    "text": "Relación entre las Medias\nPara un conjunto de datos positivos, generalmente se cumple la siguiente desigualdad:\n\\[H \\leq G \\leq \\bar{x}\\]\nLa igualdad se da únicamente cuando todos los valores del conjunto de datos son iguales.\nConclusión: La media armónica refleja mejor la velocidad real si los tramos son iguales en distancia."
+    "text": "Relación entre las Medias\nPara un conjunto de datos positivos, generalmente se cumple la siguiente desigualdad:\n\\[H \\leq G \\leq \\bar{x}\\]"
   },
   {
     "objectID": "clases/clase_10.html#comparación-de-medias",
@@ -2164,5 +2164,12 @@
     "title": "Estadística I",
     "section": "",
     "text": "Supongamos que en un estudio observacional se realiza un seguimiento del uso de protección solar y el cáncer de piel, y se descubre que cuanto más protector solar utiliza una persona, más probabilidades tiene de padecer cáncer de piel.\nCuando más protector solar utiliza una persona, más probabilidades tiene de padecer cáncer de piel.\n¿Significa esto que que la protección solar provoca cáncer de piel?"
+  },
+  {
+    "objectID": "clases/clase_10.html#cálculo-media-geométrica-ejemplo",
+    "href": "clases/clase_10.html#cálculo-media-geométrica-ejemplo",
+    "title": "Estadística I",
+    "section": "Cálculo Media Geométrica Ejemplo",
+    "text": "Cálculo Media Geométrica Ejemplo\nMedia geométrica:\n\\[G = \\sqrt[3]{(1 + 0.10) \\times (1 + 0.20) \\times (1 - 0.10)} = \\sqrt[3]{1.10 \\times 1.20 \\times 0.90} = \\sqrt[3]{1.188} \\approx 1.059\\]\nLa tasa de crecimiento promedio anual es aproximadamente del 5,9 %."
   }
 ]

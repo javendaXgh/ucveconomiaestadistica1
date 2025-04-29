@@ -127,6 +127,8 @@ La economía de un país creció un 10% en el primer año, un 20% en el segundo 
 
 Convertimos a factores: (1.10), (1.20), (0.90).
 
+## Cálculo Media Geométrica Ejemplo
+
 **Media geométrica:**
 
 $$G = \sqrt[3]{(1 + 0.10) \times (1 + 0.20) \times (1 - 0.10)} = \sqrt[3]{1.10 \times 1.20 \times 0.90} = \sqrt[3]{1.188} \approx 1.059$$
@@ -155,10 +157,6 @@ La tasa de crecimiento promedio anual es aproximadamente del 5,9 %.
 Para un conjunto de datos positivos, generalmente se cumple la siguiente desigualdad:
 
 $$H \leq G \leq \bar{x}$$
-
-La igualdad se da únicamente cuando todos los valores del conjunto de datos son iguales.
-
-*Conclusión:* La media armónica refleja mejor la velocidad real si los tramos son iguales en distancia.
 
 ## Comparación de Medias
 
