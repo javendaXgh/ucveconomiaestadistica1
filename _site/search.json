@@ -2176,8 +2176,8 @@
     "objectID": "clases/clase_11.html#qué-son-los-momentos",
     "href": "clases/clase_11.html#qué-son-los-momentos",
     "title": "Estadística I",
-    "section": "",
-    "text": "Son medidas que nos dan información sobre las características de un conjunto de datos.\nNos ayudan a entender dónde se concentran los datos, cuánto se dispersan y qué forma tienen.\nAlgunos son: la media, la varianza, la asimetría y la curtosis.\n\n\nlos momentos nos dan diferentes “perspectivas” de los datos, más allá del simple promedio."
+    "section": "¿Qué son los Momentos?",
+    "text": "¿Qué son los Momentos?\n\nSon medidas que nos dan información sobre las características de un conjunto de datos.\nNos ayudan a entender dónde se concentran los datos, cuánto se dispersan y qué forma tienen.\nAlgunos son: la media, la varianza, la asimetría y la curtosis.\n\n\nlos momentos nos dan diferentes “perspectivas” de los datos, más allá del simple promedio."
   },
   {
     "objectID": "clases/clase_11.html#el-primer-momento-la-media-barx",
@@ -2268,7 +2268,7 @@
     "href": "clases/clase_11.html#resumen-de-los-momentos",
     "title": "Estadística I",
     "section": "Resumen de los Momentos",
-    "text": "Resumen de los Momentos\n\n\n\n\n\n\n\nMomento\n¿Qué mide?\n\n\nMedia ( \\(\\bar{X}\\) )\nEl centro de los datos\n\n\nVarianza ( \\(s^2\\) )\nLa dispersión de los datos\n\n\nAsimetría ( \\(A_s\\) )\nSi la distribución está sesgada hacia un lado\n\n\nCurtosis ( \\(K_u\\) )\nEl “apuntamiento” y el grosor de las colas"
+    "text": "Resumen de los Momentos\n\n\n\n\n\n\n\nMomento\n¿Qué mide?\n\n\nMedia ( \\(\\bar{X}\\) )\nEl centro de los datos\n\n\nVarianza ( \\(s^2\\) )\nLa dispersión de los datos\n\n\nAsimetría ( \\(A_s\\) )\nSi la distribución está sesgada hacia un lado\n\n\nCurtosis ( \\(K_u\\) )\nEl “apuntamiento” y el grosor de las colas\n\n\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_11.html#ejemplo-varianza",
