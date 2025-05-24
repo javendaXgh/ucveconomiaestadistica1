@@ -1,0 +1,83 @@
+
+Pendiente:
+- crear quiz
+
+
+ejercicios taller 1
+GUIDED PRACTICE 1.3/ clasificar las variables
+EXAMPLE 1.5
+GUIDED PRACTICE 1.7 income/loan_amount: scatter y relación
+
+En loan_50
+R factores, state is called a categorical variable, and
+the possible values are called the variable’s levels.
+Exercises
+1.7 , 1.5, 1.9, 1.11, 1.12
+https://openintro.shinyapps.io/ims-01-data-02/#section-observational-studies-and-experiments
+
+
+Tarea 1:
+
+- Clase Experimentos:
+Iniciar con cita Sampling Bias
+Experimentos
+Investigar Impact Evaluation, y clase de Joshua
+Resumen
+Taller
+Montar colab
+
+2025 04 22
+- Tarea 2
+- cifras promedio,weighted mean, pag 44, 
+- Media armónica, media geométrica
+- boxplot
+- medidas de ubicación 
+- guía complemento desviación media, usar datos gemini
+
+- Transforming data (special topic)
+- Desviación media
+- Medidas de ubicación percentiles, (cuartiles, deciles)
+- Variables categóricas, 
+- Robust statistics
+
+Martes 6
+- Revisar si incluí conceptos Medida Tendencia Central y Dispersión
+- Insistir mediana= percentil2
+- Medidas de ubicación percentiles, (cuartiles, deciles, percentiles)- Transformaciones en Datos
+- Insistir en desviación típica, ejemplos
+Repaso
+Mediana n par o n impar
+Aplicacion medidas de dispersión
+
+
+por definir si incluyo:
+
+
+## segunda parte 
+al 12 mayo quedan 13 clases + 2 sesiones examen
+
+- momentos de una variable -clase 12
+- asimetría - clase 13 y 15
+- curtosis- clase 15
+
+- practica desviacion típica, , asimetria, curtosis. sesiones 1
+- números índices (clase 16 a 19). sesiones  2
+- series de tiempo. sesiones  2
+- practica numeros indice, series de tiempo 1
+- correlaciones. sesiones  1
+- estudio de las variables aleatorias. sesiones  1
+- regresiones. sesiones  2
+- practica correlaciones, estudio de las variables aleatorias, regresiones. sesiones  1
+- técnicas de conteo¿¿¿. sesiones  1
+- probabilidad. sesiones  2
+- practica tecnicas de conteo, probabilidad. sesiones  1
+
+
+
+Categorical Data
+-Contingency tables and bar plots
+-Using a bar plot with two variables 
+
+Clase Momentos Variable
+Introducción adaptación trabajo de Pearson
+

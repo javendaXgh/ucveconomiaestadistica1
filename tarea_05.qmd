@@ -1,0 +1,40 @@
+---
+title: "Tarea 5"
+---
+
+-   Crear un nuevo notebook de google colab y tomar de referencia lo que hicimos en <https://colab.research.google.com/drive/1RJc-1iRO_0Fdxrf7Lx26kjKKwG5UPFA4#scrollTo=vsmUbROizXd9>
+
+-   Cargar paquetes necesarios (ggplot2 y dplyr)
+
+-   Leer los datos
+
+    -   `inflacion_chile`
+
+    -   `inflacion_venezuela`
+
+-   Crear un boxplot e histograma para cada país.
+
+-   Generar tabla resumen de valores estadísticos (`summary`)
+
+-   Mediana (`median`)
+
+-   Varianza (`var`)
+
+-   Desviación típica (`sd`)
+
+-   Calcular los valores de alcance de los bigotes superior e inferior
+
+-   Cálculo de asimetría para ambas series con la función
+
+    ```{r}
+    skewness <- function(x) { 
+      m <- mean(x) 
+      s <- sd(x) 
+      n <- length(x) 
+      return(sum(((x - m) / s)^3) / n) 
+      }
+    ```
+
+-   Evalúe si el resultado obtenido se corresponde con lo que muestra el histograma. Debe indicarlo por escrito.
+
+-   Si tienen dudas, consulten antes de irse a inteligencias artificiales. la idea es que aprendan y no que sepan copiar y pegar.

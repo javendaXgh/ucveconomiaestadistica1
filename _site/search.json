@@ -2740,8 +2740,8 @@
     "objectID": "clases/clase_12.html#pendientes-y-asignaciones",
     "href": "clases/clase_12.html#pendientes-y-asignaciones",
     "title": "Estadística I",
-    "section": "Pendientes y Asignaciones",
-    "text": "Pendientes y Asignaciones\n\nLectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
+    "section": "",
+    "text": "Lectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
   },
   {
     "objectID": "clases/clase_12.html#qué-son-los-números-índices",
@@ -2874,7 +2874,7 @@
     "href": "clases/clase_12.html#preguntas-y-discusión",
     "title": "Estadística I",
     "section": "Preguntas y Discusión",
-    "text": "Preguntas y Discusión\n¿Qué preguntas tienen sobre los números índices? ¿En qué contextos económicos creen que serían más útiles?"
+    "text": "Preguntas y Discusión\n¿Qué preguntas tienen sobre los números índices? ¿En qué contextos económicos creen que serían más útiles?\n\nhttps://www.bolsadecaracas.com\nhttps://www.bcv.org.ve/estadisticas/consumidor"
   },
   {
     "objectID": "clases/clase_12.html#pregunta",
@@ -3078,5 +3078,23 @@
     "title": "Estadística I",
     "section": "",
     "text": "Lectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
+  },
+  {
+    "objectID": "tarea_05.html",
+    "href": "tarea_05.html",
+    "title": "Tarea 5",
+    "section": "",
+    "text": "Crear un nuevo notebook de google colab y tomar de referencia lo que hicimos en https://colab.research.google.com/drive/1RJc-1iRO_0Fdxrf7Lx26kjKKwG5UPFA4#scrollTo=vsmUbROizXd9\nCargar paquetes necesarios (ggplot2 y dplyr)\nLeer los datos\n\ninflacion_chile\ninflacion_venezuela\n\nCrear un boxplot e histograma para cada país.\nGenerar tabla resumen de valores estadísticos (summary)\nMediana (median)\nVarianza (var)\nDesviación típica (sd)\nCalcular los valores de alcance de los bigotes superior e inferior\nCálculo de asimetría para ambas series con la función\n\nskewness &lt;- function(x) { \n  m &lt;- mean(x) \n  s &lt;- sd(x) \n  n &lt;- length(x) \n  return(sum(((x - m) / s)^3) / n) \n  }\n\nEvalúe si el resultado obtenido se corresponde con lo que muestra el histograma. Debe indicarlo por escrito.\nSi tienen dudas, consulten antes de irse a inteligencias artificiales. la idea es que aprendan y no que sepan copiar y pegar.",
+    "crumbs": [
+      "Tareas",
+      "tarea 5"
+    ]
+  },
+  {
+    "objectID": "tarea_06.html",
+    "href": "tarea_06.html",
+    "title": "tarea 6",
+    "section": "",
+    "text": "Construcción IPC compuesto y ponderado\n\nPonderación gastos en servicios\nGastos en alimentación\nGastos en vivienda\nGastos en transporte\nGastos en salud\nGastos en educación"
   }
 ]
