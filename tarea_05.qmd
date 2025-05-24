@@ -38,3 +38,5 @@ title: "Tarea 5"
 -   Evalúe si el resultado obtenido se corresponde con lo que muestra el histograma. Debe indicarlo por escrito.
 
 -   Si tienen dudas, consulten antes de irse a inteligencias artificiales. la idea es que aprendan y no que sepan copiar y pegar.
+
+-   Remitir vínculo por correo electrónico a javenda\@gmail.com con el asunto: tarea 03, su nombre, su ci antes de la medianoche del domingo 1 ero de junio. Nota: No debe compartir el link con otros miembros del curso.
