@@ -5,7 +5,7 @@ library(dplyr)
 # https://javenda.shinyapps.io/gapminder2007/
 gap_2007 <- read.csv('datos/gap_2007.csv')
 # gap_2007 <- read.csv('https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/apps/datos/gap_2007.csv')
-
+# 
 # para el conjunto de datos gap_2007 que es un subset de gapminder para el año 2007 se
 # crea una aplicación shiny con las siguientes característica
 # en sidebar hay selector de continente con multiples choices
@@ -41,13 +41,15 @@ ui <- fluidPage(
                     label= 'Gráfico de PIB per Capita por país',
                     value= FALSE),
       checkboxInput('mean',
-                    label= 'mostrar promedio (línea roja)',
+                    label= 'mostrar promedio (línea azul)',
                     value= FALSE),
 
       checkboxInput('median',
-                  label= 'mostrar mediana (línea anaranjada)',
+                  label= 'mostrar mediana (línea verde)',
                   value= FALSE),
-
+      checkboxInput('sd',
+                    label= 'mostrar desviación típica (línea roja)',
+                    value= FALSE),
       uiOutput("paises_ui")
     ),
     mainPanel(
@@ -91,7 +93,8 @@ server <- function(input, output, session) {
                    x = ~gdpPercap,
                    type = "histogram",
                    name = "Histograma de PIB per Capita",
-                   nbinsx = input$bins) %>%
+                   nbinsx = input$bins,
+                   color='orange') %>%
         layout(title = "Histograma de PIB per Capita",
                xaxis = list(title = "PIB per Capita"),
                yaxis = list(title = "Frecuencia"))
@@ -102,7 +105,7 @@ server <- function(input, output, session) {
                            mean(data_filtrada()$gdpPercap)),
                     y = c(-.5, 10),
                     name= "promedio",
-                    line = list(color = 'red',
+                    line = list(color = 'blue',
                                 dash = 'dash'))
       }
 
@@ -112,9 +115,62 @@ server <- function(input, output, session) {
                            median(data_filtrada()$gdpPercap)),
                     y = c(-.5, 10),
                     name= "mediana",
-                    line = list(color = 'orange',
+                    line = list(color = 'green',
                                 dash = 'dash',
                                 text= "Mediana"))
+      }
+      
+      if (input$sd) {
+        p <- p %>%
+          add_lines(x = mean(data_filtrada()$gdpPercap)-
+                      c( sd(data_filtrada()$gdpPercap),
+                           sd(data_filtrada()$gdpPercap)),
+                    y = c(-.5, 10),
+                    name= "1 Desv Típica",
+                    line = list(color = '#6e1423',
+                                dash = 'dash',
+                                text= "1 DT"))%>%
+          add_lines(x = mean(data_filtrada()$gdpPercap)-
+                      2*c( sd(data_filtrada()$gdpPercap),
+                           sd(data_filtrada()$gdpPercap)),
+                    y = c(-.3, 7),
+                    name= "2 Desv Típica ",
+                    line = list(color = '#a4133c',
+                                dash = 'dash',
+                                text= "1 DT"))%>%
+          add_lines(x = mean(data_filtrada()$gdpPercap)-
+                      3*c( sd(data_filtrada()$gdpPercap),
+                           sd(data_filtrada()$gdpPercap)),
+                    y = c(-.1, 3),
+                    name= "3 Desv Típica",
+                    line = list(color = '#ffb3c1',
+                                dash = 'dash',
+                                text= "1 DT"))%>%
+          add_lines(x = mean(data_filtrada()$gdpPercap)+
+                      c( sd(data_filtrada()$gdpPercap),
+                         sd(data_filtrada()$gdpPercap)),
+                    y = c(-.5, 10),
+                    name= "1 Desv Típica",
+                    line = list(color = '#6e1423',
+                                dash = 'dash',
+                                text= "1 DT"))%>%
+          add_lines(x = mean(data_filtrada()$gdpPercap)+
+                      2*c( sd(data_filtrada()$gdpPercap),
+                           sd(data_filtrada()$gdpPercap)),
+                    y = c(-.3, 7),
+                    name= "2 Desv Típica ",
+                    line = list(color = '#a4133c',
+                                dash = 'dash',
+                                text= "1 DT"))%>%
+          add_lines(x = mean(data_filtrada()$gdpPercap)+
+                      3*c( sd(data_filtrada()$gdpPercap),
+                           sd(data_filtrada()$gdpPercap)),
+                    y = c(-.1, 3),
+                    name= "3 Desv Típica",
+                    line = list(color = '#ffb3c1',
+                                dash = 'dash',
+                                text= "1 DT"))
+          
       }
 
       p%>%
@@ -150,11 +206,14 @@ server <- function(input, output, session) {
       median_val <- round(median(data_filtrada()$gdpPercap),0)
       harmonic_mean_val <- 1 / mean(1 / data_filtrada()$gdpPercap)
       mode_val <- as.numeric(names(sort(table(data_filtrada()$gdpPercap), decreasing = TRUE)[1]))
-
+      sd_val <- round(sd(data_filtrada()$gdpPercap),0)
+      
       paste0("Media: ",
             mean_val,
             ". Mediana: ",
-            median_val)
+            median_val,
+            ". Desviación Típica:",
+            sd_val)
       # cat("Media armónica:", harmonic_mean_val, "\n")
       # cat("Moda:", mode_val, "\n")
     })

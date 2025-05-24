@@ -1,45 +1,17 @@
 ---
-title: "tarea 04"
+title: "tarea 4"
 ---
 
-1.  Investigar conceptos:
+-   El enlace a la tarea es el siguiente:
 
-    1.  Distribución de Frecuencia
+    <https://colab.research.google.com/github/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/Tarea_2.ipynb>
 
-    2.  Frecuencia Absoluta (fi)
+<!-- -->
 
-    3.  Frecuencia Relativa (hi)
+-   Esta tarea debe ser entregada antes de la medianoche del martes 27 de mayo de 2025
 
-    4.  Frecuencia Absoluta Acumulada (Fi)
+-   Seguir pautas de entrega de tarea anterior
 
-    5.  Frecuencia Relativa Acumulada (Hi)
+Cómo recuperar versión notebook en Google Colab:
 
-2.  Datos Agrupados
-
-3.  Datos No Agrupados
-
-4.  Para datos no agrupados
-
-    1.  Valor mínimo :
-
-    2.  Valor máximo:
-
-    3.  Rango o Intervalo Total:
-
-    4.  Número de Clases:
-
-    5.  Intervalo de Clase:
-
-    6.  Límite inferior de frecuencia:
-
-    7.  Límites superior de frecuencia:
-
-    8.  Marca de clase:
-
-En el ejemplo, identificar las columnas asociadas a cada uno de los conceptos de datos no agrupados (solo las que se muestran)
-
-ver foto en materiales_admin intervalo
-
-```{r}
-
-```
+![](recuperar_googlecolab.gif){fig-align="center"}
