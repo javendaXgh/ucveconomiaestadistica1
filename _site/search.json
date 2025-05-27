@@ -2033,8 +2033,8 @@
     "objectID": "clases/clase_10.html#introducción-a-las-medias",
     "href": "clases/clase_10.html#introducción-a-las-medias",
     "title": "Estadística I",
-    "section": "Introducción a las Medias",
-    "text": "Introducción a las Medias\nEn estadística descriptiva, las medidas de tendencia central nos ayudan a resumir un conjunto de datos en un solo valor representativo.\nAdicionalmente a la media aritmética simple, que no siempre es la mejor medida para evaluar la tendencia central de los datos, existen otras medias que son más apropiadas en ciertos contextos.\n\n1- Media ponderada\n2- Media armónica\n3- Media geométrica"
+    "section": "",
+    "text": "En estadística descriptiva, las medidas de tendencia central nos ayudan a resumir un conjunto de datos en un solo valor representativo.\nAdicionalmente a la media aritmética simple, que no siempre es la mejor medida para evaluar la tendencia central de los datos, existen otras medias que son más apropiadas en ciertos contextos.\n\n1- Media ponderada\n2- Media armónica\n3- Media geométrica"
   },
   {
     "objectID": "clases/clase_10.html#media-ponderada-weighted-mean",
@@ -2069,7 +2069,7 @@
     "href": "clases/clase_10.html#media-armónica-harmonic-mean",
     "title": "Estadística I",
     "section": "2- Media Armónica (Harmonic Mean)",
-    "text": "2- Media Armónica (Harmonic Mean)\nEs útil para calcular promedios de tasas o ratios. Se define como el recíproco1 de la media aritmética de los recíprocos de los valores.\nFórmula:\n\\[H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}\\]\nDonde: \\(x_i\\) representa cada valor del conjunto de datos. \\(n\\) es el número total de valores.\nSi tienes un conjunto de datos como \\(x1​,x2​,...,xn​\\), el recíproco de cada valor es \\(\\frac{1}{x1}​, \\frac{1}{x2}​,..., \\frac{1}{xn}\\)"
+    "text": "2- Media Armónica (Harmonic Mean)\nEs útil para calcular promedios de tasas o ratios. Se define como el recíproco1 de la media aritmética de los recíprocos de los valores.\nFórmula:\n\\[H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}\\]\nDonde: \\(x_i\\) representa cada valor del conjunto de datos. \\(n\\) es el número total de valores."
   },
   {
     "objectID": "clases/clase_10.html#ejemplo-de-media-armónica",
@@ -2146,7 +2146,7 @@
     "href": "clases/clase_10.html#cómo-decidir-qué-media-usar",
     "title": "Estadística I",
     "section": "¿Cómo decidir qué media usar?",
-    "text": "¿Cómo decidir qué media usar?\nRecetario con uso discrecional\n\n¿Importancia desigual? → Media ponderada.\n¿Promedios de tasas? → Media armónica.\n¿Crecimiento o factores multiplicativos? → Media geométrica.\n¿Valores homogéneos? → Media aritmética.\n\n\n\n\n\n🔗 Estadística 1"
+    "text": "¿Cómo decidir qué media usar?\n\nRecetario con uso discrecional\n\n¿Importancia desigual? → Media ponderada.\n¿Promedios de tasas? → Media armónica.\n¿Crecimiento o factores multiplicativos? → Media geométrica.\n¿Valores homogéneos? → Media aritmética."
   },
   {
     "objectID": "clases/clase_10_complemento.html",
@@ -2180,8 +2180,8 @@
     "objectID": "clases/clase_11.html#qué-son-los-momentos",
     "href": "clases/clase_11.html#qué-son-los-momentos",
     "title": "Estadística I",
-    "section": "¿Qué son los Momentos?",
-    "text": "¿Qué son los Momentos?\n\nSon medidas que nos dan información sobre las características de un conjunto de datos.\nNos ayudan a entender dónde se concentran los datos, cuánto se dispersan y qué forma tienen.\nAlgunos son: la media, la varianza, la asimetría y la curtosis.\n\n\nlos momentos nos dan diferentes “perspectivas” de los datos, más allá del simple promedio."
+    "section": "",
+    "text": "Son medidas que nos dan información sobre las características de un conjunto de datos.\nNos ayudan a entender dónde se concentran los datos, cuánto se dispersan y qué forma tienen.\nAlgunos son: la media, la varianza, la asimetría y la curtosis.\n\n\nlos momentos nos dan diferentes “perspectivas” de los datos, más allá del simple promedio."
   },
   {
     "objectID": "clases/clase_11.html#el-primer-momento-la-media-barx",
@@ -2272,7 +2272,7 @@
     "href": "clases/clase_11.html#resumen-de-los-momentos",
     "title": "Estadística I",
     "section": "Resumen de los Momentos",
-    "text": "Resumen de los Momentos\n\n\n\n\n\n\n\nMomento\n¿Qué mide?\n\n\nMedia ( \\(\\bar{X}\\) )\nEl centro de los datos\n\n\nVarianza ( \\(s^2\\) )\nLa dispersión de los datos\n\n\nAsimetría ( \\(A_s\\) )\nSi la distribución está sesgada hacia un lado\n\n\nCurtosis ( \\(K_u\\) )\nEl “apuntamiento” y el grosor de las colas\n\n\n\n\n\n\n\n🔗 Estadística 1"
+    "text": "Resumen de los Momentos\n\n\n\n\n\n\n\nMomento\n¿Qué mide?\n\n\nMedia ( \\(\\bar{X}\\) )\nEl centro de los datos\n\n\nVarianza ( \\(s^2\\) )\nLa dispersión de los datos\n\n\nAsimetría ( \\(A_s\\) )\nSi la distribución está sesgada hacia un lado\n\n\nCurtosis ( \\(K_u\\) )\nEl “apuntamiento” y el grosor de las colas"
   },
   {
     "objectID": "clases/clase_11.html#ejemplo-varianza",
@@ -2804,7 +2804,7 @@
     "href": "clases/clase_12.html#ejemplo-de-índice-agregado-simple-de-precios",
     "title": "Estadística I",
     "section": "Ejemplo de Índice Agregado Simple de Precios",
-    "text": "Ejemplo de Índice Agregado Simple de Precios\n\n\n\nArtículo\nPrecio 2022 ($)\nPrecio 2024 ($)\n\n\n\n\nA\n5\n6\n\n\nB\n10\n12\n\n\nC\n3\n4\n\n\nSuma\n18\n22\n\n\n\nÍndice Agregado Simple (base 2022):\n\\[\\text{Índice} = \\left( \\frac{22}{18} \\right) \\times 100 \\approx 122.22\\]\nInterpretación: Los precios promedio de estos artículos aumentaron aproximadamente en un 22.22% entre 2022 y 2024."
+    "text": "Ejemplo de Índice Agregado Simple de Precios\n\n\n\nArtículo\nPrecio 2022 ($)\nPrecio 2024 ($)\n\n\n\n\nA\n5\n6\n\n\nB\n10\n12\n\n\nC\n3\n4\n\n\nSuma\n18\n22\n\n\n\nÍndice Agregado Simple (base 2022):\n\\[\\text{Índice} = \\left( \\frac{22}{18} \\right) \\times 100 \\approx 122.22\\]"
   },
   {
     "objectID": "clases/clase_12.html#índices-ponderados-de-precios",
@@ -3096,5 +3096,89 @@
     "title": "tarea 6",
     "section": "",
     "text": "Construcción IPC compuesto y ponderado\n\nPonderación gastos en servicios\nGastos en alimentación\nGastos en vivienda\nGastos en transporte\nGastos en salud\nGastos en educación"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-de-índice-agredado--cont",
+    "href": "clases/clase_12.html#ejemplo-de-índice-agredado--cont",
+    "title": "Estadística I",
+    "section": "Ejemplo de Índice Agredado- cont:",
+    "text": "Ejemplo de Índice Agredado- cont:\nInterpretación: Los precios promedio de estos artículos aumentaron aproximadamente en un 22.22% entre 2022 y 2024."
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-números-índice-producción",
+    "href": "clases/clase_12.html#ejemplo-números-índice-producción",
+    "title": "Estadística I",
+    "section": "Ejemplo Números Índice Producción",
+    "text": "Ejemplo Números Índice Producción\n\n\n\n\n\n\n\n\nano\nproduccion_de_hulla_en_millones_de_toneladas\nrel\nproduccion_de_antracita_en_millones_de_toneladas\nrel_1\nproduccion_de_petroleo_en_millones_de_bushels\nrel_2\n\n\n\n\n1922\n422.3\n100\n54.7\n100\n557.5\n100\n\n\n1923\n564.6\n134\n93.3\n171\n732.4\n131\n\n\n1924\n483.7\n115\n87.9\n161\n713.9\n128\n\n\n1925\n520.1\n123\n61.8\n113\n763.7\n137\n\n\n1926\n573.4\n136\n84.8\n154\n770.9\n138\n\n\n1927\n517.8\n123\n80.1\n146\n901.1\n162\n\n\n1928\n500.7\n119\n75.3\n138\n901.5\n162\n\n\n1929\n535.0\n127\n73.8\n135\n1007.3\n181\n\n\n1930\n467.5\n111\n69.4\n127\n898.0\n161\n\n\n1931\n382.1\n90\n59.6\n109\n851.1\n153\n\n\n1932\n309.7\n73\n49.9\n91\n785.2\n141\n\n\n1933\n333.6\n79\n49.5\n90\n905.7\n162\n\n\n1934\n359.4\n85\n57.2\n105\n908.1\n163\n\n\n1935\n372.4\n88\n52.2\n95\n996.6\n179\n\n\n1936\n434.1\n103\n54.8\n100\n1098.5\n197"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-números-índice-producción--promedio",
+    "href": "clases/clase_12.html#ejemplo-números-índice-producción--promedio",
+    "title": "Estadística I",
+    "section": "Ejemplo Números Índice Producción- Promedio",
+    "text": "Ejemplo Números Índice Producción- Promedio\n\n\n\n\n\n\n\n\nano\nrel\nrel_1\nrel_2\npromedio\n\n\n\n\n1922\n100\n100\n100\n100\n\n\n1923\n134\n171\n131\n145\n\n\n1924\n115\n161\n128\n135\n\n\n1925\n123\n113\n137\n124\n\n\n1926\n136\n154\n138\n143\n\n\n1927\n123\n146\n162\n144\n\n\n1928\n119\n138\n162\n140\n\n\n1929\n127\n135\n181\n148\n\n\n1930\n111\n127\n161\n133\n\n\n1931\n90\n109\n153\n117\n\n\n1932\n73\n91\n141\n102\n\n\n1933\n79\n90\n162\n110\n\n\n1934\n85\n105\n163\n118\n\n\n1935\n88\n95\n179\n121\n\n\n1936\n103\n100\n197\n133"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplos-de-números-índices-en-venezuela",
+    "href": "clases/clase_12.html#ejemplos-de-números-índices-en-venezuela",
+    "title": "Estadística I",
+    "section": "Ejemplos de Números Índices en Venezuela",
+    "text": "Ejemplos de Números Índices en Venezuela\nhttps://www.bolsadecaracas.com\nhttps://www.bcv.org.ve/estadisticas/consumidor\n\n\n\n\n🔗 Estadística 1"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-números-índice-producción--promedio-o-imponderado",
+    "href": "clases/clase_12.html#ejemplo-números-índice-producción--promedio-o-imponderado",
+    "title": "Estadística I",
+    "section": "Ejemplo Números Índice Producción- Promedio o Imponderado",
+    "text": "Ejemplo Números Índice Producción- Promedio o Imponderado\n\n\n\n\n\n\n\n\nano\nrel\nrel_1\nrel_2\npromedio\n\n\n\n\n1922\n100\n100\n100\n100\n\n\n1923\n134\n171\n131\n145\n\n\n1924\n115\n161\n128\n135\n\n\n1925\n123\n113\n137\n124\n\n\n1926\n136\n154\n138\n143\n\n\n1927\n123\n146\n162\n144\n\n\n1928\n119\n138\n162\n140\n\n\n1929\n127\n135\n181\n148\n\n\n1930\n111\n127\n161\n133\n\n\n1931\n90\n109\n153\n117\n\n\n1932\n73\n91\n141\n102\n\n\n1933\n79\n90\n162\n110\n\n\n1934\n85\n105\n163\n118\n\n\n1935\n88\n95\n179\n121\n\n\n1936\n103\n100\n197\n133"
+  },
+  {
+    "objectID": "clases/clase_12.html#pasos-cálculo-índice-de-fisher",
+    "href": "clases/clase_12.html#pasos-cálculo-índice-de-fisher",
+    "title": "Estadística I",
+    "section": "Pasos Cálculo Índice de Fisher",
+    "text": "Pasos Cálculo Índice de Fisher\n\nPaso 1: Calcule el índice de precios de Laspeyres para cada período\nPaso 2: Calcule el índice de precios de Paasche para cada período.\nPaso 3: Tome el promedio geométrico del índice de precios de Laspeyres y Paasche en cada período"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f-año-base",
+    "href": "clases/clase_12.html#ejemplo-cálculo-i.f-año-base",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculo I.F año base",
+    "text": "Ejemplo: Cálculo I.F año base\n\n\n\n\n\n\n\n\naño_0\nproducto_a\nproducto_b\nproducto_c\n\n\n\n\nprecio\n2\n1\n1.5\n\n\ncantidad\n15\n20\n25.0\n\n\nvalor\n30\n20\n37.5"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculto-i.f-año-1",
+    "href": "clases/clase_12.html#ejemplo-cálculto-i.f-año-1",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculto I.F año 1",
+    "text": "Ejemplo: Cálculto I.F año 1\n\n\n\n\n\n\n\n\naño_1\nproducto_a\nproducto_b\nproducto_c\n\n\n\n\nprecio\n2.25\n1.1\n2.1\n\n\ncantidad\n20.00\n20.0\n17.0\n\n\nvalor\n45.00\n22.0\n35.7"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f-año-2",
+    "href": "clases/clase_12.html#ejemplo-cálculo-i.f-año-2",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculo I.F año 2",
+    "text": "Ejemplo: Cálculo I.F año 2\n\n\n\n\n\n\n\n\naño_2\nproducto_a\nproducto_b\nproducto_c\n\n\n\n\nprecio\n2.35\n1.13\n2.4\n\n\ncantidad\n23.00\n25.00\n14.0\n\n\nvalor\n54.05\n28.25\n33.6"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f-evolución",
+    "href": "clases/clase_12.html#ejemplo-cálculo-i.f-evolución",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculo I.F Evolución",
+    "text": "Ejemplo: Cálculo I.F Evolución\n\n\n\n\n\n\n\n\ncomparativo\nBase\nAño1\nAño2\n\n\n\n\nLaspeyres\n100\n123.71\n134.69\n\n\nPaasche\n100\n117.31\n132.46\n\n\nFischer\n100\n120.50\n133.57"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f.-evolución",
+    "href": "clases/clase_12.html#ejemplo-cálculo-i.f.-evolución",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculo I.F. Evolución",
+    "text": "Ejemplo: Cálculo I.F. Evolución\n\n\n\n\n\n\n\n\ncomparativo\nBase\nAño1\nAño2\n\n\n\n\nLaspeyres\n100\n123.71\n134.69\n\n\nPaasche\n100\n117.31\n132.46\n\n\nFischer\n100\n120.50\n133.57\n\n\n\n\n\n\n\nejemplo y capturas de pantallas tomadas de https://corporatefinanceinstitute.com/resources/economics/fisher-price-index/"
+  },
+  {
+    "objectID": "clases/clase_12.html#índice-de-fisher-cont.",
+    "href": "clases/clase_12.html#índice-de-fisher-cont.",
+    "title": "Estadística I",
+    "section": "Índice de Fisher /cont.",
+    "text": "Índice de Fisher /cont.\n\nPi,t es el precio del artículo individual en el período de observación\nPi,0 es el precio del artículo individual en el período base\nQi,t es la cantidad del artículo individual en el período de observación\nQi,0 es la cantidad del artículo individual en el período base"
   }
 ]

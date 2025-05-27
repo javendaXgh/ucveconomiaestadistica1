@@ -117,7 +117,36 @@ Donde: \* $P_{it}$ = Precio del artículo $i$ en el período $t$ (actual) \* $P_
 
 $$\text{Índice} = \left( \frac{22}{18} \right) \times 100 \approx 122.22$$
 
+## Ejemplo de Índice Agredado- cont:
+
 Interpretación: Los precios promedio de estos artículos aumentaron aproximadamente en un 22.22% entre 2022 y 2024.
+
+## Ejemplo Números Índice Producción
+
+```{r}
+#| echo: false
+#| warning: false
+library(dplyr)
+
+ruta <- '/Users/josemiguelavendanoinfante/R/UCV_ECONOMIA_Stats/ucveconomiaestadistica1/data/indices.csv'
+gt::gt(read.csv(ruta, 
+                    sep = ';')%>%
+  janitor:: clean_names())
+
+```
+
+## Ejemplo Números Índice Producción- Promedio o Imponderado
+
+```{r}
+gt::gt(read.csv(ruta, 
+         sep = ';')%>%
+  janitor:: clean_names()%>%
+  as_data_frame()%>%
+  select(1,3,5,7)%>%
+  rowwise()%>%
+  mutate(promedio= round(mean(c(rel, rel_1, rel_2)),0)))
+
+```
 
 ------------------------------------------------------------------------
 
@@ -192,6 +221,94 @@ Fórmula:
 
 $$F_t = \sqrt{L_t \times P_t} = \sqrt{\left( \frac{\sum P_{it} Q_{i0}}{\sum P_{i0} Q_{i0}} \right) \times \left( \frac{\sum P_{it} Q_{it}}{\sum P_{i0} Q_{it}} \right)} \times 100$$
 
+## Índice de Fisher /cont.
+
+-   **Pi,t** es el precio del artículo individual en el período de observación
+
+-   **Pi,0** es el precio del artículo individual en el período base
+
+-   **Qi,t** es la cantidad del artículo individual en el período de observación
+
+-   **Qi,0** es la cantidad del artículo individual en el período base
+
+## Pasos Cálculo Índice de Fisher
+
+-   **Paso 1:** Calcule el índice de precios de Laspeyres para cada período
+
+-   **Paso 2:** Calcule el índice de precios de Paasche para cada período.
+
+-   **Paso 3:** Tome el promedio geométrico del índice de precios de Laspeyres y Paasche en cada período
+
+## Ejemplo: Cálculo I.F año base
+
+```{r}
+#| echo: false
+per_0 <- data.frame(año_0=c("precio","cantidad",'valor'),
+                    producto_a=c(2, 15, 30),
+                    producto_b=c(1,20,20),
+                    producto_c=c(1.5,25, 37.50)
+                    )
+per_1 <- data.frame(año_1=c("precio","cantidad",'valor'),
+                    producto_a=c(2.25,20,45),
+                    producto_b=c(1.10, 20,22),
+                    producto_c=c(2.1,17,35.7)
+)
+
+per_2 <- data.frame(año_2=c("precio","cantidad",'valor'),
+                    producto_a=c(2.35,23,54.05 ),
+                    producto_b=c(1.13,25,28.25),
+                    producto_c=c(2.4,14,33.6)
+)
+
+i_fis<- data.frame(comparativo=c("Laspeyres","Paasche",'Fischer'),
+                    Base=c(100, 100, 100 ),
+                    Año1=c(123.71, 117.31, 120.5),
+                    Año2=c(134.69,132.46, 133.57)
+)
+gt::gt(per_0)
+```
+
+<br><br>
+
+![](images/clase12/0_2.png){fig-align="center" width="600"}
+
+![]()
+
+## Ejemplo: Cálculto I.F año 1
+
+```{r}
+#| echo: false
+
+gt::gt(per_1)
+
+```
+
+<br><br>
+
+![](images/clase12/1_2.png){fig-align="center" width="600"}
+
+## Ejemplo: Cálculo I.F año 2
+
+```{r}
+#| echo: false
+
+gt::gt(per_2)
+
+```
+
+<br><br>
+
+![](images/clase12/2_2.png){fig-align="center" width="600"}
+
+## Ejemplo: Cálculo I.F. Evolución
+
+```{r}
+#| echo: false
+gt::gt(i_fis)
+```
+
+ejemplo y capturas de pantallas tomadas de <https://corporatefinanceinstitute.com/resources/economics/fisher-price-index/>
+
 ------------------------------------------------------------------------
 
 ## Aplicaciones Específicas en Economía
@@ -208,22 +325,7 @@ $$F_t = \sqrt{L_t \times P_t} = \sqrt{\left( \frac{\sum P_{it} Q_{i0}}{\sum P_{i
 -   **Ponderaciones:** La elección de las ponderaciones afecta significativamente el resultado en los índices agregados.
 -   **Comparabilidad a lo largo del tiempo:** Los cambios en la calidad de los bienes y servicios pueden ser difíciles de capturar.
 
-------------------------------------------------------------------------
-
-## Resumen
-
--   Los números índices son herramientas valiosas para analizar cambios relativos.
--   Existen diferentes tipos según la cantidad de variables y la ponderación.
--   La elección del método depende del objetivo del análisis.
--   Es crucial entender las limitaciones de cada tipo de índice.
-
-------------------------------------------------------------------------
-
-## Preguntas y Discusión
-
-¿Qué preguntas tienen sobre los números índices? ¿En qué contextos económicos creen que serían más útiles?
-
-------------------------------------------------------------------------
+## Ejemplos de Números Índices en Venezuela
 
 https://www.bolsadecaracas.com
 
