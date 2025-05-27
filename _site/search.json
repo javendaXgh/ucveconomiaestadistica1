@@ -2916,7 +2916,7 @@
     "href": "clases/clase_12complemento.html#ponderación-por-capitalización-de-mercado",
     "title": "Estadística I",
     "section": "Ponderación por Capitalización de Mercado",
-    "text": "Ponderación por Capitalización de Mercado\n\nEl peso de cada empresa en el índice es proporcional a su capitalización de mercado (precio de la acción × número de acciones en circulación).\nLas empresas más grandes tienen un mayor impacto en los movimientos del índice.\nEjemplo simplificado: Si la capitalización de mercado de la empresa A es el doble que la de la empresa B, un cambio porcentual en el precio de la acción de A tendrá el doble de impacto en el índice que el mismo cambio porcentual en el precio de la acción de B."
+    "text": "Ponderación por Capitalización de Mercado\n\nEl peso de cada empresa en el índice es proporcional a su capitalización de mercado (precio de la acción × número de acciones en circulación).\nLas empresas más grandes tienen un mayor impacto en los movimientos del índice."
   },
   {
     "objectID": "clases/clase_12complemento.html#importancia-del-sp-500",
@@ -2930,14 +2930,14 @@
     "href": "clases/clase_12complemento.html#ejemplo-ilustrativo-simplificado",
     "title": "Estadística I",
     "section": "Ejemplo Ilustrativo (Simplificado)",
-    "text": "Ejemplo Ilustrativo (Simplificado)\nImagina un índice con solo 3 empresas ponderadas por capitalización de mercado:\n\n\n\n\n\n\n\n\n\n\nEmpresa\nPrecio por Acción\nAcciones en Circulación (millones)\nCapitalización de Mercado (miles de millones $)\nPeso en el Índice (%)\n\n\nA\n100\n10\n1000\n47,62%\n\n\nB\n50\n20\n1000\n47,62%\n\n\nC\n25\n4\n100\n4,76%\n\n\nTotal\n\n\n2100\n100%\n\n\n\nEn este ejemplo, las empresas A y B, a pesar de tener precios de acción diferentes, tienen la misma capitalización de mercado y, por lo tanto, el mismo peso en el índice. La empresa C, con menor capitalización, tiene un peso menor."
+    "text": "Ejemplo Ilustrativo (Simplificado)\nImagina un índice con solo 3 empresas ponderadas por capitalización de mercado:\n\n\n\n\n\n\n\n\n\n\nEmpresa\nPrecio por Acción\nAcciones en Circulación (millones)\nCapitalización de Mercado (miles de millones $)\nPeso en el Índice (%)\n\n\nA\n100\n10\n1000\n47,62%\n\n\nB\n50\n20\n1000\n47,62%\n\n\nC\n25\n4\n100\n4,76%\n\n\nTotal\n\n\n2100\n100%"
   },
   {
     "objectID": "clases/clase_12complemento.html#ejemplo-ilustrativo-en-el-período-t1",
     "href": "clases/clase_12complemento.html#ejemplo-ilustrativo-en-el-período-t1",
     "title": "Estadística I",
     "section": "Ejemplo Ilustrativo en el Período t+1",
-    "text": "Ejemplo Ilustrativo en el Período t+1\nSupongamos que en el período t+1 los precios de las acciones cambian:\n\n\n\n\n\n\n\n\n\nEmpresa\nPrecio por Acción (t+1)\nAcciones en Circulación (millones)\nCapitalización de Mercado (t+1) (miles de millones $)\n\n\nA\n110\n10\n1100\n\n\nB\n55\n20\n1100\n\n\nC\n20\n4\n80\n\n\nTotal\n\n\n2280\n\n\n\nPara calcular el valor del índice en t+1, se compararía la capitalización de mercado total en t+1 con un valor base (usualmente la capitalización total en el período base) multiplicado por un factor inicial (como 100)."
+    "text": "Ejemplo Ilustrativo en el Período t+1\nSupongamos que en el período t+1 los precios de las acciones cambian:\n\n\n\n\n\n\n\n\n\nEmpresa\nPrecio por Acción (t+1)\nAcciones en Circulación (millones)\nCapitalización de Mercado (t+1) (miles de millones $)\n\n\nA\n110\n10\n1100\n\n\nB\n55\n20\n1100\n\n\nC\n20\n4\n80\n\n\nTotal\n\n\n2280"
   },
   {
     "objectID": "clases/clase_12complemento.html#cálculo-de-la-variación-del-índice-entre-t-y-t1",
@@ -3180,5 +3180,26 @@
     "title": "Estadística I",
     "section": "Índice de Fisher /cont.",
     "text": "Índice de Fisher /cont.\n\nPi,t es el precio del artículo individual en el período de observación\nPi,0 es el precio del artículo individual en el período base\nQi,t es la cantidad del artículo individual en el período de observación\nQi,0 es la cantidad del artículo individual en el período base"
+  },
+  {
+    "objectID": "clases/clase_12complemento.html#ejemplo-simplificado",
+    "href": "clases/clase_12complemento.html#ejemplo-simplificado",
+    "title": "Estadística I",
+    "section": "Ejemplo simplificado:",
+    "text": "Ejemplo simplificado:\nSi la capitalización de mercado de la empresa A es el doble que la de la empresa B, un cambio porcentual en el precio de la acción de A tendrá el doble de impacto en el índice que el mismo cambio porcentual en el precio de la acción de B."
+  },
+  {
+    "objectID": "clases/clase_12complemento.html#ejemplo-ilustrativo-simplificado-cont.",
+    "href": "clases/clase_12complemento.html#ejemplo-ilustrativo-simplificado-cont.",
+    "title": "Estadística I",
+    "section": "Ejemplo Ilustrativo (Simplificado)/ cont.",
+    "text": "Ejemplo Ilustrativo (Simplificado)/ cont.\nEn este ejemplo, las empresas A y B, a pesar de tener precios de acción diferentes, tienen la misma capitalización de mercado y, por lo tanto, el mismo peso en el índice. La empresa C, con menor capitalización, tiene un peso menor."
+  },
+  {
+    "objectID": "clases/clase_12complemento.html#ejemplo-ilustrativo-en-el-período-t1cont.",
+    "href": "clases/clase_12complemento.html#ejemplo-ilustrativo-en-el-período-t1cont.",
+    "title": "Estadística I",
+    "section": "Ejemplo Ilustrativo en el Período t+1/cont.",
+    "text": "Ejemplo Ilustrativo en el Período t+1/cont.\nPara calcular el valor del índice en t+1, se compararía la capitalización de mercado total en t+1 con un valor base (usualmente la capitalización total en el período base) multiplicado por un factor inicial (como 100)."
   }
 ]

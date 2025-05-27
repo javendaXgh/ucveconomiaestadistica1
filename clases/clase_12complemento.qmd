@@ -44,11 +44,13 @@ El índice es mantenido por **S&P Dow Jones Indices**. Los criterios principal
 
 -   Las empresas más grandes tienen un mayor impacto en los movimientos del índice.
 
--   Ejemplo simplificado: Si la capitalización de mercado de la empresa A es el doble que la de la empresa B, un cambio porcentual en el precio de la acción de A tendrá el doble de impacto en el índice que el mismo cambio porcentual en el precio de la acción de B.
+## Ejemplo simplificado:
+
+Si la capitalización de mercado de la empresa A es el doble que la de la empresa B, un cambio porcentual en el precio de la acción de A tendrá el doble de impacto en el índice que el mismo cambio porcentual en el precio de la acción de B.
 
 ------------------------------------------------------------------------
 
-## Importancia del SP 500
+## Importancia del SP 500 {.small}
 
 -   **Benchmark de Inversión:** Muchos inversores y fondos de inversión utilizan el S&P 500 como referencia para medir su propio rendimiento. El objetivo de muchos fondos es "batir al mercado" (superar el rendimiento del SP 500).
 
@@ -63,12 +65,14 @@ El índice es mantenido por **S&P Dow Jones Indices**. Los criterios principal
 Imagina un índice con solo 3 empresas ponderadas por capitalización de mercado:
 
 |  |  |  |  |  |
-|----|----|----|----|----|
+|---------------|---------------|---------------|---------------|---------------|
 | **Empresa** | **Precio por Acción** | **Acciones en Circulación (millones)** | **Capitalización de Mercado (miles de millones \$)** | **Peso en el Índice (%)** |
 | A | 100 | 10 | 1000 | 47,62% |
 | B | 50 | 20 | 1000 | 47,62% |
 | C | 25 | 4 | 100 | 4,76% |
 | **Total** |  |  | **2100** | **100%** |
+
+## Ejemplo Ilustrativo (Simplificado)/ cont.
 
 En este ejemplo, las empresas A y B, a pesar de tener precios de acción diferentes, tienen la misma capitalización de mercado y, por lo tanto, el mismo peso en el índice. La empresa C, con menor capitalización, tiene un peso menor.
 
@@ -79,12 +83,14 @@ En este ejemplo, las empresas A y B, a pesar de tener precios de acción diferen
 Supongamos que en el período t+1 los precios de las acciones cambian:
 
 |  |  |  |  |
-|----|----|----|----|
+|------------------|------------------|------------------|------------------|
 | **Empresa** | **Precio por Acción (t+1)** | **Acciones en Circulación (millones)** | **Capitalización de Mercado (t+1) (miles de millones \$)** |
 | A | 110 | 10 | 1100 |
 | B | 55 | 20 | 1100 |
 | C | 20 | 4 | 80 |
 | **Total** |  |  | **2280** |
+
+## Ejemplo Ilustrativo en el Período t+1/cont.
 
 Para calcular el valor del índice en t+1, se compararía la capitalización de mercado total en t+1 con un valor base (usualmente la capitalización total en el período base) multiplicado por un factor inicial (como 100).
 
