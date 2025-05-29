@@ -1,7 +1,7 @@
 ---
 title: "Estadística I"
 subtitle: "Clase 13: Series Temporales"
-date: "20/marzo/2025"
+date: "2025/05/29"
 format: revealjs
 lang: es
 incremental: true
