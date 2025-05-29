@@ -1,0 +1,250 @@
+var data = {
+  action: 'chartsData',
+  indice: id,
+  variacion: '',
+};
+
+$.ajax({
+  method: 'POST',
+  url: 'https://www.bolsadecaracas.com/wp-admin/admin-ajax.php'.url,
+  data: data,
+})
+
+#####
+fetch(`${home}/wp-admin/admin-ajax.php`, {
+  method: 'POST',
+  body: dataPost,
+  credentials: 'same-origin',
+  headers: myHeaders,
+})
+
+
+dataPost.append('id', precio.NU_PERIODO_PAGO_ID);
+fetch(`${home}/wp-admin/admin-ajax.php`, {
+  method: 'POST',
+  body: dataPost,
+  credentials: 'same-origin',
+  headers: myHeaders,
+})
+
+fetch(`${home}/wp-admin/admin-ajax.php`, {
+  method: 'POST',
+  body: dataPost,
+  credentials: 'same-origin',
+  headers: myHeaders,
+})
+
+fetch(`${home}/wp-admin/admin-ajax.php`, {
+  method: 'POST',
+  body: dataPost,
+  credentials: 'same-origin',
+  headers: myHeaders,
+})
+fetch(`${home}/wp-admin/admin-ajax.php`, {
+  method: 'POST',
+  body: dataPost,
+  credentials: 'same-origin',
+  headers: myHeaders,
+})
+
+fetch(url, {
+  method: 'POST',
+  body: data,
+  headers: headers,
+})
+
+fetch(url, {
+  method: 'POST',
+  body: data,
+  headers: headers,
+})
+
+
+fetch(url, {
+  method: 'POST',
+  body: data,
+  headers: headers,
+})
+
+
+fetch(url, {
+  method: 'POST',
+  body: body,
+  headers: headers,
+})
+
+
+
+fetch(url, {
+  method: 'POST',
+  body: data,
+  headers: headers,
+})
+
+
+# Function to simulate retrieving cart data from a hypothetical API endpoint
+get_carrito <- function(home = chart_var) {
+  # Simulated validation step (replace with your actual validation logic)
+  if (TRUE) {
+    user_id <- "test"  # Replace with actual user ID retrieval
+
+    # Simulated API call (replace with your actual API endpoint and request)
+    url <- paste0(home, "/api/carrito/")  # Adjust endpoint URL
+    response <- GET(url)  # Use `httr` package for HTTP requests
+
+    if (!is.null(response) && content_type(response) == "application/json") {
+      data <- content(response, as = "text")
+      productos <- lapply(toJSON(fromJSON(data)), function(producto) {
+        # Extract relevant product details (adjust field names as needed)
+        list(
+          id = producto$ID,
+          descripcion = producto$TX_TITULO,
+          precio = producto$PRECIO,
+          periodo = producto$PERIODO,
+          moneda = producto$MONEDA
+        )
+      })
+
+      # Simulated cart data update (replace with your actual logic)
+      # print(productos)  # For debugging purposes
+
+      return(productos)
+    } else {
+      message("Error retrieving cart data. Check API response or user validity.")
+      return(NULL)
+    }
+  } else {
+    message("User not validated. Cannot retrieve cart data.")
+    return(NULL)
+  }
+}
+
+p <- get_carrito()
+
+library(httr)
+chart_var='https://www.bolsadecaracas.com/wp-admin/admin-ajax.php'
+
+library(httr)
+p <- httr::POST(chart_var)
+p$status_code
+
+#################
+# install.packages('apexcharter')
+# install.packages('tidyverse')
+library(apexcharter)
+library(httr)
+library(tidyverse)
+library(httr)
+library(dplyr)
+library(jsonlite)
+
+# Crear los datos a enviar
+data <- list(
+  action = 'chartsData',
+  indice = 'id',
+  variacion = ''
+)
+
+# Realizar la petición POST
+response <- POST("https://www.bolsadecaracas.com/wp-admin/admin-ajax.php",
+                 body = data)
+
+
+
+datos <- response$content%>%
+  rawToChar()%>%
+  jsonlite::fromJSON()
+
+
+
+funcion_limpieza <- function(datos){
+  # aplica para segundos
+  datos%>%
+    filter(HORA!='')%>%
+    rowwise()%>%
+    # mutate(HORA= as.Date(HORA, format = "%d/%m/%Y"))
+    mutate(HORA= as.POSIXct(HORA, 
+                            format = "%d/%m/%Y %H:%M:%S", 
+                            tz = "America/Caracas"))%>%
+    as_tibble()%>%
+    mutate(hora= strftime(HORA, format = "%H:%M:%S")) %>%
+    distinct()
+}
+
+funcion_limpieza2 <- function(datos){
+  # aplica para d'ias
+  datos%>%
+    filter(HORA!='')%>%
+    rowwise()%>%
+    mutate(HORA= as.Date(HORA, format = "%d/%m/%Y"))%>%
+    # mutate(HORA= as.POSIXct(HORA, 
+    #                         format = "%d/%m/%Y %H:%M:%S", 
+    #                         tz = "America/Caracas"))%>%
+    as_tibble()%>%
+    mutate(hora= strftime(HORA, format = "%H:%M:%S")) %>%
+    distinct()
+}
+
+resultados <- lapply(datos,funcion_limpieza )
+resultados2 <- lapply(datos,funcion_limpieza2 )
+
+
+library(plotly)
+
+plot_ly(resultados[[1]], x = ~hora, y = ~PRECIO) %>%
+  add_lines()%>%
+  layout(
+    xaxis = list(
+      type = 'time',
+      tickformat = "%H:%M:%S"
+    ))
+
+apex(data = resultados[[1]],
+     type = "line",
+     mapping = aes(x = hora, y = PRECIO))%>%
+  ax_labs(
+       title = names(resultados[1])
+     )
+
+
+data("economics", package = "ggplot2")
+apex(data = economics, type = "line", mapping = aes(x = date, y = uempmed)) %>% 
+  ax_stroke(width = 1)
+
+apex(data = resultados[[2]],
+     type = "line",
+     mapping = aes(x = HORA, y = PRECIO))%>%
+  ax_labs(
+    title = names(resultados[2])
+  )
+
+apex(data = resultados[[3]],
+     type = "line",
+     mapping = aes(x = HORA, y = PRECIO))%>%
+  ax_labs(
+    title = names(resultados[3])
+  )
+
+
+### indice
+apex(data = resultados2[[4]],
+     type = "line",
+     mapping = aes(x = HORA, y = PRECIO))%>%
+  ax_labs(
+    title = names(resultados2[4])
+  )
+
+apex(data = resultados2[[5]],
+     type = "line",
+     mapping = aes(x = HORA, y = PRECIO))%>%
+  ax_labs(
+    title = names(resultados[5])
+  )
+
+apex(data = resultados2[[6]],
+     type = "line",
+     mapping = aes(x = HORA, y = PRECIO))%>%
+  ax_labs(
+    title = names(resultados[6])
+  )
+

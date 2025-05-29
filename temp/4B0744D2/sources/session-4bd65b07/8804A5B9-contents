@@ -1,0 +1,27 @@
+library(ggplot2)
+library(openintro)
+library(dplyr)
+library(knitr)
+
+names(ames)
+View(head(ames))
+
+ames_subset <- ames%>%
+  select(area, price, Kitchen.Qual, MS.SubClass,Overall.Qual, Year.Built,TotRms.AbvGrd)%>%
+  filter(Kitchen.Qual!='TA')%>%
+  sample_n(500)
+
+
+ggplot(data=ames, 
+       aes(x=area))+
+  geom_histogram(bins = 8)
+
+
+ggplot(data=ames, 
+       aes(y=area))+
+  geom_boxplot( outlier.colour = 'red')
+
+
+ggplot(data=ames, 
+       aes(x=area))+
+  geom_histogram(bins = 10)

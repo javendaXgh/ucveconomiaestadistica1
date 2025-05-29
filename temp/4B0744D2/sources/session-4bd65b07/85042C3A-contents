@@ -1,0 +1,232 @@
+# base taller medidas de tendencia y dispersión
+library(WDI)
+library(dplyr)
+
+indicador <- 'NY.GDP.DEFL.KD.ZG' #'FP.CPI.TOTL.ZG'
+
+inflacion_cl <- WDI(indicator = indicador, 
+                    country = "CL",   
+                    # start = 1960,
+                    end = 2024) 
+
+
+inflacion_cl <- inflacion_cl%>%
+  janitor::clean_names()%>%
+  # filter(between(year, 1961,2023))%>%
+  arrange(year)%>%
+  mutate(inflacion= round(ny_gdp_defl_kd_zg,1))%>%
+  select(4,6)%>%
+  filter(!is.na(inflacion))
+
+inflacion_cl2 <- inflacion_cl%>%
+  filter(year>1980)
+  
+
+
+write.csv(inflacion_cl,'data/inflacion_chile.csv')
+write.csv(inflacion_cl2,'data/inflacion_chile_1980.csv')
+
+inflacion_ven <- WDI(indicator = indicador, 
+                    country = "VE",   
+                    # start = 1960,
+                    end = 2024) 
+
+
+inflacion_ven <- inflacion_ven%>%
+  janitor::clean_names()%>%
+  # filter(between(year, 1961,2023))%>%
+  arrange(year)%>%
+  mutate(inflacion= round(ny_gdp_defl_kd_zg,1))%>%
+  select(4,6)%>%
+  filter(!is.na(inflacion))
+
+write.csv(inflacion_ven,'data/inflacion_venezuela.csv')
+
+library(tidyverse)
+inflacion_binacional <- bind_rows(inflacion_cl%>%
+                                    mutate(pais="Chile"),
+                                  inflacion_ven%>%
+                                    mutate(pais="Venezuela"))%>%
+  pivot_wider(names_from = pais,
+              values_from = inflacion)
+View(inflacion_binacional)
+
+write.csv(inflacion_binacional,'data/inflacion_binacional_wider.csv')
+
+inflacion_binacional1 <- bind_rows(inflacion_cl%>%
+                                    mutate(pais="Chile"),
+                                  inflacion_ven%>%
+                                    mutate(pais="Venezuela"))
+
+write.csv(inflacion_binacional1,'data/inflacion_binacional_longer.csv')
+
+####################### simulacion
+
+#https://colab.research.google.com/github/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/laboratorio_2.ipynb
+# Lectura de datos de inflación
+# Inflación Chile
+inflacion_chile = read.csv('https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/data/inflacion_chile.csv', row.names = NULL)
+
+# Inflación Chile 1980-2023
+inflacion_chile2 = read.csv('https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/data/inflacion_chile_1980.csv', row.names = NULL)
+
+# Inflación Venezuela
+inflacion_venezuela= read.csv('https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/data/inflacion_venezuela.csv', row.names = NULL)
+
+# inflacion binacional wider
+inflacion_binac_wider = read.csv('https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/data/inflacion_binacional_wider.csv', row.names = NULL)
+
+# inflacion binacional longer
+inflacion_binac_longer = read.csv('https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/data/inflacion_binacional_longer.csv', row.names = NULL)
+
+plot(x= inflacion_chile$year, 
+     y= inflacion_chile$inflacion,
+     type = "l", lty = 1)
+lines(x= inflacion_chile$year, 
+      y= inflacion_chile$inflacion, 
+      type = "l", 
+      lty = 1)
+
+ggplot(data=inflacion_chile, aes(x=year,
+                                 y=inflacion))+
+  geom_line()
+
+ggplot(data=inflacion_binac_longer, aes(x=year,
+                                        y=inflacion,
+                                        group=pais,
+                                        colour= pais))+
+  geom_line()
+
+hist(inflacion_venezuela$inflacion)
+hist(inflacion_chile$inflacion)
+hist(inflacion_chile2$inflacion)
+
+ggplot(data= inflacion_venezuela, aes(x=inflacion))+
+  geom_histogram(fill='orange', bins = 6)+
+  geom_vline(xintercept=median(inflacion_venezuela$inflacion), color='blue')+
+  geom_vline(xintercept=mean(inflacion_venezuela$inflacion), color='green')
+
+ggplot(data= inflacion_binac_longer, aes(x=inflacion, 
+                                         group = pais,
+                                         colour = pais))+
+  geom_histogram( bins = 10)
+
+
+
+
+
+bogeom_histogram()
+boxplot(inflacion_ven$inflacion)
+boxplot(data= inflacion_binac_longer, inflacion~pais )
+
+ggplot(data= inflacion_ven, aes(y=inflacion))+
+  geom_boxplot(fill='orange',
+               outlier.colour = "red",
+               outlier.shape = 1)
+  
+
+ggplot(data= inflacion_binac_longer, aes(y=inflacion, x=pais))+
+  geom_boxplot(aes(fill=pais),
+               outlier.colour = "red",
+               outlier.shape = 1)
+
+ggplot(data= inflacion_ven, aes(y=inflacion))+
+  geom_boxplot(fill='orange')
+
+
+
+# Example data (you can replace this with your data)
+data <- c(5, 10, 15, 20, 25, 30, 35, 40, 45, 50)
+
+data <- inflacion_chile$
+# Calculate kurtosis
+kurtosis_value <- kurtosis(data)
+
+# Print the kurtosis result
+cat("The kurtosis of the dataset is:", kurtosis_value, "\n")
+
+# Create a data frame for plotting
+data_frame <- data.frame(value = data)
+
+# Plot histogram with density curve
+ggplot(data_frame, aes(x = value)) +
+  geom_histogram(aes(y = ..density..), bins = 10, fill = "lightblue", color = "black", alpha = 0.7) +
+  geom_density(color = "red", size = 1) +
+  stat_function(fun = dnorm, 
+                args = list(mean = mean(data), sd = sd(data)), 
+                color = "blue", linetype = "dashed", size = 1) +
+  ggtitle(paste("Histogram and Density Plot (Kurtosis =", round(kurtosis_value, 2), ")")) +
+  theme_minimal()
+
+
+
+IQR(inflacion_chile$inflacion)
+summary(inflacion_chile$inflacion)
+summary(inflacion_venezuela$inflacion)
+quantile(inflacion_venezuela$inflacion, 0.25)
+quantile(inflacion_venezuela$inflacion, 0.10)
+quantile(inflacion_venezuela$inflacion, 0.90)
+inflacion_venezuela$inflacion
+
+sort(inflacion_venezuela$inflacion)
+54/100*90 # posicion
+(45.9+50.1)/2
+
+var(inflacion_chile$inflacion)
+sqrt(var(inflacion_chile$inflacion))
+sd(inflacion_chile$inflacion)
+sd(inflacion_venezuela$inflacion)
+
+
+median(inflacion_chile$inflacion)
+
+# Detección de Valores Atípicos usando el RIC
+banda_superior <- quantile(gap_2007$lifeExp, 0.75) + (1.5 * IQR(gap_2007$lifeExp))
+banda_inferior <- quantile(gap_2007$lifeExp, 0.25) - (1.5 * IQR(gap_2007$lifeExp))
+
+
+#### gráficos de densidad
+dens <- density(inflacion_venezuela$inflacion)
+# plot density
+plot(dens, frame = FALSE, 
+     col = "steelblue", 
+     main = "Gráfico de Densidad Variable Inflacion") 
+
+
+#####
+# Install necessary packages (if not installed)
+# install.packages("e1071")
+# install.packages("ggplot2")
+
+# Load required libraries
+library(e1071)
+# library(ggplot2)
+
+# Example data (you can replace this with your data)
+data <- c(5, 10, 15, 20, 25, 30, 35, 40, 45, 50)
+data <- inflacion_chile$inflacion
+
+# Calculate kurtosis
+kurtosis_value <- kurtosis(data)
+
+kurtosis_value
+
+# Create a data frame for plotting
+data_frame <- data.frame(value = data)
+
+# Plot histogram with density curve
+ggplot(data_frame, aes(x = value)) +
+  geom_histogram(aes(y = ..density..), 
+                 bins = 10,
+                 fill = "lightblue", 
+                 color = "black", 
+                 alpha = 0.7) +
+  geom_density(color = "red", 
+               size = 1) +
+  stat_function(fun = dnorm, 
+                args = list(mean = mean(data), sd = sd(data)), 
+                color = "blue", linetype = "dashed", size = 1) +
+  ggtitle(paste("Histograma y Gráfico de Densidad (Kurtosis =", round(kurtosis_value, 2), ")")) +
+  theme_minimal()
+
+density()

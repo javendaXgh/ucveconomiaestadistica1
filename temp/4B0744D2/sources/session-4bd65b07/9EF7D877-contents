@@ -1,0 +1,149 @@
+data(package = "openintro")
+
+# data inspect
+library(openintro)
+library(dplyr)
+head(mammogram,20)
+
+table(mammogram)
+##
+View(head(babies,100))
+
+
+babies_subset <- babies%>%
+  sample_n(50)
+
+plot(x= babies_subset$age, 
+     y=rep(0,length(babies_subset$age)),
+     main='Histograma Edad Madres',
+     xlab='Edad Madre',
+     ylab='',
+     pch= 19)
+
+par(new=TRUE)
+points(mean(babies_subset$age),
+       -.05, 
+       pch = 17, 
+       col = "red",
+       cex = .8)
+
+# ?pch
+
+
+#######
+stripchart(babies_subset$age, 
+           method = "stack")
+
+median(babies_subset$age)
+
+mean(babies_subset$age)
+
+par(new=TRUE)
+points(mean(babies_subset$age),
+       .95, 
+       pch = 17, 
+       col = "red",
+       cex = 1)
+points(median(babies_subset$age),
+       .95, 
+       pch = 17, 
+       col = "blue",
+       cex = 1)
+
+library(ggplot2)
+
+ggplot(babies_subset, 
+       aes(x = age)) + 
+  geom_dotplot()+
+  scale_y_continuous(NULL, breaks = NULL)+
+  # annotate('point',x=mean(babies_subset$age),y=0, col='red')
+  annotate("pointrange",
+           x = mean(babies_subset$age),
+           y = -.01, 
+           ymin = -.01, 
+           ymax = .2,
+           colour = "red", 
+           size = 1,2, 
+           linewidth = .5)
+  
+
+
+ggplot(babies_subset, aes(x = age)) +
+  geom_dotplot(dotsize = .75, stackratio = 1.2, 
+             fill = "steelblue") + 
+  scale_y_continuous(NULL, breaks = NULL)+
+  annotate('point',
+           x=mean(babies_subset$age),
+           y=-.01,
+           col='red')
+
+  
+
+
+
+######
+plot(x= loan50$interest_rate, 
+   y=rep(0,length(loan50$interest_rate)),
+   main='Plot de puntos: Tasa de interés',
+   xlab='%',
+   ylab='',
+   pch= 1)
+
+par(new=TRUE)
+points(mean(loan50$interest_rate),
+     -.05, 
+     pch = 17, 
+     col = "red",
+     cex = 2)
+
+
+ggplot(loan50, 
+       aes(x = interest_rate)) + 
+  geom_dotplot()+
+  scale_y_continuous(NULL, breaks = NULL)+
+  # annotate('point',x=mean(babies_subset$age),y=0, col='red')
+  annotate("pointrange",
+           x = mean(loan50$interest_rate),
+           y = -.01, 
+           ymin = -.01, 
+           ymax = .2,
+           colour = "red", 
+           size = 1,2, 
+           linewidth = .5)
+
+loan50$interest_rate
+
+sum(loan50$interest_rate)/50
+
+sum(loan50$interest_rate)/length(loan50$interest_rate)
+
+mean(loan50$interest_rate)
+
+######
+ggplot(data=babies, aes(x=age))+
+  geom_histogram()
+
+ggplot(data=babies, aes(x=age))+
+  geom_histogram(bins = 15)
+
+# sesgo a la derecha
+ggplot(data= loan50, aes(x=interest_rate))+
+  geom_histogram(bins=8, fill='blue')
+
+# insistir en los cambios en la cdad de bins y la forma
+
+# investigar concepto factores, multifactorial
+
+
+##### 
+df_gap <- gapminder[gapminder$country=='Venezuela',c('gdpPercap','year')]
+
+barplot(gdpPercap ~ year, df_gap)
+
+
+
+plot(0:25, rep(1, 26), pch = 0:25)
+text(0:25, 0.9, 0:25)
+
+library(tidyverse)
+

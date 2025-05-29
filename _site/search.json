@@ -3,8 +3,8 @@
     "objectID": "clases/clase_01.html#aproximación-concepto-estadística",
     "href": "clases/clase_01.html#aproximación-concepto-estadística",
     "title": "Estadística I",
-    "section": "Aproximación Concepto “Estadística”",
-    "text": "Aproximación Concepto “Estadística”\nLos científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible."
+    "section": "",
+    "text": "Los científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible."
   },
   {
     "objectID": "clases/clase_01.html#estudio-de-caso",
@@ -129,7 +129,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n19\ntreatment\nstroke\n\n\n213\ntreatment\nno event\n\n\n216\ntreatment\nno event\n\n\n256\ncontrol\nno event\n\n\n331\ncontrol\nno event"
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n34\ntreatment\nno event\n\n\n55\ntreatment\nno event\n\n\n286\ncontrol\nno event\n\n\n383\ncontrol\nno event\n\n\n395\ncontrol\nno event"
   },
   {
     "objectID": "clases/clase_01.html#resultados-0-a-30-días",
@@ -150,7 +150,7 @@
     "href": "index.html",
     "title": "Actividades",
     "section": "",
-    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n\n\n\n\n2\nmar, 25 mar.\nTablas Sumario- Contigencia\n🖥️ láminas clase 01 🛠️ Ejecutar Notebook en Google Colab\n\n\n\n\njue, 27 mar.\nVariables Relacionadas/ Estudios Observacionales/Muestreo\n🖥️ láminas clase 02: Variables Relacionadas🖥️ láminas clase 02: Estudios Observacionales y Muestreo🎦 videos 3 y 4 de la playlist\n\n\n3\nmar, 1 abr.\nExperimentos / Repaso tema I\n🖥️ láminas clase 03 parte I: experimentos🖥️ láminas clase 03 parte II: resumen🎦 video 5 de la playlist🛠️ Ejecutar Notebook Laboratorio 1 en Google Colab\n\n\n\n\njue, 3 abr.\nInspeccionar Datos Numéricos- Parte I\n🖥️ láminas clase 04: inspeccionar datos numéricos🎦 video 6 y 7 de la playlist\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\nTablas de Frecuencia, Medidas de Tendencia Central\n🖥️ láminas clase 07: tabla de frecuencias/ medidas de tendencia central 🛠️ Notebook Clase 07 en Google Colab\n\n\n5\nmar, 22 abr.\nMedidas de Dispersión, gráficos de puntos\n🖥️ láminas clase 08: tabla de frecuencias/ medidas de tendencia central 🖥️ apoyo clase 8: guía\n\n\n\n\njue, 24 abr.\nRango Intercuartílico, BoxPlots (gráficos de caja), Estadísticas Robustas\n🖥️ láminas clase 09: RIC, BoxPlots, etcl\n\n\n6\nmar, 29 abr.\nMedias Especializadas\n🖥️ láminas clase 10: RIC, BoxPlots, etcl 🛠️ Notebook Clase 10 en Google Colab\n\n\n7\nmar, 6 may.\nRepaso\n\n\n\n\n\n\njue, 8 may.\nMomentos de una Variable\n🖥️ láminas clase 11: momentos variable\n\n\n8\nmar, 13 may.\nLaboratorio 2\n👩🏽‍🔬 laboratorio 2\n\n\n\n\njue, 15 may.\nSuspendida\n\n\n\n\n9\nmar, 20 may.\nExamen Parcial\n\n\n\n\n\n\njue, 22 may.\nNúmeros Índice\n🖥️ láminas clase 12: numeros índice\n\n\n10\nmar, 27 may.\nNúmeros Índice- cont.\n🖥️ láminas clase 12: numeros índice🖥️ láminas clase 12: numeros índice: ejemplo índice bursátil\n\n\n\n\njue, 29 may.\n\n\n\n\n\n\n11\nmar, 3 jun.\n\n\n\n\n\n\n\n\njue, 5 jun.\n\n\n\n\n\n\n12\nmar, 10 jun.\n\n\n\n\n\n\n\n\njue, 12 jun.\n\n\n\n\n\n\n13\nmar, 17 jun.\n\n\n\n\n\n\n\n\njue, 19 jun.\n\n\n\n\n\n\n14\njue, 26 jun.\n\n\n\n\n\n\n15\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n16\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.",
+    "text": "SEMANA\nFECHA\nTEMA\nMATERIALES\n\n\n\n\n1\nmar, 18 mar.\nPresentación Curso\n\n\n\n\n\n\njue, 20 mar.\nTipo de Variables\n\n\n\n\n2\nmar, 25 mar.\nTablas Sumario- Contigencia\n🖥️ láminas clase 01 🛠️ Ejecutar Notebook en Google Colab\n\n\n\n\njue, 27 mar.\nVariables Relacionadas/ Estudios Observacionales/Muestreo\n🖥️ láminas clase 02: Variables Relacionadas🖥️ láminas clase 02: Estudios Observacionales y Muestreo🎦 videos 3 y 4 de la playlist\n\n\n3\nmar, 1 abr.\nExperimentos / Repaso tema I\n🖥️ láminas clase 03 parte I: experimentos🖥️ láminas clase 03 parte II: resumen🎦 video 5 de la playlist🛠️ Ejecutar Notebook Laboratorio 1 en Google Colab\n\n\n\n\njue, 3 abr.\nInspeccionar Datos Numéricos- Parte I\n🖥️ láminas clase 04: inspeccionar datos numéricos🎦 video 6 y 7 de la playlist\n\n\n4\nmar, 8 abr.\n\n\n\n\n\n\n\n\njue, 10 abr.\nTablas de Frecuencia, Medidas de Tendencia Central\n🖥️ láminas clase 07: tabla de frecuencias/ medidas de tendencia central 🛠️ Notebook Clase 07 en Google Colab\n\n\n5\nmar, 22 abr.\nMedidas de Dispersión, gráficos de puntos\n🖥️ láminas clase 08: tabla de frecuencias/ medidas de tendencia central 🖥️ apoyo clase 8: guía\n\n\n\n\njue, 24 abr.\nRango Intercuartílico, BoxPlots (gráficos de caja), Estadísticas Robustas\n🖥️ láminas clase 09: RIC, BoxPlots, etcl\n\n\n6\nmar, 29 abr.\nMedias Especializadas\n🖥️ láminas clase 10: RIC, BoxPlots, etcl 🛠️ Notebook Clase 10 en Google Colab\n\n\n7\nmar, 6 may.\nRepaso\n\n\n\n\n\n\njue, 8 may.\nMomentos de una Variable\n🖥️ láminas clase 11: momentos variable\n\n\n8\nmar, 13 may.\nLaboratorio 2\n👩🏽‍🔬 laboratorio 2\n\n\n\n\njue, 15 may.\nSuspendida\n\n\n\n\n9\nmar, 20 may.\nExamen Parcial\n\n\n\n\n\n\njue, 22 may.\nNúmeros Índice\n🖥️ láminas clase 12: numeros índice\n\n\n10\nmar, 27 may.\nNúmeros Índice- cont.\n🖥️ láminas clase 12: numeros índice🖥️ láminas clase 12: numeros índice: ejemplo índice bursátil\n\n\n\n\njue, 29 may.\nSeries Temporales\n🖥️ láminas clase 13: Series temporales\n\n\n11\nmar, 3 jun.\n\n\n\n\n\n\n\n\njue, 5 jun.\n\n\n\n\n\n\n12\nmar, 10 jun.\n\n\n\n\n\n\n\n\njue, 12 jun.\n\n\n\n\n\n\n13\nmar, 17 jun.\n\n\n\n\n\n\n\n\njue, 19 jun.\n\n\n\n\n\n\n14\njue, 26 jun.\n\n\n\n\n\n\n15\nmar, 1 jul.\n\n\n\n\n\n\n\n\njue, 3 jul.\n\n\n\n\n\n\n16\nmar, 8 jul.\n\n\n\n\n\n\n\n\njue, 10 jul.",
     "crumbs": [
       "Sobre el Curso",
       "Actividades"
@@ -259,7 +259,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n22000\n10.90\n60\nB\nNJ\n59000\nrent\n\n\n18200\n10.42\n60\nB\nCA\n144000\nrent\n\n\n10000\n6.71\n36\nA\nTX\n65000\nmortgage\n\n\n7000\n17.09\n36\nD\nAZ\n55000\nown\n\n\n35000\n11.98\n60\nB\nRI\n245000\nmortgage\n\n\n6400\n9.92\n36\nB\nIN\n67000\nmortgage\n\n\n6000\n9.92\n36\nB\nCA\n75000\nrent"
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n20000\n10.91\n60\nB\nNJ\n42000\nmortgage\n\n\n40000\n20.00\n60\nD\nWI\n168000\nmortgage\n\n\n38500\n12.62\n60\nC\nCA\n160000\nmortgage\n\n\n6000\n9.92\n36\nB\nCA\n60000\nrent\n\n\n12000\n5.31\n36\nA\nHI\n120000\nmortgage\n\n\n6000\n7.96\n36\nA\nCA\n100000\nrent\n\n\n7000\n17.09\n36\nD\nAZ\n55000\nown\n\n\n9000\n15.04\n36\nC\nIN\n45000\nown"
   },
   {
     "objectID": "clases/clase_01.html#descripción-variables",
@@ -329,7 +329,7 @@
     "href": "clases/clase_01.html#pregunta-clave-a-responder",
     "title": "Estadística I",
     "section": "Pregunta Clave a Responder",
-    "text": "Pregunta Clave a Responder\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar."
+    "text": "Pregunta Clave a Responder\n\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar."
   },
   {
     "objectID": "notebooks/jupyter_intro.html",
@@ -364,7 +364,7 @@
     "href": "clases/clase_01.html#variables-explicativas-y-de-respuesta.",
     "title": "Estadística I",
     "section": "Variables explicativas y de respuesta.",
-    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética.\n\n\n\n\n\n🔗 Estadística 1"
+    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética."
   },
   {
     "objectID": "notebooks/clase_01_estadistica.html#gráficos-de-dispersión",
@@ -2740,8 +2740,8 @@
     "objectID": "clases/clase_12.html#pendientes-y-asignaciones",
     "href": "clases/clase_12.html#pendientes-y-asignaciones",
     "title": "Estadística I",
-    "section": "Pendientes y Asignaciones",
-    "text": "Pendientes y Asignaciones\n\nLectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
+    "section": "",
+    "text": "Lectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
   },
   {
     "objectID": "clases/clase_12.html#qué-son-los-números-índices",
@@ -3123,7 +3123,7 @@
     "href": "clases/clase_12.html#ejemplos-de-números-índices-en-venezuela",
     "title": "Estadística I",
     "section": "Ejemplos de Números Índices en Venezuela",
-    "text": "Ejemplos de Números Índices en Venezuela\nhttps://www.bolsadecaracas.com\nhttps://www.bcv.org.ve/estadisticas/consumidor\n\n\n\n\n🔗 Estadística 1"
+    "text": "Ejemplos de Números Índices en Venezuela\nhttps://www.bolsadecaracas.com\nhttps://www.bcv.org.ve/estadisticas/consumidor"
   },
   {
     "objectID": "clases/clase_12.html#ejemplo-números-índice-producción--promedio-o-imponderado",
@@ -3201,5 +3201,103 @@
     "title": "Estadística I",
     "section": "Ejemplo Ilustrativo en el Período t+1/cont.",
     "text": "Ejemplo Ilustrativo en el Período t+1/cont.\nPara calcular el valor del índice en t+1, se compararía la capitalización de mercado total en t+1 con un valor base (usualmente la capitalización total en el período base) multiplicado por un factor inicial (como 100)."
+  },
+  {
+    "objectID": "clases/clase_13.html#serie-temporal",
+    "href": "clases/clase_13.html#serie-temporal",
+    "title": "Estadística I",
+    "section": "Serie Temporal",
+    "text": "Serie Temporal\n\nUna secuencia de datos ordenados cronológicamente.\nObservaciones tomadas en intervalos de tiempo regulares (ej. diario, mensual, anual).\nEl objetivo es entender y modelar el comportamiento de los datos a lo largo del tiempo."
+  },
+  {
+    "objectID": "clases/clase_13.html#ejemplos-de-series-temporales",
+    "href": "clases/clase_13.html#ejemplos-de-series-temporales",
+    "title": "Estadística I",
+    "section": "Ejemplos de Series Temporales",
+    "text": "Ejemplos de Series Temporales\n\nVentas mensuales de un producto.\nCotizaciones diarias de una acción.\nTemperatura horaria de una ciudad.\nVariaciones del Índice de Precios."
+  },
+  {
+    "objectID": "clases/clase_13.html#gráfico-variaciones-inpc",
+    "href": "clases/clase_13.html#gráfico-variaciones-inpc",
+    "title": "Estadística I",
+    "section": "Gráfico Variaciones INPC",
+    "text": "Gráfico Variaciones INPC"
+  },
+  {
+    "objectID": "clases/clase_13.html#gráfico-temperatura-caracas-serie-temporal",
+    "href": "clases/clase_13.html#gráfico-temperatura-caracas-serie-temporal",
+    "title": "Estadística I",
+    "section": "Gráfico Temperatura Caracas Serie Temporal",
+    "text": "Gráfico Temperatura Caracas Serie Temporal"
+  },
+  {
+    "objectID": "clases/clase_13.html#componentes-de-una-serie-temporal",
+    "href": "clases/clase_13.html#componentes-de-una-serie-temporal",
+    "title": "Estadística I",
+    "section": "Componentes de una Serie Temporal",
+    "text": "Componentes de una Serie Temporal\nUna serie temporal (Yt​) puede estar compuesta por varios componentes:\n\nTendencia (Tt​)\nEstacionalidad (St​)\nCiclicidad (Ct​)\nAleatoriedad (Rt​)"
+  },
+  {
+    "objectID": "clases/clase_13.html#componente-de-tendencia-tt",
+    "href": "clases/clase_13.html#componente-de-tendencia-tt",
+    "title": "Estadística I",
+    "section": "Componente de Tendencia (Tt​)",
+    "text": "Componente de Tendencia (Tt​)\n\nLa dirección general de la serie a largo plazo.\nPuede ser lineal, no lineal, creciente o decreciente."
+  },
+  {
+    "objectID": "clases/clase_13.html#componente-de-estacionalidad-st",
+    "href": "clases/clase_13.html#componente-de-estacionalidad-st",
+    "title": "Estadística I",
+    "section": "Componente de Estacionalidad (St​)",
+    "text": "Componente de Estacionalidad (St​)\n\nPatrones que se repiten a intervalos fijos y conocidos.\nDuración predecible (anual, trimestral, mensual, etc.)."
+  },
+  {
+    "objectID": "clases/clase_13.html#gráfico-temperatura-caracas",
+    "href": "clases/clase_13.html#gráfico-temperatura-caracas",
+    "title": "Estadística I",
+    "section": "Gráfico Temperatura Caracas",
+    "text": "Gráfico Temperatura Caracas"
+  },
+  {
+    "objectID": "clases/clase_13.html#ejemplos-de-estacionalidad",
+    "href": "clases/clase_13.html#ejemplos-de-estacionalidad",
+    "title": "Estadística I",
+    "section": "Ejemplos de Estacionalidad",
+    "text": "Ejemplos de Estacionalidad\n\nAumento de ventas en diciembre.\nMayor inflación en diciembre"
+  },
+  {
+    "objectID": "clases/clase_13.html#componente-de-ciclicidad-ct",
+    "href": "clases/clase_13.html#componente-de-ciclicidad-ct",
+    "title": "Estadística I",
+    "section": "Componente de Ciclicidad (Ct​)",
+    "text": "Componente de Ciclicidad (Ct​)\n\nFluctuaciones a largo plazo (más de un año).\nDuración y amplitud variables (relacionado con ciclos económicos)."
+  },
+  {
+    "objectID": "clases/clase_13.html#diferencia-entre-estacionalidad-y-ciclicidad",
+    "href": "clases/clase_13.html#diferencia-entre-estacionalidad-y-ciclicidad",
+    "title": "Estadística I",
+    "section": "Diferencia entre Estacionalidad y Ciclicidad",
+    "text": "Diferencia entre Estacionalidad y Ciclicidad\n\n\n\n\n\n\n\n\nCaracterística\nEstacionalidad\nCiclicidad\n\n\nDuración\nFija y conocida\nVariable e impredecible\n\n\nFrecuencia\nDentro de un período fijo (e.g., año)\nMayor que la estacionalidad\n\n\nCausa\nFactores naturales o institucionales\nFactores económicos o empresariales"
+  },
+  {
+    "objectID": "clases/clase_13.html#componente-de-aleatoriedad-rt",
+    "href": "clases/clase_13.html#componente-de-aleatoriedad-rt",
+    "title": "Estadística I",
+    "section": "Componente de Aleatoriedad (Rt​)",
+    "text": "Componente de Aleatoriedad (Rt​)\n\nVariaciones irregulares e impredecibles.\nTambién conocido como ruido o residuo."
+  },
+  {
+    "objectID": "clases/clase_13.html#identificando-los-componentes-visualmente",
+    "href": "clases/clase_13.html#identificando-los-componentes-visualmente",
+    "title": "Estadística I",
+    "section": "Identificando los Componentes Visualmente",
+    "text": "Identificando los Componentes Visualmente\n\nTendencia: Dirección general a largo plazo.\nEstacionalidad: Patrones repetitivos dentro de un período fijo.\nCiclicidad: Ondulaciones de mayor duración.\nAleatoriedad: Fluctuaciones irregulares."
+  },
+  {
+    "objectID": "clases/clase_13.html#modelos-de-descomposición",
+    "href": "clases/clase_13.html#modelos-de-descomposición",
+    "title": "Estadística I",
+    "section": "Modelos de Descomposición",
+    "text": "Modelos de Descomposición\nDos modelos comunes:\n\nModelo Aditivo:\nYt​=Tt​+St​+Ct​+Rt​\nApropiado cuando la magnitud de los componentes no depende del nivel de la serie.\nModelo Multiplicativo:\nYt​=Tt​×St​×Ct​×Rt​\nApropiado cuando la magnitud de los componentes es proporcional al nivel de la serie.\n\n\n\n\n\n🔗 Estadística 1"
   }
 ]

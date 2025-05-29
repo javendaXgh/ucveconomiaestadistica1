@@ -1,0 +1,63 @@
+Ideas:
+0) cómo entiende la estadística, qué puede ganar al usarla y qué puede sacrificar
+1) Tipos Variables
+de un head de un dataset tipo de variable
+https://ucveconomia-estadistica1.netlify.app/clases/clase_01#/descripción-variables
+
+2.1) Variables asociadas:
+a) variable oculta-confusión con ejemplo. Mostrar gráfico scatterplot
+b) correlaciones entre un par de variables. preguntar nombre del gráfico y significado,
+tipo de relación (lineal- exponencial, positiva-negativa)
+c) variable explicativa y de respuesta. concepto y clasificación según un ejemplo
+
+3) Tipos de estudios
+a) observacionales o experimentos. Colocar seleccion para 4 ejemplos
+b) para una tabla de experimento sacar los porcentajes y análisis. En esta tabla colocar los datos desbalanceados y pedir análisis resultados sobre tal hecho. Diferencias, desbalanceo. De existir diferencia qué la puede motivar, cómo podemos indagar más sobre la diferencia presente?
+Se puede usar similar a https://ucveconomia-estadistica1.netlify.app/clases/clase_01#/resultados-0-a-30-días
+Valores estadísticos representativos
+c) relacionar estudio efectuado con un grupo determinado y colocar seleccion para engaño en que se pueden generalizar las conclusiones obtenidas sobre el grupo. Pôr ejemplo, estudiantes economía
+
+4) en un estudio asociar la población y la muestra seleccionada, cómo aplicaría el muestreo? estrategia de muestreo asumida y describir?. Criterios a aplicar para muestreo. ¿Aplicaría un censo? Una ventaja y una desventaja. Para corregir tener presente palabras claves como aleatorio sesgo de muestreo 
+Programa de ayuda estudiantiles. argumentar
+
+5) gráfico mapa: variables representadas, nombre de variables y tipo usadas para construir el mapa. similar a 
+https://colab.research.google.com/github/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/lab1.ipynb
+
+6) medidas de tendencia central_media
+6.0) diferencia media - mediana, cuando usaría una o la otra, un ejemplo
+6.1) para distintas distribuciones (4) indicar cuál medida de tendencia central prefiere. Centro de los datos, forma y dispersión de la distribución, modalidad, sesgos, outliers potenciales
+Obviar la cantidad de barras seleccionadas y asumir que ofrece una selección adecuada
+edades
+pesos
+variaciones porcentuales de incremento del dolar
+ponderada cesta de alimentos
+6.2) difenrencia media población, media muestra. formula. Cuándo sería buena la media de la muestra? cuál de ellas se puede considerar un estadístico o un parámetro
+7) mostrar tabla de contigencia, calcular porcentajes para una variable categórica
+
+8) usar un scatterplot y desconstruir: 1 RIC, 2 RIC, 3 RIC, 4 valores atípicos, obtención e interpretación de valores atípicos en el conjunto de datos, origen
+
+
+
+
+Qué es la estadística descriptiva y cómo puede ayudarle en los estudios de economía
+
+Ejemplos de
+
+Tabla de frecuencia en conjunto con histograma
+
+Tabla experimento, cifras relativas
+
+
+Contenido Primer Parcial- Énfasis en:
+-Saber leer un histograma, boxplot, diagrama de dispersión
+- Contruir una tabla de frecuencia
+- Sesgos
+- Robustas
+- Varianza, Desviación Estandard, Típica
+- Porcentaje en tablas de experimentos, totalizar
+
+
+Opcional
+Variables en gráfico- extra punto 2
+
+

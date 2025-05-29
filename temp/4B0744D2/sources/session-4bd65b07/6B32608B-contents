@@ -1,0 +1,82 @@
+library(openintro)
+
+set.seed(1234)
+# simulación
+muestra <- sample(20:25, 9, replace=TRUE)
+muestra
+# crear las clases (intervalos) para 1 y 2
+muestra_clases <- hist(muestra, breaks=3, plot=FALSE)
+muestra_clases
+
+
+x    <- babies$age[!is.na(babies$age)]
+
+x
+
+result <- hist(x, 
+               breaks = 5, 
+               plot=F)
+library(dplyr)
+
+# fi: frecuencia absoluta
+# hi: frecuencia relativa
+# Fi: frecuencia absoluta acumulada
+# Hi: frecuencia relativa acumulada 
+
+
+data.frame(mids=result$mids,
+           fi=result$counts,
+           densidad= result$density)%>%
+  mutate(hi= (fi/sum(result$counts)*100))%>%
+  mutate(Fi= cumsum(fi))%>%
+  mutate(HI= cumsum(fi/sum(result$counts)*100))
+
+hist(classdata$m1)
+hist(babies$age)
+hist(babies$height)
+hist(babies$weight)
+View(head(babies))
+hist(babies$gestation,breaks =20)
+
+hist(age_at_mar$age)
+hist(arbuthnot$year, breaks = 50)
+
+hist(gpa_iq$gpa, freq=FALSE)
+hist(gpa_iq$gpa)
+result <- hist(gpa_iq$gpa, breaks = 5, plot=F)
+library(dplyr)
+
+data.frame(mids=result$mids,
+           fi=result$counts,
+           densidad= result$density
+           )%>%
+  mutate(hi= (fi/sum(result$counts)*100))%>%
+  mutate(Fi= cumsum(fi))%>%
+  mutate(HI= cumsum(fi/sum(result$counts)*100))
+
+
+sum(result$density)
+
+hist(gpa_iq$iq)
+
+hist(sowc_demographics$total_pop_2018)
+
+View(mlb_teams)
+
+hist(life_exp$expectancy)
+plot(life_exp$expectancy ~life_exp$income)
+
+# plots
+credits
+
+# app con seleccion conjunto
+# actualiza variables de tipo numerico
+# selector variable
+# visualiza hist con linea 
+# texto con descripcion conjunto de datos
+plot(bac$beers~bac$bac)
+
+
+
+# examen
+sinusitis
