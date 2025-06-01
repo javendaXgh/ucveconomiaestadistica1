@@ -67,6 +67,8 @@ website:
             text: tarea 4
           - href: tarea_05.qmd
             text: tarea 5
+          - href: tarea_06.qmd
+            text: tarea 6
       - section: "Talleres-Otros"
         contents:
           - href: glos.qmd

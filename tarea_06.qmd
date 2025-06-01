@@ -2,16 +2,10 @@
 title: "tarea 6"
 ---
 
-Construcción IPC compuesto y ponderado
+-   Realizar los ejercicios que se encuentran señalados en el notebook del laboratorio 3
 
--   Ponderación gastos en servicios
+    <https://colab.research.google.com/github/javendaXgh/ucveconomiaestadistica1/blob/main/notebooks/laboratorio_3_tarea_6.ipynb>
 
--   Gastos en alimentación
+-   Si tienen dudas, consulten antes de irse a inteligencias artificiales. la idea es que aprendan y no que sepan copiar y pegar.
 
--   Gastos en vivienda
-
--   Gastos en transporte
-
--   Gastos en salud
-
--   Gastos en educación
+-   Remitir vínculo al google colab notebook por correo electrónico a javenda\@gmail.com con el asunto: tarea 04, su nombre, su ci, antes de la medianoche del lunes 9 de junio. Nota: No debe compartir el link con otros miembros del curso.

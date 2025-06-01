@@ -121,5 +121,5 @@ var_inpc <- ggplot(data_inpc%>%
            group = year))+  
   geom_line( size = 1)
 
-# var_inpc%>%
-#   ggplotly()
+var_inpc%>%
+  ggplotly()
