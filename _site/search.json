@@ -2740,8 +2740,8 @@
     "objectID": "clases/clase_12.html#pendientes-y-asignaciones",
     "href": "clases/clase_12.html#pendientes-y-asignaciones",
     "title": "Estadística I",
-    "section": "",
-    "text": "Lectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
+    "section": "Pendientes y Asignaciones",
+    "text": "Pendientes y Asignaciones\n\nLectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
   },
   {
     "objectID": "clases/clase_12.html#qué-son-los-números-índices",
@@ -3299,5 +3299,33 @@
     "title": "Estadística I",
     "section": "Modelos de Descomposición",
     "text": "Modelos de Descomposición\nDos modelos comunes:\n\nModelo Aditivo:\nYt​=Tt​+St​+Ct​+Rt​\nApropiado cuando la magnitud de los componentes no depende del nivel de la serie.\nModelo Multiplicativo:\nYt​=Tt​×St​×Ct​×Rt​\nApropiado cuando la magnitud de los componentes es proporcional al nivel de la serie.\n\n\n\n\n\n🔗 Estadística 1"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculto-i.f.-año-1",
+    "href": "clases/clase_12.html#ejemplo-cálculto-i.f.-año-1",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculto I.F. año 1",
+    "text": "Ejemplo: Cálculto I.F. año 1\n\n\n\n\n\n\n\n\naño_1\nproducto_a\nproducto_b\nproducto_c\n\n\n\n\nprecio\n2.25\n1.1\n2.1\n\n\ncantidad\n20.00\n20.0\n17.0\n\n\nvalor\n45.00\n22.0\n35.7"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f.-año-2",
+    "href": "clases/clase_12.html#ejemplo-cálculo-i.f.-año-2",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculo I.F. año 2",
+    "text": "Ejemplo: Cálculo I.F. año 2\n\n\n\n\n\n\n\n\naño_2\nproducto_a\nproducto_b\nproducto_c\n\n\n\n\nprecio\n2.35\n1.13\n2.4\n\n\ncantidad\n23.00\n25.00\n14.0\n\n\nvalor\n54.05\n28.25\n33.6"
+  },
+  {
+    "objectID": "clases/clase_12.html#indíce-nacional-de-precios-al-consumidor-bcv",
+    "href": "clases/clase_12.html#indíce-nacional-de-precios-al-consumidor-bcv",
+    "title": "Estadística I",
+    "section": "Indíce Nacional de Precios al Consumidor BCV",
+    "text": "Indíce Nacional de Precios al Consumidor BCV\n\n\n\n\n\n\n\n\n\n\n🔗 Estadística 1"
+  },
+  {
+    "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f.-año-1",
+    "href": "clases/clase_12.html#ejemplo-cálculo-i.f.-año-1",
+    "title": "Estadística I",
+    "section": "Ejemplo: Cálculo I.F. año 1",
+    "text": "Ejemplo: Cálculo I.F. año 1\n\n\n\n\n\n\n\n\naño_1\nproducto_a\nproducto_b\nproducto_c\n\n\n\n\nprecio\n2.25\n1.1\n2.1\n\n\ncantidad\n20.00\n20.0\n17.0\n\n\nvalor\n45.00\n22.0\n35.7"
   }
 ]
