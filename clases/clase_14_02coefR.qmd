@@ -1,0 +1,107 @@
+---
+title: "Estadística I"
+subtitle: "clase 14: coeficiente de correlación de Pearson"
+format: revealjs
+date: "2025/06/03"
+lang: es
+incremental: true
+auto-stretch: false
+fig-align: center
+execute:
+  echo: false
+  eval: true
+  fig-align: center
+---
+
+## Coeficiente de Correlación de Pearson
+
+-   El **coeficiente de correlación de Pearson** ($r$) es una medida estadística que cuantifica la **fuerza** y la **dirección** de la relación lineal entre dos variables cuantitativas.
+-   Es una herramienta fundamental en estadística para entender cómo se mueven dos conjuntos de datos conjuntamente.
+-   El valor de $r$ siempre se encuentra entre -1 y +1.
+
+------------------------------------------------------------------------
+
+## Interpretación del Coeficiente $r$
+
+-   $r > 0$: Indica una correlación **positiva**. A medida que una variable aumenta, la otra tiende a aumentar.
+-   $r < 0$: Indica una correlación **negativa**. A medida que una variable aumenta, la otra tiende a disminuir.
+-   $r \approx 0$: Indica una correlación **débil** o nula entre las variables.
+-   La magnitud de $r$ indica la fuerza de la relación lineal:
+    -   Cercano a $\pm 1$: Correlación lineal fuerte.
+    -   Cercano a 0: Correlación lineal débil.
+
+------------------------------------------------------------------------
+
+## La Fórmula del Coeficiente de Correlación de Pearson
+
+El coeficiente de correlación de Pearson se calcula mediante la siguiente fórmula:
+
+$$r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}}$$
+
+$$r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 }}$$
+
+Donde: \* $n$ es el número de pares de datos. \* $x_i$ y $y_i$ son los valores individuales de las dos variables. \* $\bar{x}$ es la media de los valores de $x$. \* $\bar{y}$ es la media de los valores de $y$.
+
+------------------------------------------------------------------------
+
+## Ejemplo de Cálculo
+
+Consideremos el siguiente conjunto de datos sobre horas de estudio ($X$) y calificaciones obtenidas ($Y$):
+
+| Estudiante | Horas de Estudio ($X$) | Calificación ($Y$) |
+|:----------:|:----------------------:|:------------------:|
+|     1      |           2            |         5          |
+|     2      |           3            |         7          |
+|     3      |           4            |         8          |
+
+## Gráfico de Dispersión
+
+```{r}
+#| echo: false
+#| warning: false
+
+x <- c(2,3,4)
+y <- c(5,7,8)
+plot(x,y,col='blue', 
+     pch=8,
+     cex=4,
+     main='Horas de Estudio Vs. Calificación',
+     xlab= 'horas',
+     ylab='calificación')
+
+```
+
+## Ejemplo de Cálculo-cont.
+
+Vamos a calcular el coeficiente de correlación $r$.
+
+Primero, calculamos las medias:
+
+<br>
+
+$$\bar{x} = \frac{2+3+4}{3} = 3$$
+
+<br>
+
+$$\bar{y} = \frac{5+7+8}{3} \approx 6.67$$
+
+Luego, calculamos los términos necesarios para la fórmula:
+
+## Ejemplo de Cálculo-cont. {style=".small"}
+
+| $x_i$ | $y_i$ | $x_i - \bar{x}$ | $y_i - \bar{y}$ | $(x_i - \bar{x})(y_i - \bar{y})$ | $(x_i - \bar{x})^2$ | $(y_i - \bar{y})^2$ |
+|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|
+| 2 | 5 | -1 | -1.67 | 1.67 | 1 | 2.79 |
+| 3 | 7 | 0 | 0.33 | 0 | 0 | 0.11 |
+| 4 | 8 | 1 | 1.33 | 1.33 | 1 | 1.77 |
+|  |  |  |  | $\sum = 3.00$ | $\sum = 2$ | $\sum = 4.67$ |
+
+------------------------------------------------------------------------
+
+## Resultado del Ejemplo
+
+Sustituyendo los valores en la fórmula:
+
+$$r = \frac{3.00}{\sqrt{2} \sqrt{4.67}} = \frac{3.00}{\sqrt{9.34}} \approx \frac{3.00}{3.06} \approx 0.98$$
+
+-   El valor de $r \approx 0.98$ indica una **correlación lineal positiva muy fuerte** entre las horas de estudio y las calificaciones obtenidas en este pequeño conjunto de datos. Esto sugiere que a mayor número de horas de estudio, tiende a haber una mayor calificación.

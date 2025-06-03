@@ -274,7 +274,7 @@ gt::gt(per_0)
 
 ![]()
 
-## Ejemplo: Cálculto I.F año 1
+## Ejemplo: Cálculo I.F. año 1
 
 ```{r}
 #| echo: false
@@ -287,7 +287,7 @@ gt::gt(per_1)
 
 ![](images/clase12/1_2.png){fig-align="center" width="600"}
 
-## Ejemplo: Cálculo I.F año 2
+## Ejemplo: Cálculo I.F. año 2
 
 ```{r}
 #| echo: false
@@ -330,3 +330,34 @@ ejemplo y capturas de pantallas tomadas de <https://corporatefinanceinstitute.co
 https://www.bolsadecaracas.com
 
 https://www.bcv.org.ve/estadisticas/consumidor
+
+## Indíce Nacional de Precios al Consumidor BCV
+
+```{r}
+#| echo: false
+#| warning: false
+library(DT)
+library(dplyr)
+INPC <- readRDS('/Users/josemiguelavendanoinfante/R/UCV_ECONOMIA_Stats/ucveconomiaestadistica1/data/INPC.rds')
+
+datatable(INPC%>%
+            mutate(var2= round(var2,1),
+                   indice=round(indice,0))%>%
+            select(fecha_nva,indice,var2)%>%
+            rename(variacion=var2,
+                   índice= indice,
+                   fecha= fecha_nva),
+          options = list(
+            dom = 'lrtip',
+            pageLength = 4,
+            autoWidth = FALSE,
+            initComplete = JS(
+              "function(settings, json) {",
+              "$(this.api().table().header()).css({'background-color': '#053C5E','color': '#fff'});",
+              "}"),
+            rownames= FALSE,
+            language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json')#,
+            ))
+
+
+```

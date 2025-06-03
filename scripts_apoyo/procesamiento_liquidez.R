@@ -116,13 +116,54 @@ df_join <- left_join(df_inpc,
   
 View(df_join)
 
+
+
 ggplot(data= df_join,
        aes(x= liquidez_monetaria,
            y= indice,
            colour = mes.x))+
   geom_point( size=2)+
-  scale_x_continuous(transform='log') +
-  scale_y_continuous(transform='log2')+
+  # scale_x_continuous(transform='log') +
+  # scale_y_continuous(transform='log2')+
+  geom_smooth(method='lm')+
   labs(title='Relación Liquidez Monetaria - Índice de Precios',
        x='Liquidez Monetaria',
        y='Índice Nacional de Precios al Consumidor')
+
+write.csv(df_join, 'data/liquidez_inpc.csv', row.names = FALSE)
+
+plot(x= df_join$liquidez_monetaria,
+     y= df_join$indice)
+
+abline(lm(df_join$indice ~ df_join$liquidez_monetaria))
+
+
+model <- lm(df_join$indice ~ df_join$liquidez_monetaria)
+#get list of residuals 
+res <- resid(model)
+
+plot(df_join$liquidez_monetaria,
+     res, 
+     ylab="Residuales",
+     xlab="liquidez_monetaria", 
+     main="Monto Liquidez prediccion inflación") 
+
+abline(0, 0)                  # the horizon
+View(res)
+
+res[2]
+#produce residual vs. fitted plot
+plot(fitted(model), res)
+
+#add a horizontal line at 0 
+abline(0,0)
+
+#create Q-Q plot for residuals
+qqnorm(res)
+
+#add a straight diagonal line to the plot
+qqline(res) 
+
+
+#Create density plot of residuals
+plot(density(res))

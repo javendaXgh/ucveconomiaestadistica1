@@ -182,3 +182,77 @@ datatable(df_inpc%>%
             rownames= FALSE,
             language = list(url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json')#,
             ))
+
+
+library(ggplot2)
+
+# Define la ecuación de la línea recta: y = mx + c
+m <- .85  # Pendiente
+c <- 10  # Intercepto
+
+# Define el rango de valores para x
+x_min <- 0
+x_max <- 20
+
+# Crea un data frame con los valores de x dentro del rango
+df <- data.frame(x = seq(x_min, x_max, length.out = 10))
+
+# Calcula los valores de y correspondientes
+df$y <- m * df$x + c
+
+df <- df%>%
+  mutate(x=round(x,2),
+         y=round(y,2))
+
+# Crea el gráfico con ggplot2
+ggplot(df, aes(x = x, y = y)) +
+  geom_line(color='#c1121f', linewidth=3) +             # Dibuja la línea
+  geom_vline(xintercept = 0, linetype = "dashed", color = "gray") + # Eje y
+  geom_hline(yintercept = 0, linetype = "dashed", color = "gray") + # Eje x
+  labs(title = "Función de Costo Lineal",
+       x = "cantidades producidas",
+       y = "costo total") +
+  theme_bw() +             # Tema con fondo blanco y líneas oscuras
+  scale_x_continuous(limits = c(x_min, x_max)) + # Define los límites del eje x
+  scale_y_continuous(limits = c(0, 30)) + # Define los límites del eje x
+  coord_fixed(ratio = 1)   # Hace que la escala de x e y sea la misma (opcional)
+
+#c= costo fijo
+#m= costo marginal
+
+ggplot(data=cars, aes(x=speed,y= dist))+
+  geom_point(color='#c1121f')+
+  labs(title = "Velocidad ~ Distancia",
+       x = "velocidad",
+       y = "distancia") +
+  theme_bw()
+
+ggplot(data=cars, aes(x=speed,y= dist))+
+  geom_point(color='#c1121f')+
+  # stat_summary(fun.data=mean_cl_normal) + 
+  geom_smooth(method='lm', formula= y~x, se=FALSE)+
+  labs(title = "Conjunto Cars: Velocidad ~ Distancia",
+       x = "velocidad",
+       y = "distancia") +
+  theme_bw()
+
+df_exp <- data.frame(x=1:30)%>%
+  mutate(y=x^1.7)%>%
+  mutate(z=runif(y,y*0.8,y*1.2 ))
+
+# runif(1,-1,20)
+
+ggplot(data=df_exp, aes(x=x,y= y))+
+  geom_line(color='#c1121f', linewidth=3)+
+  geom_point(aes(y=z),color='blue', size=2)
+
+install.packages('ISLR')
+library(ISLR)
+library(openintro)
+ISLR::Wage
+helmet
+loan50
+loans_full_schema
+mammals
+rosling_responses
+plot(x=mammals$body_wt,y= mammals$brain_wt)
