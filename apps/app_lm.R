@@ -4,19 +4,17 @@
 
 
 library(shiny)
-
 library(ggplot2)
 library(dplyr)
 library(broom)
 library(shinythemes)
 library(shinyWidgets)
-library(shinycssloaders)
+# library(shinycssloaders)
 library(shinyjs)
-library(shinyBS)
-library(shinyalert)
+# library(shinyBS)
+# library(shinyalert)
 # library(shinyvalidate)
-library(shinyBS)
-library(shinyFiles)
+# library(shinyFiles)
 library(DT)
 
 # Define UI for application
@@ -63,7 +61,7 @@ ui <- fluidPage(
     mainPanel(
       tabsetPanel(
         tabPanel("Datos",
-                 plotOutput("data_in") %>% withSpinner(),
+                 plotOutput("data_in") ,
                  verbatimTextOutput('correlacion'),
                  dataTableOutput("data_table")),
                  # tableOutput("data_table")),
@@ -75,13 +73,13 @@ ui <- fluidPage(
                  plotOutput('hist2', width = "60%"),
         ),
         tabPanel("Gráf. de Regresión",
-                 plotOutput("regression_plot") %>% withSpinner()),
+                 plotOutput("regression_plot") ),
         tabPanel("Resultados del Modelo",
                  verbatimTextOutput("model_summary")),
         tabPanel("Gráf. de Residuales",
-                 plotOutput("residuals_plot") %>% withSpinner()),
+                 plotOutput("residuals_plot") ),
         tabPanel("Gráf. de Residuales 2",
-                 plotOutput('residuales2') %>% withSpinner(),
+                 plotOutput('residuales2') ,
                  plotOutput('residuales_density'))
       )
     )
@@ -140,7 +138,7 @@ server <- function(input, output, session) {
       df <- data2()
       ggplot(data=df, aes_string(x=input$predictors[1],
                               y= input$response[1]))+
-        geom_point(color='orange', size=2)+
+        geom_point(color='red', size=7)+
         theme_grey()
     })
   })

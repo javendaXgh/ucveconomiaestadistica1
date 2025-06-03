@@ -16,7 +16,7 @@ execute:
 ## Coeficiente de Correlación de Pearson
 
 -   El **coeficiente de correlación de Pearson** ($r$) es una medida estadística que cuantifica la **fuerza** y la **dirección** de la relación lineal entre dos variables cuantitativas.
--   Es una herramienta fundamental en estadística para entender cómo se mueven dos conjuntos de datos conjuntamente.
+-   Es una herramienta fundamental en estadística para entender cómo se mueven dos variables de un mismo cojunto de datos en distintas observaciones.
 -   El valor de $r$ siempre se encuentra entre -1 y +1.
 
 ------------------------------------------------------------------------
