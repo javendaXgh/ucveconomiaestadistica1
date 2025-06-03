@@ -38,8 +38,6 @@ El coeficiente de correlación de Pearson se calcula mediante la siguiente fórm
 
 $$r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2}}$$
 
-$$r = \frac{\sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})}{\sqrt{\sum_{i=1}^{n} (x_i - \bar{x})^2} \sqrt{\sum_{i=1}^{n} (y_i - \bar{y})^2 }}$$
-
 Donde: \* $n$ es el número de pares de datos. \* $x_i$ y $y_i$ son los valores individuales de las dos variables. \* $\bar{x}$ es la media de los valores de $x$. \* $\bar{y}$ es la media de los valores de $y$.
 
 ------------------------------------------------------------------------
