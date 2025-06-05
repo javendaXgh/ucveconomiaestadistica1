@@ -1,0 +1,10 @@
+---
+title: "clase 16: aspectos a desarrollar"
+format: revealjs
+---
+
+## Por Desarrollar
+
+-   **Relación Causal vs. Correlación:** La regresión lineal simple mide la fuerza y dirección de una relación lineal, pero no necesariamente implica causalidad.
+-   **Supuestos:** Para que los estimadores MCO sean BLUE (Best Linear Unbiased Estimators), se deben cumplir ciertos supuestos (linealidad, homoscedasticidad, normalidad de los errores, no autocorrelación, no multicolinealidad perfecta).
+-   **Bondad de Ajuste (**$R^2$): Indica qué proporción de la variabilidad total de $Y$ es explicada por el modelo. Un $R^2$ cercano a 1 indica un buen ajuste.

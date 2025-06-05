@@ -166,7 +166,7 @@ El signo de $r$ es el mismo de la pendiente
 ## Tabla de Interpretación de Coeficientes {style=".small"}
 
 | Rango r | **Interpretación de la Correlación** |
-|:------------------|:----------------------------------------------------|
+|:---|:---|
 | r=+1 | Correlación positiva perfecta. Los puntos se alinean perfectamente en una línea recta ascendente. |
 | 0.7≤r\<1 | Correlación positiva fuerte. Los puntos tienden a agruparse cerca de una línea recta ascendente. |
 | 0.3≤r\<0.7 | Correlación positiva moderada. Se observa una tendencia ascendente, pero con más dispersión. |
@@ -174,7 +174,7 @@ El signo de $r$ es el mismo de la pendiente
 ## Tabla de Interpretación de Coeficientes {style=".small"}
 
 | **Rango r** | **Interpretación de la Correlación** |
-|:------------------|:----------------------------------------------------|
+|:---|:---|
 | 0\<r\<0.3 | Correlación positiva débil. Ligera tendencia ascendente, mucha dispersión. |
 | r=0 | No hay correlación lineal. Las variables no muestran una relación lineal aparente. |
 | −0.3\<r\<0 | Correlación negativa débil. Ligera tendencia descendente, mucha dispersión. |
@@ -182,7 +182,7 @@ El signo de $r$ es el mismo de la pendiente
 ## Tabla de Interpretación de Coeficientes {style=".small"}
 
 | **Rango r** | **Interpretación de la Correlación** |
-|:------------------|:----------------------------------------------------|
+|:---|:---|
 | −0.7\<r≤−0.3 | Correlación negativa moderada. Se observa una tendencia descendente, pero con más dispersión. |
 | −1\<r≤−0.7 | Correlación negativa fuerte. Los puntos tienden a agruparse cerca de una línea recta descendente. |
 | r=−1 | Correlación negativa perfecta. Los puntos se alinean perfectamente en una línea recta descendente. |

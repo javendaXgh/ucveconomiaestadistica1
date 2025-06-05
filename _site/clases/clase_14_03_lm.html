@@ -381,13 +381,27 @@ M.Sc. José Miguel Avendaño I.
 <li class="fragment">“Lo mejor posible” se define como minimizar la suma de los cuadrados de las diferencias verticales entre los valores reales de <span class="math inline">\(Y\)</span> y los valores predichos <span class="math inline">\(\hat{y}\)</span>. Estas diferencias se llaman <strong>errores</strong> o <strong>residuos</strong>.</li>
 </ul>
 </section>
-<section id="el-método-de-mínimos-cuadrados-cont." class="slide level2">
+<section id="el-método-de-mínimos-cuadrados-cont." class="slide level2 small">
 <h2>El Método de Mínimos Cuadrados-cont.</h2>
-<p>Queremos minimizar: <span class="math display">\[\sum_{i=1}^{n} (y_i - \hat{y}_i)^2\]</span></p>
+<p>Queremos minimizar <br><br></p>
+<p><span class="math inline">\(\sum_{i=1}^{n} (y_i - \hat{y}_i)^2\)</span> que es el error cuadrático medio</p>
 <p>dado que = <span class="math display">\[\hat{y}_i=b_0 + b_1 x_i\]</span></p>
 <p>entonces: <br> <span class="math display">\[\sum_{i=1}^{n} (y_i - \hat{y}_i)^2=\sum_{i=1}^{n} (y_i - (b_0 + b_1 x_i))^2\]</span></p>
+<aside class="notes">
+<p>usar aplicación y ver errores</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="fórmulas-para-b_1-y-b_0-mínimos-cuadrados" class="slide level2">
+<section id="fórmulas-para-b_1-y-b_0-mínimos-cuadrados" class="slide level2 small">
 <h2>Fórmulas para <span class="math inline">\(b_1\)</span> y <span class="math inline">\(b_0\)</span> (Mínimos Cuadrados)</h2>
 <p>Las fórmulas para calcular la pendiente (<span class="math inline">\(b_1\)</span>) y la intersección (<span class="math inline">\(b_0\)</span>) que minimizan la suma de los cuadrados de los errores son:</p>
 <ul>

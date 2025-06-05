@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="M.Sc. José Miguel Avendaño I.">
-  <meta name="dcterms.date" content="2025-06-03">
+  <meta name="dcterms.date" content="2025-06-05">
   <title>UCV Economía Estadística I – Estadística I</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -334,7 +334,7 @@
     }
   </style>
 <meta property="og:title" content="Estadística I – UCV Economía Estadística I">
-<meta property="og:description" content="clase 14: Correlación">
+<meta property="og:description" content="Clase 15: Regresión Lineal Simple">
 <meta property="og:site_name" content="UCV Economía Estadística I">
 </head>
 <body class="quarto-light">
@@ -343,7 +343,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Estadística I</h1>
-  <p class="subtitle">clase 14: Correlación</p>
+  <p class="subtitle">Clase 15: Regresión Lineal Simple</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -356,267 +356,265 @@ M.Sc. José Miguel Avendaño I.
     </div>
 </div>
 
-  <p class="date">2025-06-03</p>
+  <p class="date">2025-06-05</p>
 </section>
-<section id="repaso" class="slide level2 small" style=".small">
-<h2>Repaso</h2>
-<p><strong>Ecuaciones:</strong> afirmaciones matemáticas que establecen una igualdad entre dos expresiones. Ejemplo <span class="math inline">\(y = c + mx\)</span></p>
-<p>Siendo <span class="math inline">\(c = 10\)</span> y <span class="math inline">\(m=1\)</span> se puede representar la recta de la ecuación anterior</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="representaciones-de-ecuaciones-lineales-según-la-pendiente" class="slide level2">
-<h2>Representaciones de Ecuaciones Lineales Según la Pendiente</h2>
-<p>Siendo <span class="math inline">\(m\)</span> la pendiente tenemos</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/representaciones_lineales.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<p>Pendiente positiva <span class="math inline">\(m&gt;0\)</span> ➡️ <strong><em>línea creciente</em></strong></p>
-<p>Pendiente cero <span class="math inline">\(m=0\)</span> ➡️ <strong><em>línea paralela al eje de las</em></strong> <span class="math inline">\(x\)</span></p>
-<p>Pendiente negativa <span class="math inline">\(m&lt;0\)</span> ➡️ <strong><em>línea decreciente</em></strong></p>
-</section>
-<section id="observaciones" class="slide level2">
-<h2>Observaciones</h2>
-<p>En un conjunto de datos una observación es una única medición que se registra para una o varias características específicas de un elemento o entidad.</p>
-<h4 id="ejemplo-conjunto-de-datos-cars">Ejemplo Conjunto de Datos <code>Cars</code></h4>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: right;">speed</th>
-<th style="text-align: right;">dist</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">10</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">4</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">22</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="gráficos-de-dispersión" class="slide level2">
-<h2>Gráficos de Dispersión</h2>
-<p>Para dos variables (bivariable) <code>speed</code> y <code>dist</code> se hace la representación de un gráfico de dispersión</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="encontrar-la-línea" class="slide level2">
-<h2>Encontrar la Línea</h2>
-<p>Queremos encontrar una función que pueda explicar una relación que parecieran tener las variables</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="relaciones-curvas-que-no-estudiaremos" class="slide level2">
-<h2>Relaciones (curvas) que No Estudiaremos</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplo-de-ajuste-de-curva-no-abordado" class="slide level2">
-<h2>Ejemplo de Ajuste de Curva (no abordado)</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="para-qué-queremos-una-función-que-permita-el-ajuste" class="slide level2">
-<h2>¿Para qué queremos una función que permita el ajuste?</h2>
+<section id="introducción-a-la-regresión-lineal-simple" class="slide level2">
+<h2>Introducción a la Regresión Lineal Simple</h2>
 <ul>
-<li class="fragment"><p>Explicar las relaciones matemáticamente</p></li>
-<li class="fragment"><p><strong>Prededir</strong></p></li>
+<li class="fragment">La <strong>regresión lineal simple</strong> busca modelar la relación lineal entre una variable dependiente (<span class="math inline">\(Y\)</span>) y una variable independiente (<span class="math inline">\(X\)</span>).</li>
+<li class="fragment">El objetivo es encontrar la “mejor” línea recta que describa cómo cambia <span class="math inline">\(Y\)</span> en función de <span class="math inline">\(X\)</span>, equivalente a predecir el valor de la variable dependiente basándose en el valor de la variable independiente.</li>
 </ul>
-<h3 id="relaciones-causales">Relaciones Causales:</h3>
+<p>Esta línea se representa con la ecuación: <span class="math display">\[\hat{y} = \beta_0 + \beta_1 x\]</span></p>
+</section>
+<section id="compuesta-por" class="slide level2">
+<h2>Compuesta por</h2>
+<p>El modelo de R.L.S., <span class="math inline">\(\hat{y} = \beta_0 + \beta_1 x\)</span> , está compuesto por</p>
 <ul>
-<li class="fragment"><p>el que dos variables muestren asociación, no implica causación</p></li>
-<li class="fragment"><p>buscar determinar cuál es la causa y cuál es el efecto</p></li>
+<li class="fragment"><p><span class="math inline">\(\hat{y}\)</span> es el valor predicho de <span class="math inline">\(Y\)</span>,</p></li>
+<li class="fragment"><p><span class="math inline">\(\beta_0\)</span> es la intersección con el eje <span class="math inline">\(Y\)</span>, y</p></li>
+<li class="fragment"><p><span class="math inline">\(\beta_1\)</span> es la pendiente.</p></li>
 </ul>
 </section>
-<section id="correlaciones" class="slide level2">
-<h2>Correlaciones</h2>
-<p>La <strong>correlación</strong> examina cómo se relacionan linealmente dos variables cuantitativas. Su&nbsp;<strong>fuerza</strong>&nbsp;(débil o fuerte) y su&nbsp;<strong>dirección</strong>&nbsp;(positiva o negativa) se miden con un coeficiente, el cual evalúa el grado en que los puntos de datos se aproximan a una línea recta.</p>
+<section id="regresión-lineal-simple-en-la-economía" class="slide level2">
+<h2>Regresión Lineal Simple en la Economía</h2>
+<p>Entender cómo cambios en una variable (ej. inversión) afectan a otra (ej. crecimiento del PIB).</p>
 </section>
-<section id="coeficiente-de-correlación-de-pearson" class="slide level2">
-<h2><strong>Coeficiente de Correlación (de Pearson):</strong></h2>
-<p>El&nbsp;<strong>coeficiente de correlación de Pearson</strong>&nbsp;(ρ&nbsp;para la población y&nbsp;r&nbsp;para la muestra) es una medida estadística que cuantifica la&nbsp;<strong>fuerza</strong>&nbsp;y la&nbsp;<strong>dirección</strong>&nbsp;de la relación lineal entre dos variables cuantitativas.</p>
-<p>Indica en qué medida los cambios en una variable están asociados con cambios proporcionales en la otra.</p>
+<section id="modelo-de-regresión-lineal-simple" class="slide level2 small">
+<h2>Modelo de Regresión Lineal Simple</h2>
+<ul>
+<li class="fragment"><p><strong>Ecuación:</strong> La relación lineal se representa mediante la siguiente ecuación:</p>
+<p><span class="math display">\[Y_i = \beta_0 + \beta_1 X_i + \epsilon_i\]</span></p>
+<p>Donde:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(Y_i\)</span>: Es el valor observado de la variable dependiente para la observación <span class="math inline">\(i\)</span>.</li>
+<li class="fragment"><span class="math inline">\(X_i\)</span>: Es el valor observado de la variable independiente para la observación <span class="math inline">\(i\)</span>.</li>
+<li class="fragment"><span class="math inline">\(\beta_0\)</span>: Es el <strong>intercepto</strong> (o constante), que representa el valor esperado de <span class="math inline">\(Y\)</span> cuando <span class="math inline">\(X\)</span> es 0.</li>
+<li class="fragment"><span class="math inline">\(\beta_1\)</span>: Es la <strong>pendiente</strong>, que representa el cambio promedio en <span class="math inline">\(Y\)</span> por cada unidad de cambio en <span class="math inline">\(X\)</span>.</li>
+<li class="fragment"><span class="math inline">\(\epsilon_i\)</span>: Es el <strong>término de error</strong> (o residual), que captura la variación en <span class="math inline">\(Y\)</span> no explicada por <span class="math inline">\(X\)</span> y otros factores no observados.</li>
+</ul></li>
+</ul>
 </section>
-<section id="rango-del-coeficiente-de-correlación" class="slide level2">
-<h2><strong>Rango del Coeficiente de Correlación:</strong></h2>
-<p>El coeficiente de correlación de Pearson siempre toma un valor entre&nbsp;<strong>-1 y +1</strong>, inclusive:</p>
-<p><span class="math display">\[−1≤r≤+1\]</span></p>
-<p>El signo de <span class="math inline">\(r\)</span> es el mismo de la pendiente</p>
+<section id="interpretación-de-los-coeficientes" class="slide level2">
+<h2>Interpretación de los Coeficientes</h2>
+<ul>
+<li class="fragment"><span class="math inline">\(\beta_0\)</span> (Intercepto):
+<ul>
+<li class="fragment"><strong>Lectura:</strong> “Cuando la variable independiente (<span class="math inline">\(X\)</span>) es cero, el valor esperado de la variable dependiente (<span class="math inline">\(Y\)</span>) es <span class="math inline">\(\beta_0\)</span>.”</li>
+<li class="fragment"><strong>Consideraciones:</strong> No siempre tiene una interpretación práctica significativa, especialmente si <span class="math inline">\(X=0\)</span> no es un valor posible o relevante en el contexto.</li>
+</ul></li>
+<li class="fragment"><span class="math inline">\(\beta_1\)</span> (Pendiente):
+<ul>
+<li class="fragment"><strong>Lectura:</strong> “Por cada aumento de una unidad en la variable independiente (<span class="math inline">\(X\)</span>), se espera que la variable dependiente (<span class="math inline">\(Y\)</span>) cambie en <span class="math inline">\(\beta_1\)</span> unidades, manteniendo todo lo demás constante.”</li>
+<li class="fragment"><strong>Signo:</strong>
+<ul>
+<li class="fragment">Si <span class="math inline">\(\beta_1 &gt; 0\)</span>: Relación positiva (aumenta <span class="math inline">\(X\)</span>, aumenta <span class="math inline">\(Y\)</span>).</li>
+<li class="fragment">Si <span class="math inline">\(\beta_1 &lt; 0\)</span>: Relación negativa (aumenta <span class="math inline">\(X\)</span>, disminuye <span class="math inline">\(Y\)</span>).</li>
+<li class="fragment">Si <span class="math inline">\(\beta_1 \approx 0\)</span>: No hay relación lineal.</li>
+</ul></li>
+</ul></li>
+</ul>
 </section>
-<section id="tabla-de-interpretación-de-coeficientes" class="slide level2" style=".small">
-<h2>Tabla de Interpretación de Coeficientes</h2>
+<section id="el-método-de-mínimos-cuadrados" class="slide level2">
+<h2>El Método de Mínimos Cuadrados</h2>
+<ul>
+<li class="fragment">El método de <strong>mínimos cuadrados</strong> se utiliza para encontrar los valores de <span class="math inline">\(beta_0\)</span> y <span class="math inline">\(beta_1\)</span> que hacen que la línea de regresión se ajuste lo mejor posible a los datos observados.</li>
+<li class="fragment">“Lo mejor posible” se define como minimizar la suma de los cuadrados de las diferencias verticales entre los valores reales de <span class="math inline">\(Y\)</span> y los valores predichos <span class="math inline">\(\hat{y}\)</span>. Estas diferencias se llaman <strong>errores</strong> o <strong>residuos</strong>.</li>
+</ul>
+</section>
+<section id="el-método-de-mínimos-cuadrados-cont." class="slide level2 small">
+<h2>El Método de Mínimos Cuadrados-cont.</h2>
+<p>Queremos minimizar <br><br></p>
+<p><span class="math inline">\(\sum_{i=1}^{n} (y_i - \hat{y}_i)^2\)</span> que es el error cuadrático medio</p>
+<p>dado que = <span class="math display">\[\hat{Y}_i = \hat{\beta}_0 + \hat{\beta}_1 X_i\]</span></p>
+<p>entonces: <br> <span class="math display">\[\sum_{i=1}^{n} (y_i - \hat{y}_i)^2=\sum_{i=1}^{n} (y_i - (\hat{\beta}_0 + \hat{\beta}_1 X_i))^2\]</span></p>
+<p>Donde: &nbsp;</p>
+<ul>
+<li class="fragment"><p><span class="math inline">\(\hat{Y}_i\)</span>: Es el valor predicho de <span class="math inline">\(Y\)</span> para una <span class="math inline">\(X_i\)</span> dada. &nbsp;</p></li>
+<li class="fragment"><p><span class="math inline">\(\hat{\beta}_0\)</span>: Es la estimación del intercepto. &nbsp;</p></li>
+<li class="fragment"><p><span class="math inline">\(\hat{\beta}_1\)</span>: Es la estimación de la pendiente.</p></li>
+</ul>
+<aside class="notes">
+<p>usar aplicación y ver errores</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="fórmulas-para-el-cálculo-de-los-coeficientesmínimos-cuadrados" class="slide level2 small">
+<h2>Fórmulas para el Cálculo de los Coeficientes(Mínimos Cuadrados)</h2>
+<p>Las fórmulas para calcular la pendiente (<span class="math inline">\(beta_1\)</span>) y la intersección (<span class="math inline">\(beta_0\)</span>) que minimizan la suma de los cuadrados de los errores son:</p>
+<p><strong>Estimación de la Pendiente (</strong><span class="math inline">\(\hat{\beta}_1\)</span>):</p>
+<p><span class="math display">\[\hat{\beta}_1 = \frac{\sum_{i=1}^{n}(X_i - \bar{X})(Y_i - \bar{Y})}{\sum_{i=1}^{n}(X_i - \bar{X})^2}\]</span></p>
+<p>O su forma equivalente:</p>
+<p><span class="math display">\[\hat{\beta}_1 = \frac{n \sum_{i=1}^{n} X_i Y_i - (\sum_{i=1}^{n} X_i)(\sum_{i=1}^{n} Y_i)}{n \sum_{i=1}^{n} X_i^2 - (\sum_{i=1}^{n} X_i)^2}\]</span></p>
+<p>Donde:</p>
+<ul>
+<li class="fragment"><p><span class="math inline">\(\bar{X}\)</span>: Media de <span class="math inline">\(X\)</span>.</p></li>
+<li class="fragment"><p><span class="math inline">\(\bar{Y}\)</span>: Media de <span class="math inline">\(Y\)</span>.</p></li>
+<li class="fragment"><p><span class="math inline">\(n\)</span>: Número de observaciones.</p></li>
+</ul>
+</section>
+<section id="fórmulas-para-el-cálculo-de-los-coeficientes-mínimos-cuadrados-cont." class="slide level2">
+<h2>Fórmulas para el Cálculo de los Coeficientes (Mínimos Cuadrados)-cont.</h2>
+<ul>
+<li class="fragment"><p><strong>Estimación del Intercepto (</strong><span class="math inline">\(\hat{\beta}_0\)</span>):</p>
+<p><span class="math display">\[\hat{\beta}_0 = \bar{Y} - \hat{\beta}_1 \bar{X}\]</span></p></li>
+</ul>
+</section>
+<section id="mínimo-de-sum_i1n-y_i---haty_i2-por-derivada" class="slide level2">
+<h2>Mínimo de <span class="math inline">\(\sum_{i=1}^{n} (y_i - \hat{y}_i)^2\)</span> por Derivada</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/clase15/optimo.gif" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</section>
+<section id="lectura-de-un-resultado-de-regresión" class="slide level2">
+<h2>Lectura de un Resultado de Regresión</h2>
+<ul>
+<li class="fragment"><p><strong>Ejemplo :</strong> Supongamos que regresamos “Gasto en Consumo (<span class="math inline">\(Y\)</span>)” sobre “Ingreso Disponible (<span class="math inline">\(X\)</span>)” y obtenemos:</p>
+<p><span class="math display">\[\text{Gasto en Consumo} = 100 + 0.75 \times \text{Ingreso Disponible}\]</span></p></li>
+<li class="fragment"><p><strong>Interpretación:</strong></p>
+<ul>
+<li class="fragment"><strong>Intercepto (100):</strong> Si el ingreso disponible es cero (situación hipotética), el gasto en consumo estimado es de 100 unidades monetarias.</li>
+<li class="fragment"><strong>Pendiente (0.75):</strong> Por cada aumento de una unidad monetaria en el ingreso disponible, se espera que el gasto en consumo aumente en 0.75 unidades monetarias, en promedio. Esto también puede interpretarse como que el 75% de cada unidad monetaria adicional de ingreso se destina al consumo (Propensión Marginal a Consumir).</li>
+</ul></li>
+</ul>
+</section>
+<section id="ejemplo-de-cálculo" class="slide level2">
+<h2>Ejemplo de Cálculo</h2>
+<p>Consideremos los siguientes datos sobre el número de horas dedicadas a un proyecto (<span class="math inline">\(X\)</span>) y la calificación obtenida (<span class="math inline">\(Y\)</span>):</p>
 <table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;">Rango r</th>
-<th style="text-align: left;"><strong>Interpretación de la Correlación</strong></th>
+<th style="text-align: center;">Estudiante</th>
+<th style="text-align: center;">Horas (<span class="math inline">\(X\)</span>)</th>
+<th style="text-align: center;">Calificación (<span class="math inline">\(Y\)</span>)</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">r=+1</td>
-<td style="text-align: left;">Correlación positiva perfecta. Los puntos se alinean perfectamente en una línea recta ascendente.</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">0.7≤r&lt;1</td>
-<td style="text-align: left;">Correlación positiva fuerte. Los puntos tienden a agruparse cerca de una línea recta ascendente.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">0.3≤r&lt;0.7</td>
-<td style="text-align: left;">Correlación positiva moderada. Se observa una tendencia ascendente, pero con más dispersión.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
 </tr>
 </tbody>
 </table>
+<p>Nuestro objetivo es encontrar la línea de regresión lineal que mejor se ajuste a estos puntos.</p>
 </section>
-<section id="tabla-de-interpretación-de-coeficientes-1" class="slide level2" style=".small">
-<h2>Tabla de Interpretación de Coeficientes</h2>
-<table class="caption-top">
+<section id="gráfico-de-dispersión" class="slide level2">
+<h2>Gráfico de Dispersión</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure>
+<p><img data-src="clase_15_01_lm_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="cálculo-de-beta_1-y-beta_0" class="slide level2">
+<h2>Cálculo de <span class="math inline">\(beta_1\)</span> y <span class="math inline">\(beta_0\)</span></h2>
+<p>Primero, calculamos las medias:</p>
+<p><br><br></p>
+<p><span class="math inline">\(\bar{x} = \frac{1 + 2 + 3}{3} = 2\)</span></p>
+<p><br><br></p>
+<p><span class="math inline">\(\bar{y} = \frac{2+4+5}{3} = \frac{11}{3} \approx 3.67\)</span></p>
+</section>
+<section id="cálculo-de-beta_1-y-beta_0---cont" class="slide level2">
+<h2>Cálculo de <span class="math inline">\(\beta_1\)</span> y <span class="math inline">\(\beta_0\)</span> - cont:</h2>
+<p>Ahora, calculamos los términos necesarios para <span class="math inline">\(\beta_1\)</span>:</p>
+<p><br></p>
+<table class="caption-top" style="width:100%;">
 <colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 16%">
 </colgroup>
 <thead>
 <tr class="header">
-<th style="text-align: left;"><strong>Rango r</strong></th>
-<th style="text-align: left;"><strong>Interpretación de la Correlación</strong></th>
+<th style="text-align: center;"><span class="math inline">\(x_i\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(y_i\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(x_i - \bar{x}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\(y_i - \bar{y}\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((x_i - \bar{x})(y_i - \bar{y})\)</span></th>
+<th style="text-align: center;"><span class="math inline">\((x_i - \bar{x})^2\)</span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">0&lt;r&lt;0.3</td>
-<td style="text-align: left;">Correlación positiva débil. Ligera tendencia ascendente, mucha dispersión.</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">-1</td>
+<td style="text-align: center;">-1.67</td>
+<td style="text-align: center;">1.67</td>
+<td style="text-align: center;">1</td>
 </tr>
 <tr class="even">
-<td style="text-align: left;">r=0</td>
-<td style="text-align: left;">No hay correlación lineal. Las variables no muestran una relación lineal aparente.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0.33</td>
+<td style="text-align: center;">0</td>
+<td style="text-align: center;">0</td>
 </tr>
 <tr class="odd">
-<td style="text-align: left;">−0.3&lt;r&lt;0</td>
-<td style="text-align: left;">Correlación negativa débil. Ligera tendencia descendente, mucha dispersión.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">1.33</td>
+<td style="text-align: center;">1.33</td>
+<td style="text-align: center;">1</td>
+</tr>
+<tr class="even">
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><span class="math inline">\(\sum = 3.00\)</span></td>
+<td style="text-align: center;"><span class="math inline">\(\sum = 2\)</span></td>
 </tr>
 </tbody>
 </table>
 </section>
-<section id="tabla-de-interpretación-de-coeficientes-2" class="slide level2" style=".small">
-<h2>Tabla de Interpretación de Coeficientes</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Rango r</strong></th>
-<th style="text-align: left;"><strong>Interpretación de la Correlación</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">−0.7&lt;r≤−0.3</td>
-<td style="text-align: left;">Correlación negativa moderada. Se observa una tendencia descendente, pero con más dispersión.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">−1&lt;r≤−0.7</td>
-<td style="text-align: left;">Correlación negativa fuerte. Los puntos tienden a agruparse cerca de una línea recta descendente.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">r=−1</td>
-<td style="text-align: left;">Correlación negativa perfecta. Los puntos se alinean perfectamente en una línea recta descendente.</td>
-</tr>
-</tbody>
-</table>
+<section id="cálculo-de-beta_1-y-beta_0---cont-1" class="slide level2">
+<h2>Cálculo de <span class="math inline">\(\beta_1\)</span> y <span class="math inline">\(\beta_0\)</span> - cont:</h2>
+<p>Calculamos <span class="math inline">\(\beta_1\)</span>: <span class="math display">\[\beta_1 = \frac{3.00}{2} = 1.5\]</span></p>
+<p>Ahora, calculamos <span class="math inline">\(\beta_0\)</span>: <span class="math display">\[\beta_0 = \bar{y} - \beta_1 \bar{x} = 3.67 - (1.5)(2) = 3.67 - 3 = 0.67\]</span></p>
 </section>
-<section id="ejemplos-de-coeficientes-de-correlación" class="slide level2">
-<h2>Ejemplos de Coeficientes de Correlación</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/ejemplos_r.png" width="900"></p>
-<figcaption>imagen tomada del libro OpenIntro Statistics, David Diez</figcaption>
-</figure>
-</div>
+<section id="la-línea-de-regresión" class="slide level2">
+<h2>La Línea de Regresión</h2>
+<p>La ecuación de la línea de regresión lineal obtenida por el método de mínimos cuadrados es:</p>
+<p><span class="math display">\[\hat{y} = 0.67 + 1.5 x\]</span></p>
+<p>Esta ecuación nos permite predecir la calificación (<span class="math inline">\(\hat{y}\)</span>) dado el número de horas dedicadas al proyecto (<span class="math inline">\(x\)</span>), basándonos en el modelo lineal ajustado a nuestros datos.</p>
 </section>
-<section>
-<section id="ejercicios" class="title-slide slide level1 center">
-<h1>Ejercicios</h1>
-
-</section>
-<section id="cuál-línea-se-adapta-mejor" class="slide level2">
-<h2>1 ¿Cuál línea se Adapta Mejor?</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/eyeballing.png" width="700"></p>
-<figcaption>imagen tomada del libro OpenIntro Statistics, David Diez</figcaption>
-</figure>
-</div>
-</section>
-<section id="cuarteto-de-anscombe" class="slide level2">
-<h2>2. Cuarteto de Anscombe</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/Anscombe.svg.png" class="quarto-figure quarto-figure-center" width="900"></p>
-</figure>
-</div>
-<p>más info en <a href="https://es.wikipedia.org/wiki/Cuarteto_de_Anscombe" class="uri">https://es.wikipedia.org/wiki/Cuarteto_de_Anscombe</a></p>
-</section>
-<section id="determinar-variables-respuesta-tipo-de-relación-presente" class="slide level2">
-<h2>3. Determinar variables respuesta, tipo de relación presente</h2>
+<section id="usos-de-la-rl" class="slide level2">
+<h2>Usos de la RL</h2>
+<ul>
+<li class="fragment">Evaluar relaciones entre dos variables</li>
+<li class="fragment">Predecir</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <p><img src="images/logo2.png" class="slide-logo"></p>
@@ -624,7 +622,7 @@ M.Sc. José Miguel Avendaño I.
 <p><a href="https://ucveconomia-estadistica1.netlify.app/">🔗 Estadística 1</a></p>
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 

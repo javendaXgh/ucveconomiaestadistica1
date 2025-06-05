@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="M.Sc. José Miguel Avendaño I.">
-  <meta name="dcterms.date" content="2025-06-03">
+  <meta name="dcterms.date" content="2025-06-05">
   <title>UCV Economía Estadística I – Estadística I</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
@@ -334,7 +334,7 @@
     }
   </style>
 <meta property="og:title" content="Estadística I – UCV Economía Estadística I">
-<meta property="og:description" content="clase 14: Correlación">
+<meta property="og:description" content="Clase 15: \(R^2\) (Coeficiente de Determinación)">
 <meta property="og:site_name" content="UCV Economía Estadística I">
 </head>
 <body class="quarto-light">
@@ -343,7 +343,7 @@
 
 <section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Estadística I</h1>
-  <p class="subtitle">clase 14: Correlación</p>
+  <p class="subtitle">Clase 15: <span class="math inline">\(R^2\)</span> (Coeficiente de Determinación)</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -356,267 +356,150 @@ M.Sc. José Miguel Avendaño I.
     </div>
 </div>
 
-  <p class="date">2025-06-03</p>
+  <p class="date">2025-06-05</p>
 </section>
-<section id="repaso" class="slide level2 small" style=".small">
-<h2>Repaso</h2>
-<p><strong>Ecuaciones:</strong> afirmaciones matemáticas que establecen una igualdad entre dos expresiones. Ejemplo <span class="math inline">\(y = c + mx\)</span></p>
-<p>Siendo <span class="math inline">\(c = 10\)</span> y <span class="math inline">\(m=1\)</span> se puede representar la recta de la ecuación anterior</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-1-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="representaciones-de-ecuaciones-lineales-según-la-pendiente" class="slide level2">
-<h2>Representaciones de Ecuaciones Lineales Según la Pendiente</h2>
-<p>Siendo <span class="math inline">\(m\)</span> la pendiente tenemos</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/representaciones_lineales.png" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<p>Pendiente positiva <span class="math inline">\(m&gt;0\)</span> ➡️ <strong><em>línea creciente</em></strong></p>
-<p>Pendiente cero <span class="math inline">\(m=0\)</span> ➡️ <strong><em>línea paralela al eje de las</em></strong> <span class="math inline">\(x\)</span></p>
-<p>Pendiente negativa <span class="math inline">\(m&lt;0\)</span> ➡️ <strong><em>línea decreciente</em></strong></p>
-</section>
-<section id="observaciones" class="slide level2">
-<h2>Observaciones</h2>
-<p>En un conjunto de datos una observación es una única medición que se registra para una o varias características específicas de un elemento o entidad.</p>
-<h4 id="ejemplo-conjunto-de-datos-cars">Ejemplo Conjunto de Datos <code>Cars</code></h4>
-<div class="cell">
-<div class="cell-output-display">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: right;">speed</th>
-<th style="text-align: right;">dist</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">2</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">4</td>
-<td style="text-align: right;">10</td>
-</tr>
-<tr class="odd">
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">4</td>
-</tr>
-<tr class="even">
-<td style="text-align: right;">7</td>
-<td style="text-align: right;">22</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-</section>
-<section id="gráficos-de-dispersión" class="slide level2">
-<h2>Gráficos de Dispersión</h2>
-<p>Para dos variables (bivariable) <code>speed</code> y <code>dist</code> se hace la representación de un gráfico de dispersión</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="encontrar-la-línea" class="slide level2">
-<h2>Encontrar la Línea</h2>
-<p>Queremos encontrar una función que pueda explicar una relación que parecieran tener las variables</p>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="relaciones-curvas-que-no-estudiaremos" class="slide level2">
-<h2>Relaciones (curvas) que No Estudiaremos</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="ejemplo-de-ajuste-de-curva-no-abordado" class="slide level2">
-<h2>Ejemplo de Ajuste de Curva (no abordado)</h2>
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="clase_14_01correlaciones_files/figure-revealjs/unnamed-chunk-6-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</section>
-<section id="para-qué-queremos-una-función-que-permita-el-ajuste" class="slide level2">
-<h2>¿Para qué queremos una función que permita el ajuste?</h2>
+<section id="r2" class="slide level2">
+<h2><span class="math inline">\(R^2\)</span></h2>
 <ul>
-<li class="fragment"><p>Explicar las relaciones matemáticamente</p></li>
-<li class="fragment"><p><strong>Prededir</strong></p></li>
-</ul>
-<h3 id="relaciones-causales">Relaciones Causales:</h3>
-<ul>
-<li class="fragment"><p>el que dos variables muestren asociación, no implica causación</p></li>
-<li class="fragment"><p>buscar determinar cuál es la causa y cuál es el efecto</p></li>
+<li class="fragment"><p>Medida estadística que representa la proporción de la varianza de la variable dependiente (<span class="math inline">\(Y\)</span>) que es predecible a partir de la variable independiente (<span class="math inline">\(X\)</span>) en un modelo de regresión lineal.</p></li>
+<li class="fragment"><p>Forma rápida de indicar lo bien que el modelo de regresión se ajusta a los datos observados.</p></li>
+<li class="fragment"><p>Su valor siempre se encuentra entre <strong>0</strong> y <strong>1</strong> (o 0% y 100%).</p></li>
 </ul>
 </section>
-<section id="correlaciones" class="slide level2">
-<h2>Correlaciones</h2>
-<p>La <strong>correlación</strong> examina cómo se relacionan linealmente dos variables cuantitativas. Su&nbsp;<strong>fuerza</strong>&nbsp;(débil o fuerte) y su&nbsp;<strong>dirección</strong>&nbsp;(positiva o negativa) se miden con un coeficiente, el cual evalúa el grado en que los puntos de datos se aproximan a una línea recta.</p>
+<section id="importancia" class="slide level2">
+<h2>Importancia</h2>
+<ul>
+<li class="fragment">En economía, <span class="math inline">\(R^2\)</span> nos ayuda a entender la capacidad predictiva de nuestros modelos.</li>
+<li class="fragment">Por ejemplo, si estamos modelando el consumo en función del ingreso, un <span class="math inline">\(R^2\)</span> alto indicaría que el ingreso explica una gran parte de la variabilidad del consumo.</li>
+<li class="fragment">Nos permite evaluar la “bondad de ajuste” de nuestro modelo antes de sacar conclusiones sobre las relaciones entre variables económicas.</li>
+</ul>
 </section>
-<section id="coeficiente-de-correlación-de-pearson" class="slide level2">
-<h2><strong>Coeficiente de Correlación (de Pearson):</strong></h2>
-<p>El&nbsp;<strong>coeficiente de correlación de Pearson</strong>&nbsp;(ρ&nbsp;para la población y&nbsp;r&nbsp;para la muestra) es una medida estadística que cuantifica la&nbsp;<strong>fuerza</strong>&nbsp;y la&nbsp;<strong>dirección</strong>&nbsp;de la relación lineal entre dos variables cuantitativas.</p>
-<p>Indica en qué medida los cambios en una variable están asociados con cambios proporcionales en la otra.</p>
+<section id="interpretación-del-valor-de-r2" class="slide level2 small">
+<h2>Interpretación del valor de <span class="math inline">\(R^2\)</span></h2>
+<ul>
+<li class="fragment"><p><span class="math inline">\(R^2 = 0\)</span>: El modelo de regresión no explica absolutamente nada de la variabilidad de la variable dependiente. Las variables independientes no tienen ningún poder predictivo.</p></li>
+<li class="fragment"><p><span class="math inline">\(R^2 = 1\)</span>: El modelo de regresión explica el 100% de la variabilidad de la variable dependiente. Todas las observaciones se encuentran exactamente sobre la línea de regresión. Esto es extremadamente raro en datos económicos reales.</p></li>
+<li class="fragment"><p><span class="math inline">\(0 &lt; R^2 &lt; 1\)</span>: Indica que el modelo explica una parte de la variabilidad de la variable dependiente.</p></li>
+</ul>
 </section>
-<section id="rango-del-coeficiente-de-correlación" class="slide level2">
-<h2><strong>Rango del Coeficiente de Correlación:</strong></h2>
-<p>El coeficiente de correlación de Pearson siempre toma un valor entre&nbsp;<strong>-1 y +1</strong>, inclusive:</p>
-<p><span class="math display">\[−1≤r≤+1\]</span></p>
-<p>El signo de <span class="math inline">\(r\)</span> es el mismo de la pendiente</p>
+<section id="ejemplo" class="slide level2">
+<h2>Ejemplo:</h2>
+<ul>
+<li class="fragment">Si <span class="math inline">\(R^2 = 0.60\)</span> (o 60%), significa que el 60% de la variabilidad total de la variable dependiente puede ser explicada por las variables independientes incluidas en el modelo. El 40% restante es variabilidad no explicada (residual).</li>
+</ul>
 </section>
-<section id="tabla-de-interpretación-de-coeficientes" class="slide level2" style=".small">
-<h2>Tabla de Interpretación de Coeficientes</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">Rango r</th>
-<th style="text-align: left;"><strong>Interpretación de la Correlación</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">r=+1</td>
-<td style="text-align: left;">Correlación positiva perfecta. Los puntos se alinean perfectamente en una línea recta ascendente.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">0.7≤r&lt;1</td>
-<td style="text-align: left;">Correlación positiva fuerte. Los puntos tienden a agruparse cerca de una línea recta ascendente.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">0.3≤r&lt;0.7</td>
-<td style="text-align: left;">Correlación positiva moderada. Se observa una tendencia ascendente, pero con más dispersión.</td>
-</tr>
-</tbody>
-</table>
+<section id="consideraciones-importantes-al-interpretar-r2" class="slide level2 small">
+<h2>Consideraciones importantes al interpretar <span class="math inline">\(R^2\)</span></h2>
+<ul>
+<li class="fragment">Un <span class="math inline">\(R^2\)</span> alto no siempre significa que el modelo es “bueno” o que las variables independientes son las únicas causas. Puede haber causalidad inversa, variables omitidas, etc.</li>
+<li class="fragment">Un <span class="math inline">\(R^2\)</span> bajo no siempre significa que el modelo es “malo”. En algunas áreas de la economía, donde hay mucha variabilidad no controlada, un <span class="math inline">\(R^2\)</span> de 0.20 o 0.30 puede ser considerado aceptable.</li>
+<li class="fragment"><span class="math inline">\(R^2\)</span> tiende a aumentar con cada variable independiente que se añade al modelo, incluso si esa variable no es estadísticamente significativa.</li>
+</ul>
 </section>
-<section id="tabla-de-interpretación-de-coeficientes-1" class="slide level2" style=".small">
-<h2>Tabla de Interpretación de Coeficientes</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Rango r</strong></th>
-<th style="text-align: left;"><strong>Interpretación de la Correlación</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">0&lt;r&lt;0.3</td>
-<td style="text-align: left;">Correlación positiva débil. Ligera tendencia ascendente, mucha dispersión.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">r=0</td>
-<td style="text-align: left;">No hay correlación lineal. Las variables no muestran una relación lineal aparente.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">−0.3&lt;r&lt;0</td>
-<td style="text-align: left;">Correlación negativa débil. Ligera tendencia descendente, mucha dispersión.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="tabla-de-interpretación-de-coeficientes-2" class="slide level2" style=".small">
-<h2>Tabla de Interpretación de Coeficientes</h2>
-<table class="caption-top">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;"><strong>Rango r</strong></th>
-<th style="text-align: left;"><strong>Interpretación de la Correlación</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">−0.7&lt;r≤−0.3</td>
-<td style="text-align: left;">Correlación negativa moderada. Se observa una tendencia descendente, pero con más dispersión.</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">−1&lt;r≤−0.7</td>
-<td style="text-align: left;">Correlación negativa fuerte. Los puntos tienden a agruparse cerca de una línea recta descendente.</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">r=−1</td>
-<td style="text-align: left;">Correlación negativa perfecta. Los puntos se alinean perfectamente en una línea recta descendente.</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="ejemplos-de-coeficientes-de-correlación" class="slide level2">
-<h2>Ejemplos de Coeficientes de Correlación</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/ejemplos_r.png" width="900"></p>
-<figcaption>imagen tomada del libro OpenIntro Statistics, David Diez</figcaption>
-</figure>
-</div>
-</section>
-<section>
-<section id="ejercicios" class="title-slide slide level1 center">
-<h1>Ejercicios</h1>
+<section class="slide level2">
 
 </section>
-<section id="cuál-línea-se-adapta-mejor" class="slide level2">
-<h2>1 ¿Cuál línea se Adapta Mejor?</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/eyeballing.png" width="700"></p>
-<figcaption>imagen tomada del libro OpenIntro Statistics, David Diez</figcaption>
-</figure>
-</div>
+<section>
+<section id="calcular-r2-tipos-de-variabilidad" class="title-slide slide level1 center">
+<h1>Calcular <span class="math inline">\(R^2\)</span>: Tipos de variabilidad:</h1>
+
 </section>
-<section id="cuarteto-de-anscombe" class="slide level2">
-<h2>2. Cuarteto de Anscombe</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/clase14/Anscombe.svg.png" class="quarto-figure quarto-figure-center" width="900"></p>
-</figure>
-</div>
-<p>más info en <a href="https://es.wikipedia.org/wiki/Cuarteto_de_Anscombe" class="uri">https://es.wikipedia.org/wiki/Cuarteto_de_Anscombe</a></p>
+<section id="suma-total-de-cuadrados-sst---total-sum-of-squares" class="slide level2 small">
+<h2><strong>Suma Total de Cuadrados (SST - Total Sum of Squares):</strong></h2>
+<p>Mide la variabilidad total de la variable dependiente (Y) con respecto a su media. <span class="math display">\[SST = \sum_{i=1}^{n} (Y_i - \bar{Y})^2\]</span> Donde:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(Y_i\)</span> es el valor observado de la variable dependiente para la observación <span class="math inline">\(i\)</span>.</li>
+<li class="fragment"><span class="math inline">\(\bar{Y}\)</span> es la media de la variable dependiente.</li>
+<li class="fragment"><span class="math inline">\(n\)</span> es el número de observaciones.</li>
+</ul>
 </section>
-<section id="determinar-variables-respuesta-tipo-de-relación-presente" class="slide level2">
-<h2>3. Determinar variables respuesta, tipo de relación presente</h2>
+<section id="suma-explicada-de-cuadrados" class="slide level2 small">
+<h2><strong>Suma Explicada de Cuadrados:</strong></h2>
+<p>La SSE - Explained Sum of Squares / Sum of Squares Regression) mide la variabilidad de la variable dependiente que es explicada por el modelo de regresión. Es la diferencia entre los valores predichos y la media de Y. <span class="math display">\[SSE = \sum_{i=1}^{n} (\hat{Y}_i - \bar{Y})^2\]</span> Donde:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(\hat{Y}_i\)</span> es el valor predicho de la variable dependiente para la observación <span class="math inline">\(i\)</span> por el modelo de regresión.</li>
+<li class="fragment"><span class="math inline">\(\bar{Y}\)</span> es la media de la variable dependiente.</li>
+</ul>
+</section>
+<section id="suma-de-cuadrados-de-los-errores" class="slide level2 small">
+<h2><strong>Suma de Cuadrados de los Errores:</strong></h2>
+<p><strong>L</strong>a SSR - Sum of Squares Residual / Sum of Squares Error) mide la variabilidad no explicada por el modelo, es decir, la suma de los cuadrados de los residuos (la diferencia entre los valores observados y los predichos). <span class="math display">\[SSR = \sum_{i=1}^{n} (Y_i - \hat{Y}_i)^2\]</span> Donde:</p>
+<ul>
+<li class="fragment"><span class="math inline">\(Y_i\)</span> es el valor observado de la variable dependiente para la observación <span class="math inline">\(i\)</span>.</li>
+<li class="fragment"><span class="math inline">\(\hat{Y}_i\)</span> es el valor predicho de la variable dependiente para la observación <span class="math inline">\(i\)</span>.</li>
+</ul>
+</section>
+<section id="la-relación-fundamental" class="slide level2">
+<h2>La relación fundamental</h2>
+<p>La variabilidad total se puede descomponer en la variabilidad explicada y la variabilidad no explicada: <span class="math display">\[SST = SSE + SSR\]</span></p>
+</section>
+<section id="fórmula-general-de-r2" class="slide level2">
+<h2>Fórmula general de <span class="math inline">\(R^2\)</span></h2>
+<p>El coeficiente de determinación <span class="math inline">\(R^2\)</span> se calcula como la proporción de la variabilidad total que es explicada por el modelo:</p>
+<p><span class="math display">\[R^2 = \frac{SSE}{SST}\]</span></p>
+</section>
+<section id="alternativa" class="slide level2">
+<h2>Alternativa</h2>
+<p>Usar la Suma de Cuadrados de los Errores:</p>
+<p>Dado que <span class="math inline">\(SST = SSE + SSR\)</span>, podemos reescribir <span class="math inline">\(SSE = SST - SSR\)</span>. Sustituyendo esto en la fórmula de <span class="math inline">\(R^2\)</span>:</p>
+<p><span class="math display">\[R^2 = \frac{SST - SSR}{SST}\]</span></p>
+<p><span class="math display">\[R^2 = 1 - \frac{SSR}{SST}\]</span></p>
+<p>Esta segunda fórmula es en general más usada y conceptualmente clara, ya que muestra <span class="math inline">\(R^2\)</span> como 1 menos la proporción de la variabilidad no explicada.</p>
+</section>
+<section id="ejemplo-de-cálculo-conceptual" class="slide level2 small">
+<h2>Ejemplo de cálculo (conceptual)</h2>
+<p>Si tenemos: * <span class="math inline">\(SST = 100\)</span> (La variabilidad total de Y es 100 unidades) * <span class="math inline">\(SSR = 30\)</span> (La variabilidad no explicada por el modelo es 30 unidades)</p>
+<p>Entonces: * <span class="math inline">\(SSE = SST - SSR = 100 - 30 = 70\)</span></p>
+<p>Y el <span class="math inline">\(R^2\)</span> sería: <span class="math display">\[R^2 = \frac{SSE}{SST} = \frac{70}{100} = 0.70\]</span>O<span class="math display">\[R^2 = 1 - \frac{SSR}{SST} = 1 - \frac{30}{100} = 1 - 0.30 = 0.70\]</span></p>
+<p>Esto significa que el 70% de la variabilidad de la variable dependiente es explicada por el modelo de regresión.</p>
+</section>
+<section id="r-vs.-r2" class="slide level2">
+<h2><span class="math inline">\(R\)</span> vs.&nbsp;<span class="math inline">\(R^2\)</span></h2>
+<ul>
+<li class="fragment">El <strong>coeficiente de correlación lineal de Pearson (R)</strong> es una medida estadística que cuantifica la <strong>fuerza y dirección</strong> de la relación lineal entre dos variables cuantitativas.</li>
+<li class="fragment">Su valor se encuentra siempre entre <strong>-1 y +1</strong>.</li>
+</ul>
+</section>
+<section id="interpretación-del-valor-de-r" class="slide level2 small">
+<h2>Interpretación del valor de <span class="math inline">\(R\)</span></h2>
+<ul>
+<li class="fragment"><span class="math inline">\(R = +1\)</span>: Indica una <strong>correlación lineal positiva perfecta</strong>. A medida que una variable aumenta, la otra aumenta proporcionalmente en una línea recta.</li>
+<li class="fragment"><span class="math inline">\(R = -1\)</span>: Indica una <strong>correlación lineal negativa perfecta</strong>. A medida que una variable aumenta, la otra disminuye proporcionalmente en una línea recta.</li>
+<li class="fragment"><span class="math inline">\(R = 0\)</span>: Indica que <strong>no hay relación lineal</strong> entre las dos variables. Esto no significa que no haya <em>ningún</em> tipo de relación, solo que no es lineal.</li>
+<li class="fragment"><strong>Valores entre 0 y</strong> <span class="math inline">\(\pm 1\)</span>: Indican la fuerza de la relación lineal. Cuanto más cerca esté <span class="math inline">\(R\)</span> de <span class="math inline">\(\pm 1\)</span>, más fuerte es la relación lineal. Cuanto más cerca esté de 0, más débil es.</li>
+</ul>
+</section>
+<section id="la-relación-r2-con-r" class="slide level2 small">
+<h2>La Relación <span class="math inline">\(R^2\)</span> con <span class="math inline">\(R\)</span></h2>
+<ul>
+<li class="fragment">En una <strong>regresión lineal simple</strong> (<strong>cuando solo se tiene una variable independiente</strong>), el coeficiente de determinación (<span class="math inline">\(R^2\)</span>) es literalmente el <strong>cuadrado del coeficiente de correlación lineal (</strong><span class="math inline">\(R\)</span>). <span class="math display">\[R^2 = (R)^2\]</span></li>
+<li class="fragment">Por ejemplo, si el coeficiente de correlación (<span class="math inline">\(R\)</span>) entre el consumo y el ingreso es <span class="math inline">\(0.80\)</span>, entonces el <span class="math inline">\(R^2\)</span> será <span class="math inline">\((0.80)^2 = 0.64\)</span>.</li>
+<li class="fragment">Esto significa que si <span class="math inline">\(R = 0.80\)</span>, hay una fuerte relación lineal positiva. Y si <span class="math inline">\(R^2 = 0.64\)</span>, el 64% de la variabilidad del consumo es explicada por la variabilidad del ingreso.</li>
+</ul>
+</section>
+<section id="diferencias" class="slide level2 small">
+<h2>Diferencias</h2>
+<p>A pesar de esta relación matemática, sus interpretaciones son distintas:</p>
+<ol type="1">
+<li class="fragment"><strong>R (Coeficiente de Correlación):</strong>
+<ul>
+<li class="fragment">Mide la <strong>dirección</strong> (positiva o negativa) y la <strong>fuerza</strong> de la <em>relación lineal</em> entre dos variables.</li>
+<li class="fragment">No tiene una interpretación directa en términos de “porcentaje explicado”.</li>
+</ul></li>
+<li class="fragment"><span class="math inline">\(R^2\)</span> (Coeficiente de Determinación):
+<ul>
+<li class="fragment">Mide la <strong>proporción de la varianza</strong> de la variable dependiente que es explicada por el modelo de regresión (o por la(s) variable(s) independiente(s)).</li>
+<li class="fragment">Su interpretación es siempre en términos de “porcentaje” o “proporción” de la variabilidad explicada.</li>
+<li class="fragment">No tiene signo, ya que es un cuadrado, lo que significa que no indica la dirección de la relación.</li>
+</ul></li>
+</ol>
+</section>
+<section id="cuándo-es-importante-esta-diferencia" class="slide level2">
+<h2>¿Cuándo es importante esta diferencia?</h2>
+<ul>
+<li class="fragment">En <strong>regresión lineal simple</strong>, se calcula <span class="math inline">\(R\)</span> y luego es elevado al cuadrado para obtener <span class="math inline">\(R^2\)</span>..</li>
+<li class="fragment">En <strong>regresión lineal múltiple</strong> (cuando se tienen dos o más variables independientes), la relación <span class="math inline">\(R^2 = (R)^2\)</span> ya no se sostiene directamente.</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <p><img src="images/logo2.png" class="slide-logo"></p>
@@ -837,44 +720,6 @@ M.Sc. José Miguel Avendaño I.
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
