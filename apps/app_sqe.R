@@ -21,12 +21,12 @@ ui <- fluidPage(
                   min = -1,
                   max = 5, 
                   value = .1, 
-                  step = 0.1),
+                  step = 0.01),
       sliderInput("intercept", 
                   "Intersección (b):",
                   min = -15, 
                   max = 40, 
-                  value = -10, 
+                  value = 30, 
                   step = 1),
       hr(),
       checkboxInput("show_squares",
@@ -77,16 +77,26 @@ server <- function(input, output) {
                                   include.lowest = TRUE))
     
     p <- ggplot(df, aes(x = x, y = y)) +
-      geom_point(color='blue',size=3) +
+      geom_point(color='blue',size=5) +
       geom_abline(intercept = b,
                   slope = m,
-                  color = "red",
+                  color = "black",
                   linetype = "dashed",
                   linewidth=2) +
-      labs(title = "Datos y Línea de Predicción con Cuadrados de Error", 
+      labs(
+        # title = "Datos y Línea de Predicción con Cuadrados de Error", 
            x = "X", 
            y = "Y") +
       theme_minimal() +
+      geom_segment(aes(x = x,
+                       xend = x,
+                       y = y_predicted,
+                       yend = y),
+                   color = "red",
+                   arrow = arrow(length = unit(0.1,"cm")),
+                   # linetype = "dotted",
+                   linewidth = 2)+
+
       # theme(
       #   plot.background = element_rect(fill = "#2E2E2E", colour = NA),
       #   panel.background = element_rect(fill = "#2E2E2E", colour = NA),
@@ -124,7 +134,8 @@ server <- function(input, output) {
                                      "Bajo" = "yellow",
                                      "Medio" = "orange", 
                                      "Alto" = "red"),
-                          name = "Magnitud del Error Cuadrático")
+                          name = "Magnitud del Error Cuadrático")+
+        theme(legend.position = "bottom")
     }
     
 

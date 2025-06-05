@@ -3904,7 +3904,7 @@
     "href": "clases/clase_15_01_lm.html#el-método-de-mínimos-cuadrados",
     "title": "Estadística I",
     "section": "El Método de Mínimos Cuadrados",
-    "text": "El Método de Mínimos Cuadrados\n\nEl método de mínimos cuadrados se utiliza para encontrar los valores de \\(beta_0\\) y \\(beta_1\\) que hacen que la línea de regresión se ajuste lo mejor posible a los datos observados.\n“Lo mejor posible” se define como minimizar la suma de los cuadrados de las diferencias verticales entre los valores reales de \\(Y\\) y los valores predichos \\(\\hat{y}\\). Estas diferencias se llaman errores o residuos."
+    "text": "El Método de Mínimos Cuadrados\n\nEl método de mínimos cuadrados se utiliza para encontrar los valores de \\(\\beta_0\\) y \\(\\beta_1\\) que hacen que la línea de regresión se ajuste lo mejor posible a los datos observados.\n“Lo mejor posible” se define como minimizar la suma de los cuadrados de las diferencias verticales entre los valores reales de \\(Y\\) y los valores predichos \\(\\hat{y}\\). Estas diferencias se llaman errores o residuos."
   },
   {
     "objectID": "clases/clase_15_01_lm.html#el-método-de-mínimos-cuadrados-cont.",
