@@ -2,7 +2,6 @@
 # muestra datos, gráficos de línea estimada y resultados del modelo, coeficientes estimados
 # gráfico de residuales. usa ggplot para graficar
 
-
 library(shiny)
 library(ggplot2)
 library(dplyr)
@@ -209,13 +208,16 @@ server <- function(input, output, session) {
            x = "Valores Ajustados", y = "Residuales")
   })
   
+  
   output$residuales_density <-  renderPlot({
     req(model())
     residuals_df <- broom::augment(model())
     ggplot(residuals_df, aes_string(x = ".resid")) +
-      geom_density()
+      geom_density()+
+      geom_vline(aes(xintercept=0), color='red')
   })
   
+  # histograma variable predictora
   output$hist1 <- renderPlot({
     req(data2())
     
@@ -229,6 +231,7 @@ server <- function(input, output, session) {
            y = "Frecuencia")
   },height = 200, width = 600 )
   
+  # histograma variable respuesta
   output$hist2 <- renderPlot({
     req(data2())
     
@@ -242,6 +245,8 @@ server <- function(input, output, session) {
            y = "Frecuencia")
   }, height = 200, width = 600 )
   
+  
+  # estadisticos variable predictora
   output$valores1 <- renderPrint({
     req(data2())
     df <- data2()
@@ -258,6 +263,7 @@ server <- function(input, output, session) {
            sd_val)
   })
   
+  # coeficiente de correlación de pearson
   output$correlacion <- renderPrint({
     req(data2())
     df <- data2()
@@ -265,6 +271,7 @@ server <- function(input, output, session) {
           round(cor(df[[input$predictors]], df[[input$response]], method = 'pearson'),2))
   })
   
+  # estadisticos variable respueta
   output$valores2 <- renderPrint({
     req(data2())
     df <- data2()

@@ -1,8 +1,8 @@
 ---
 title: "Estadística I"
-subtitle: "Clase 15: $R^2$ (Coeficiente de Determinación)"
+subtitle: "Clase 16: $R^2$ (Coeficiente de Determinación)"
 format: revealjs
-date: "2025/06/05"
+date: "2025/06/10"
 lang: es
 incremental: true
 auto-stretch: false
