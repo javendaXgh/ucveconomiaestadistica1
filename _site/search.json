@@ -5011,5 +5011,16 @@
     "title": "Estadística I",
     "section": "Reuniendo todo…",
     "text": "Reuniendo todo…\nDado que la probabilidad del espacio muestral debe sumar 1:\nP (al menos 1 sin asegurar)\n\n\\(=1−P(ninguno\\, sin\\, asegurar)\\)\n\\(=1−(1−0.255)^5\\)\n\\(=1−0.745^5\\)\n\\(=1−0.23\\)\n\\(=0.77\\)\n\nAl menos 1:\nP(al menos uno)= 1−P (ninguno)"
+  },
+  {
+    "objectID": "tarea_07.html",
+    "href": "tarea_07.html",
+    "title": "tarea 6",
+    "section": "",
+    "text": "De los siguientes ejercicios que se encuentran en el libro Open Intro Stats , elegir 5:\n\n8.4\n8.7\n8.8\n8.10\n8.11\n8.13\n8.16\n8.17\n8.21\n8.22\n8.27\n8.28\n\nElegir uno de los siguientes ejercicios\n\n8.32\n8.33\n\nSe recomienda la lectura del Capítulo 8 hasta la sección “8.4.3 Intervalo de confianza para un coeficiente”, previo a realizar los ejercicios.\nEste trabajo se puede elaborar en un documento word o cualquier formato similar, el cual debe ser remitido al correo electrónico a javenda@gmail.com con el asunto: tarea 05, su nombre, su ci, antes de la medianoche del miércoles 25 de junio. Nota: Esta tarea debe ser realizada individualmente. Igualmente se agradece prestar la debida atención a la redacción y ortografía.",
+    "crumbs": [
+      "Tareas",
+      "tarea 7"
+    ]
   }
 ]

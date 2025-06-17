@@ -1,0 +1,39 @@
+---
+title: "tarea 6"
+---
+
+De los siguientes ejercicios que se encuentran en el libro [Open Intro Stats](https://rpubs.com/javenda/openintroes) , elegir 5:
+
+-   8.4
+
+-   8.7
+
+-   8.8
+
+-   8.10
+
+-   8.11
+
+-   8.13
+
+-   8.16
+
+-   8.17
+
+-   8.21
+
+-   8.22
+
+-   8.27
+
+-   8.28
+
+Elegir uno de los siguientes ejercicios
+
+-   8.32
+
+-   8.33
+
+Se recomienda la lectura del Capítulo 8 hasta la sección "**8.4.3 Intervalo de confianza para un coeficiente",** previo a realizar los ejercicios.
+
+Este trabajo se puede elaborar en un documento word o cualquier formato similar, el cual debe ser remitido al correo electrónico a javenda\@gmail.com con el asunto: tarea 05, su nombre, su ci, antes de la medianoche del miércoles 25 de junio. Nota: Esta tarea debe ser realizada individualmente. Igualmente se agradece prestar la debida atención a la redacción y ortografía.
