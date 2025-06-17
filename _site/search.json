@@ -2740,8 +2740,8 @@
     "objectID": "clases/clase_12.html#pendientes-y-asignaciones",
     "href": "clases/clase_12.html#pendientes-y-asignaciones",
     "title": "Estadística I",
-    "section": "Pendientes y Asignaciones",
-    "text": "Pendientes y Asignaciones\n\nLectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
+    "section": "",
+    "text": "Lectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
   },
   {
     "objectID": "clases/clase_12.html#qué-son-los-números-índices",
@@ -3225,7 +3225,7 @@
     "href": "clases/clase_13.html#gráfico-variaciones-inpc",
     "title": "Estadística I",
     "section": "Gráfico Variaciones INPC",
-    "text": "Gráfico Variaciones INPC"
+    "text": "Gráfico Variaciones INPC\n\n\n\n\n\n\n\n\nUtilidad Análisis Series Temporales\n\nIdentificar patrones y tendencias.\nRealizar pronósticos futuros.\nEvaluar el impacto de eventos.\nComprender la dinámica subyacente de los datos."
   },
   {
     "objectID": "clases/clase_13.html#gráfico-temperatura-caracas-serie-temporal",
@@ -3302,7 +3302,7 @@
     "href": "clases/clase_13.html#modelos-de-descomposición",
     "title": "Estadística I",
     "section": "Modelos de Descomposición",
-    "text": "Modelos de Descomposición\nDos modelos comunes:\n\nModelo Aditivo:\nYt​=Tt​+St​+Ct​+Rt​\nApropiado cuando la magnitud de los componentes no depende del nivel de la serie.\nModelo Multiplicativo:\nYt​=Tt​×St​×Ct​×Rt​\nApropiado cuando la magnitud de los componentes es proporcional al nivel de la serie.\n\n\n\n\n\n🔗 Estadística 1"
+    "text": "Modelos de Descomposición\nDos modelos comunes:\n\nModelo Aditivo:\nYt​=Tt​+St​+Ct​+Rt​\nApropiado cuando la magnitud de los componentes no depende del nivel de la serie.\nModelo Multiplicativo:\nYt​=Tt​×St​×Ct​×Rt​\nApropiado cuando la magnitud de los componentes es proporcional al nivel de la serie."
   },
   {
     "objectID": "clases/clase_12.html#ejemplo-cálculto-i.f.-año-1",
@@ -3323,7 +3323,7 @@
     "href": "clases/clase_12.html#indíce-nacional-de-precios-al-consumidor-bcv",
     "title": "Estadística I",
     "section": "Indíce Nacional de Precios al Consumidor BCV",
-    "text": "Indíce Nacional de Precios al Consumidor BCV\n\n\n\n\n\n\n\n\n\n\n🔗 Estadística 1"
+    "text": "Indíce Nacional de Precios al Consumidor BCV"
   },
   {
     "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f.-año-1",
@@ -4156,7 +4156,7 @@
     "href": "clases/clase_15_02_mmc.html#ventajas-del-método-de-mínimos-cuadrados",
     "title": "Estadística I",
     "section": "Ventajas del Método de Mínimos Cuadrados",
-    "text": "Ventajas del Método de Mínimos Cuadrados\n\nSimplicidad y Eficiencia: Es relativamente sencillo de entender y calcular, especialmente con herramientas computacionales.\nEstimadores BLUE (Si se cumplen los supuestos): Bajo ciertos supuestos (que se estudiarán en cursos más avanzados), los estimadores obtenidos por MCO son los Mejores Estimadores Lineales Insesgados (Best Linear Unbiased Estimators - BLUE). Esto significa que son los estimadores más precisos dentro de la clase de estimadores lineales e insesgados.\nBase para Modelos Más Complejos: Es la base para comprender y aplicar modelos de regresión más complejos, como la regresión lineal múltiple y otros modelos econométricos.\n\n\n\n\n\n🔗 Estadística 1"
+    "text": "Ventajas del Método de Mínimos Cuadrados\n\nSimplicidad y Eficiencia: Es relativamente sencillo de entender y calcular, especialmente con herramientas computacionales.\nEstimadores BLUE (Si se cumplen los supuestos): Bajo ciertos supuestos (que se estudiarán en cursos más avanzados), los estimadores obtenidos por MCO son los Mejores Estimadores Lineales Insesgados (Best Linear Unbiased Estimators - BLUE). Esto significa que son los estimadores más precisos dentro de la clase de estimadores lineales e insesgados.\nBase para Modelos Más Complejos: Es la base para comprender y aplicar modelos de regresión más complejos, como la regresión lineal múltiple y otros modelos econométricos."
   },
   {
     "objectID": "clases/clase_15_02_mmc.html",
@@ -4169,8 +4169,8 @@
     "objectID": "clases/clase_15_02_mmc.html#el-método-de-los-mínimos-cuadrados-mmc",
     "href": "clases/clase_15_02_mmc.html#el-método-de-los-mínimos-cuadrados-mmc",
     "title": "Estadística I",
-    "section": "El Método de los Mínimos Cuadrados (MMC)",
-    "text": "El Método de los Mínimos Cuadrados (MMC)\n\nProblema: Cuando tenemos un conjunto de puntos de datos \\((X_i, Y_i)\\) en un gráfico de dispersión, y creemos que existe una relación lineal entre ellos, queremos encontrar la “mejor” línea recta que represente esa relación.\nEl Reto: Hay infinitas líneas posibles que podemos dibujar a través de una nube de puntos. ¿Cuál es la “mejor”?\nLa Solución de MCO: El Método de los Mínimos Cuadrados (MCO) proporciona un criterio objetivo para elegir esa línea. La “mejor” línea es aquella que minimiza la suma de los cuadrados de las distancias verticales entre cada punto observado y la línea predicha."
+    "section": "",
+    "text": "Problema: Cuando tenemos un conjunto de puntos de datos \\((X_i, Y_i)\\) en un gráfico de dispersión, y creemos que existe una relación lineal entre ellos, queremos encontrar la “mejor” línea recta que represente esa relación.\nEl Reto: Hay infinitas líneas posibles que podemos dibujar a través de una nube de puntos. ¿Cuál es la “mejor”?\nLa Solución de MCO: El Método de los Mínimos Cuadrados (MCO) proporciona un criterio objetivo para elegir esa línea. La “mejor” línea es aquella que minimiza la suma de los cuadrados de las distancias verticales entre cada punto observado y la línea predicha."
   },
   {
     "objectID": "clases/clase_15_03_r.html",
@@ -4738,5 +4738,278 @@
     "title": "Estadística I",
     "section": "Estimación Óptimo 1",
     "text": "Estimación Óptimo 1"
+  },
+  {
+    "objectID": "clases/clase_17.html#nota",
+    "href": "clases/clase_17.html#nota",
+    "title": "Estadística I",
+    "section": "Nota",
+    "text": "Nota\n\n\n\n\n\n\nTip\n\n\nTodas las láminas que se muestran a continuación pertenecen al proyecto OpenIntroStats openintro.org/os, y se encuentra disponible en su formato original en el siguiente enlace"
+  },
+  {
+    "objectID": "clases/clase_17.html#procesos-aleatorios",
+    "href": "clases/clase_17.html#procesos-aleatorios",
+    "title": "Estadística I",
+    "section": "Procesos Aleatorios",
+    "text": "Procesos Aleatorios\n\nUn proceso aleatorio es una situación en la que sabemos qué resultados podrían ocurrir, pero no sabemos qué resultado particular ocurrirá.\nEjemplos: lanzamientos de moneda, tiradas de dados, el modo aleatorio de spotify, si el mercado de valores subirá o bajará mañana, etc.\nPuede ser útil modelar un proceso como aleatorio incluso si no lo es realmente."
+  },
+  {
+    "objectID": "clases/clase_17.html#probabilidad",
+    "href": "clases/clase_17.html#probabilidad",
+    "title": "Estadística I",
+    "section": "Probabilidad",
+    "text": "Probabilidad\nHay varias posibles interpretaciones de la probabilidad, pero (casi) coinciden completamente en las reglas matemáticas que la probabilidad debe seguir.\n\n\\(P(A)\\) = Probabilidad del evento A\n\\(0≤P(A)≤1\\)"
+  },
+  {
+    "objectID": "clases/clase_17.html#práctica",
+    "href": "clases/clase_17.html#práctica",
+    "title": "Estadística I",
+    "section": "Práctica",
+    "text": "Práctica\n¿Cuál de los siguientes eventos te sorprendería más?\n(a) exactamente 3 caras seguidas en 10 lanzamientos de moneda\n(b) exactamente 3 caras seguidas en 100 lanzamientos de moneda\n(c) exactamente 3 caras seguidas en 1000 lanzamientos de moneda"
+  },
+  {
+    "objectID": "clases/clase_17.html#ley-de-los-largos-números",
+    "href": "clases/clase_17.html#ley-de-los-largos-números",
+    "title": "Estadística I",
+    "section": "Ley de los Largos Números",
+    "text": "Ley de los Largos Números\nCuando se lanza una moneda justa, si sale cara en cada uno de los primeros 10 lanzamientos, ¿cuál crees que es la probabilidad de que salga otra cara en el siguiente lanzamiento? ¿0.5, menos de 0.5 o más de 0.5?\n\\(C\\,|C|\\,C |\\,C|\\, C|\\, C|\\, C |\\,C|\\, C|\\,C​|\\, ?\\)"
+  },
+  {
+    "objectID": "clases/clase_17.html#resultados-disjuntos-y-no-disjuntos",
+    "href": "clases/clase_17.html#resultados-disjuntos-y-no-disjuntos",
+    "title": "Estadística I",
+    "section": "Resultados disjuntos y no disjuntos",
+    "text": "Resultados disjuntos y no disjuntos\nResultados disjuntos (mutuamente excluyentes): No pueden ocurrir al mismo tiempo.\n\nEl resultado de un solo lanzamiento de moneda no puede ser cara y cruz.\nUn estudiante no puede reprobar y aprobar una clase a la vez.\nUna sola carta sacada de una baraja no puede ser un as y una reina.\n\nResultados no disjuntos: Pueden ocurrir al mismo tiempo.\nUn estudiante puede obtener una A en Estadística y una A en Economía en el mismo semestre."
+  },
+  {
+    "objectID": "clases/clase_17.html#unión-de-eventos-no-disjuntos",
+    "href": "clases/clase_17.html#unión-de-eventos-no-disjuntos",
+    "title": "Estadística I",
+    "section": "Unión de eventos no disjuntos",
+    "text": "Unión de eventos no disjuntos\n¿Cuál es la probabilidad de sacar una jota o una carta roja de una baraja completa bien barajada?\n\n\n\n\n\n\\(P(\\text{sota o roja}) = P(\\text{sota}) + P(\\text{roja}) - P(\\text{sota y roja})\\)\n\\(=\\frac{4}{52} + \\frac{26}{52} - \\frac{2}{52} = \\frac{28}{52}\\)"
+  },
+  {
+    "objectID": "clases/clase_17.html#práctica-1",
+    "href": "clases/clase_17.html#práctica-1",
+    "title": "Estadística I",
+    "section": "Práctica",
+    "text": "Práctica\n¿Cuál es la probabilidad de que un estudiante seleccionado al azar piense que la marihuana debería legalizarse o que esté de acuerdo con las opiniones políticas de sus padres?\n\n\n\nCompartir la Política de los Padres\n\n\n\n\n\n\nLegalizar MJ\nNo\nSí\nTotal\n\n\nNo\n11\n40\n51\n\n\nSí\n36\n78\n114\n\n\nTotal\n47\n118\n165\n\n\n\n(a) (40+36−78)/165 (b) (114+118−78)/165 (c) 78/165  (d) 78/188 (e) 11/47"
+  },
+  {
+    "objectID": "clases/clase_17.html#repaso",
+    "href": "clases/clase_17.html#repaso",
+    "title": "Estadística I",
+    "section": "Repaso",
+    "text": "Repaso\nRegla general de la adición\n\\(P(A\\, o\\, B)\\,=\\,P(A)+P(B)−P(A\\, y\\, B)\\)\n\nNota: Para eventos disjuntos \n\\(P(A \\,y\\, B)=0\\), por lo que la fórmula anterior se simplifica a \\(P(A\\, o \\,B)=P(A)+P(B)\\)"
+  },
+  {
+    "objectID": "clases/clase_17.html#distribución-de-probabilidad",
+    "href": "clases/clase_17.html#distribución-de-probabilidad",
+    "title": "Estadística I",
+    "section": "Distribución de Probabilidad",
+    "text": "Distribución de Probabilidad\nUna distribución de probabilidad enumera todos los eventos posibles y las probabilidades con las que ocurren.\n\nLa distribución de probabilidad para el género de un hijo:\n\n\n\n\nEvento\nMasculino\nFemenino\n\n\nProbabilidad\n0.5\n0.5"
+  },
+  {
+    "objectID": "clases/clase_17.html#práctica-2",
+    "href": "clases/clase_17.html#práctica-2",
+    "title": "Estadística I",
+    "section": "Práctica",
+    "text": "Práctica\nEn una encuesta, el 52% de los encuestados dijo ser demócrata. ¿Cuál es la probabilidad de que un encuestado seleccionado al azar de esta muestra sea republicano?\n(a) 0.48\n(b) más de 0.48\n(c) menos de 0.48\n(d) no se puede calcular usando solo la información proporcionada"
+  },
+  {
+    "objectID": "clases/clase_17.html#práctica-3",
+    "href": "clases/clase_17.html#práctica-3",
+    "title": "Estadística I",
+    "section": "Práctica",
+    "text": "Práctica\nEn una encuesta, el 52% de los encuestados dijo ser demócrata. ¿Cuál es la probabilidad de que un encuestado seleccionado al azar de esta muestra sea republicano?\n(a) 0.48\n(b) más de 0.48\n(c) menos de 0.48\n(d) no se puede calcular usando solo la información proporcionada\nSi los únicos dos partidos políticos son Republicano y Demócrata, entonces (a) es posible. Sin embargo, también es posible que algunas personas no se afilien a un partido político o se afilien a un partido distinto a estos dos. Entonces (c) también es posible. Sin embargo, (b) definitivamente no es posible ya que resultaría en que la probabilidad total para el espacio muestral sea superior a 1."
+  },
+  {
+    "objectID": "clases/clase_17.html#espacio-muestral-y-complementos",
+    "href": "clases/clase_17.html#espacio-muestral-y-complementos",
+    "title": "Estadística I",
+    "section": "Espacio Muestral y Complementos",
+    "text": "Espacio Muestral y Complementos\nEl espacio muestral es la colección de todos los posibles resultados de un ensayo.\n\nUna pareja tiene un hijo, ¿cuál es el espacio muestral para el género de este hijo? S={M,F}\nUna pareja tiene dos hijos, ¿cuál es el espacio muestral para el género de estos hijos? S={MM,FF,FM,MF}"
+  },
+  {
+    "objectID": "clases/clase_17.html#independencia",
+    "href": "clases/clase_17.html#independencia",
+    "title": "Estadística I",
+    "section": "Independencia",
+    "text": "Independencia\nDos procesos son independientes si conocer el resultado de uno no proporciona información útil sobre el resultado del otro.\n\nSaber que la moneda cayó en cara en el primer lanzamiento no proporciona ninguna información útil para determinar en qué caerá la moneda en el segundo lanzamiento.\n\n\nLos resultados de dos lanzamientos de una moneda son independientes.\n\n\nSaber que la primera carta sacada de una baraja es un as sí proporciona información útil para determinar la probabilidad de sacar un as en la segunda extracción.\n\n\nLos resultados de dos extracciones de una baraja de cartas (sin reemplazo) son dependientes."
+  },
+  {
+    "objectID": "clases/clase_17.html#práctica-4",
+    "href": "clases/clase_17.html#práctica-4",
+    "title": "Estadística I",
+    "section": "Práctica",
+    "text": "Práctica\nEntre el 9 y el 12 de enero de 2013, SurveyUSA entrevistó a una muestra aleatoria de 500 residentes de Carolina del Norte preguntándoles si creen que la posesión generalizada de armas protege a los ciudadanos que cumplen la ley del crimen, o hace que la sociedad sea más peligrosa. El 58% de todos los encuestados dijo que protege a los ciudadanos. El 67% de los encuestados blancos, el 28% de los encuestados negros y el 64% de los encuestados hispanos compartieron esta opinión. ¿Cuál de las siguientes afirmaciones es verdadera?\nLa opinión sobre la posesión de armas y la etnia racial son muy probablemente\n(a) complementarias\n(b) mutuamente excluyentes\n(c) independientes\n(d) dependientes\n(e) disjuntas"
+  },
+  {
+    "objectID": "clases/clase_17.html#determinando-la-dependencia",
+    "href": "clases/clase_17.html#determinando-la-dependencia",
+    "title": "Estadística I",
+    "section": "Determinando la Dependencia",
+    "text": "Determinando la Dependencia\nDeterminando la Dependencia basado en datos de muestra\n\nSi las probabilidades condicionales calculadas en base a datos de muestra sugieren dependencia entre dos variables, el siguiente paso es realizar una prueba de hipótesis para determinar si la diferencia observada entre las probabilidades es probable o improbable que haya ocurrido por casualidad.\nSi la diferencia observada entre las probabilidades condicionales es grande, entonces hay una evidencia más fuerte de que la diferencia es real.\nSi una muestra es grande, incluso una pequeña diferencia puede proporcionar una fuerte evidencia de una diferencia real."
+  },
+  {
+    "objectID": "clases/clase_17.html#regla-del-producto-para-eventos-independientes",
+    "href": "clases/clase_17.html#regla-del-producto-para-eventos-independientes",
+    "title": "Estadística I",
+    "section": "Regla del producto para eventos independientes",
+    "text": "Regla del producto para eventos independientes\n\\(P(A \\,y\\, B)\\, = \\,P(A)×P(B)\\)\n\nO más generalmente,\\[P(A_1​,\\, \\text y\\, ,…, \\, \\text y\\, Ak​) = P(A_1​)×⋯×P(A_k​)\\]\nLanzas una moneda dos veces, ¿cuál es la probabilidad de obtener dos caras seguidas?\n\nP(C en el 1er lzto) × P(C en el 2do lzto) = 1/2 ​× 1/2 ​=1/4​"
+  },
+  {
+    "objectID": "clases/clase_17.html#disjunto-vs.-complementario",
+    "href": "clases/clase_17.html#disjunto-vs.-complementario",
+    "title": "Estadística I",
+    "section": "Disjunto vs. complementario",
+    "text": "Disjunto vs. complementario\n¿La suma de las probabilidades de dos eventos disjuntos siempre suma 1?\nNo necesariamente, puede haber más de 2 eventos en el espacio muestral, por ejemplo, la afiliación a un partido.\n¿La suma de las probabilidades de dos eventos complementarios siempre suma 1?\nSí, esa es la definición de complementario, por ejemplo, caras y cruces."
+  },
+  {
+    "objectID": "clases/clase_17.html#reuniendo-todo",
+    "href": "clases/clase_17.html#reuniendo-todo",
+    "title": "Estadística I",
+    "section": "Reuniendo todo…",
+    "text": "Reuniendo todo…\nSi seleccionáramos aleatoriamente 5 texanos, ¿cuál es la probabilidad de que al menos uno no tenga seguro?\n\nSi seleccionáramos aleatoriamente 5 texanos, el espacio muestral para el número de texanos sin seguro sería: S={0,1,2,3,4,5}\nEstamos interesados en los casos en que al menos una persona no tiene seguro: S={0,1,2,3,4,5}\nAsí que podemos dividir el espacio muestral en dos categorías: S={0,al menos uno}"
+  },
+  {
+    "objectID": "clases/clase_17.html#práctica-5",
+    "href": "clases/clase_17.html#práctica-5",
+    "title": "Estadística I",
+    "section": "Práctica",
+    "text": "Práctica\nAproximadamente el 20% de los estudiantes universitarios de una universidad son vegetarianos o veganos. ¿Cuál es la probabilidad de que, en una muestra aleatoria de 3 estudiantes universitarios, al menos uno sea vegetariano o vegano?\n(a) \\(1−0.2 × 3\\)\n(b) \\(1−0.2^3\\)\n(c) \\(0.8^3\\)\n(d) \\(1−0.8×3\\)\n(e) \\(1−0.8^3\\)"
+  },
+  {
+    "objectID": "clases/clase_17.html#solución",
+    "href": "clases/clase_17.html#solución",
+    "title": "Estadística I",
+    "section": "Solución",
+    "text": "Solución\n\\(P( al\\, menos\\, 1\\,vegetariano)\\)\n\\(=1−P(\\,ninguno\\, vegetariano)\\)\n\\(=1−0.8^3\\)\n\\(=1−0.512=0.488\\)\n\n\n\n\n🔗 Estadística 1"
+  },
+  {
+    "objectID": "clases/clase_17.html#probabilidad-interpretación-frecuentista",
+    "href": "clases/clase_17.html#probabilidad-interpretación-frecuentista",
+    "title": "Estadística I",
+    "section": "Probabilidad Interpretación Frecuentista:",
+    "text": "Probabilidad Interpretación Frecuentista:\nLa probabilidad de un resultado es la proporción de veces que el resultado ocurriría si observáramos el proceso aleatorio un número infinito de veces.\n\n\n\n\n\nLa proporción de sacar 3 tiende a acercarse a la probabilidad de 1/6 ≈ 0.167 a medida que aumenta el número de tiradas (n)."
+  },
+  {
+    "objectID": "clases/clase_17.html#probabilidad-interpretación-bayesiana",
+    "href": "clases/clase_17.html#probabilidad-interpretación-bayesiana",
+    "title": "Estadística I",
+    "section": "Probabilidad Interpretación Bayesiana:",
+    "text": "Probabilidad Interpretación Bayesiana:\nUn Bayesiano interpreta la probabilidad como un grado de creencia subjetivo: Para el mismo evento, dos personas distintas podrían tener diferentes puntos de vista y, por lo tanto, asignar diferentes probabilidades.\nPopularizada en gran medida por los avances revolucionarios en la tecnología y los métodos computacionales durante los últimos veinte años."
+  },
+  {
+    "objectID": "clases/clase_17.html#ley-de-los-largos-números-cont.",
+    "href": "clases/clase_17.html#ley-de-los-largos-números-cont.",
+    "title": "Estadística I",
+    "section": "Ley de los Largos Números cont.",
+    "text": "Ley de los Largos Números cont.\n\nLa probabilidad sigue siendo 0.5, o todavía hay un 50% de posibilidades de que salga otra cara en el siguiente lanzamiento.\n\\(P(C\\, en\\, el\\, 11º\\, lanzamiento)=P(S\\, en\\, el\\, 11º\\, lanzamiento)=0.5\\)\nLa moneda no está “en deuda” con un sello.\nEl error común de interpretación de la LLN es que se supone que los procesos aleatorios compensan lo que haya ocurrido en el pasado; esto simplemente no es cierto y también se llama falacia del jugador (o ley de los promedios)."
+  },
+  {
+    "objectID": "clases/clase_17.html#ley-de-los-grandes-números",
+    "href": "clases/clase_17.html#ley-de-los-grandes-números",
+    "title": "Estadística I",
+    "section": "Ley de los Grandes Números",
+    "text": "Ley de los Grandes Números\nA medida que se recolectan más observaciones, la proporción \\(\\hat{p_n}​\\) de ocurrencias con un resultado particular converge a la probabilidad p de ese resultado."
+  },
+  {
+    "objectID": "clases/clase_17.html#resultados-disjuntos-mutuamente-excluyentes-no-pueden-ocurrir-al-mismo-tiempo.",
+    "href": "clases/clase_17.html#resultados-disjuntos-mutuamente-excluyentes-no-pueden-ocurrir-al-mismo-tiempo.",
+    "title": "Estadística I",
+    "section": "Resultados disjuntos (mutuamente excluyentes): No pueden ocurrir al mismo tiempo.",
+    "text": "Resultados disjuntos (mutuamente excluyentes): No pueden ocurrir al mismo tiempo.\n\nEl resultado de un solo lanzamiento de moneda no puede ser cara y cruz.\nUn estudiante no puede reprobar y aprobar una clase a la vez.\nUna sola carta sacada de una baraja no puede ser un as y una reina."
+  },
+  {
+    "objectID": "clases/clase_17.html#resultados-no-disjuntos-pueden-ocurrir-al-mismo-tiempo.",
+    "href": "clases/clase_17.html#resultados-no-disjuntos-pueden-ocurrir-al-mismo-tiempo.",
+    "title": "Estadística I",
+    "section": "Resultados no disjuntos: Pueden ocurrir al mismo tiempo.",
+    "text": "Resultados no disjuntos: Pueden ocurrir al mismo tiempo.\nUn estudiante puede obtener una 20 en Estadística y una 20 en Economía en el mismo semestre."
+  },
+  {
+    "objectID": "clases/clase_17.html#regla-de-la-adición-para-resultados-disjuntos",
+    "href": "clases/clase_17.html#regla-de-la-adición-para-resultados-disjuntos",
+    "title": "Estadística I",
+    "section": "REGLA DE LA ADICIÓN PARA RESULTADOS DISJUNTOS",
+    "text": "REGLA DE LA ADICIÓN PARA RESULTADOS DISJUNTOS\nSi \\(A_1\\)​ y \\(A_2\\)​ representan dos resultados disjuntos, entonces la probabilidad de que ocurra uno de ellos está dada por\n\n\\(P(A_1​\\, o\\, A_2​)=P(A_1​)+P(A_2​)\\)\n\nSi hay muchos resultados disjuntos \\(A_1​,…,A_k​\\) entonces la probabilidad de que ocurra uno de estos resultados es\n\n\\(P(A_1​)+P(A_2​)+⋯+P(A_k​)\\)"
+  },
+  {
+    "objectID": "clases/clase_17.html#diagrámas-de-venn",
+    "href": "clases/clase_17.html#diagrámas-de-venn",
+    "title": "Estadística I",
+    "section": "Diagrámas de Venn",
+    "text": "Diagrámas de Venn\nLos diagramas de Venn son útiles cuando los resultados pueden categorizarse como “dentro” o “fuera” para dos o tres variables, atributos o procesos aleatorios. El siguiente diagrama utiliza un círculo para representar los diamantes y otro para representar las figuras.\n\n\n\n\n\n\nSi una carta es a la vez un diamante y una figura, cae en la intersección de los círculos.\nSi es un diamante pero no una figura, estará en la parte del círculo izquierdo que no está en el círculo derecho (y así sucesivamente)."
+  },
+  {
+    "objectID": "clases/clase_17.html#regla-general-de-la-adición",
+    "href": "clases/clase_17.html#regla-general-de-la-adición",
+    "title": "Estadística I",
+    "section": "REGLA GENERAL DE LA ADICIÓN",
+    "text": "REGLA GENERAL DE LA ADICIÓN\nSi A y B son dos eventos cualesquiera, disjuntos o no, entonces la probabilidad de que al menos uno de ellos ocurra es\n\\(P(A\\, o\\, B)=P(A)+P(B)−P(A\\, y \\,B)\\)\ndonde \\(P(A\\, y\\, B)\\) es la probabilidad de que ambos eventos ocurran.\n\n\n\n\n\n\n“o” es inclusivo\n\n\nCuando escribimos “o” en estadística, nos referimos a “y/o” a menos que explícitamente declaremos lo contrario. Así, A o B ocurre significa A, B, o ambos A y B ocurren."
+  },
+  {
+    "objectID": "guia_probabilidad1.html",
+    "href": "guia_probabilidad1.html",
+    "title": "Ejercicios Probabilidad",
+    "section": "",
+    "text": "EJEMPLO 3.1 \nUn “dado”, el singular de dados, es un cubo con seis caras numeradas 1, 2, 3, 4, 5 y 6. ¿Cuál es la probabilidad de obtener 1 al lanzar un dado?\nSi el dado es justo, la probabilidad de obtener un 1 es tan buena como la probabilidad de obtener cualquier otro número. Dado que hay seis resultados, la probabilidad debe ser de 1 entre 6, o, equivalentemente, 1/6.\n\n\nEJEMPLO 3.2 \n¿Cuál es la probabilidad de obtener un 1 o un 2 en la siguiente tirada? 1 y 2 constituyen dos de los seis resultados posibles igualmente probables, por lo que la probabilidad de obtener uno de estos dos resultados es 2/6 = 1/3.\n\n\nEJEMPLO 3.3\n ¿Cuál es la probabilidad de obtener un 1, 2, 3, 4, 5 o 6 en la siguiente tirada?\n100%. El resultado debe ser uno de estos números.\n\n\nEJEMPLO 3.4 \n¿Cuál es la probabilidad de no sacar un 2?\nDado que la probabilidad de sacar un 2 es 1/6 o 16.6%, la probabilidad de no sacar un 2 debe ser 100% - 16.6% = 83.3% o 5/6. Alternativamente, podríamos haber notado que no sacar un 2 es lo mismo que sacar un 1, 3, 4, 5 o 6, lo que suma cinco de los seis resultados igualmente probables y tiene una probabilidad de 5/6.\n\n\nEJEMPLO 3.5 \nConsidera lanzar dos dados. Si 1/6 de las veces el primer dado es un 1 y 1/6 de las veces el segundo dado también es un 1, entonces la probabilidad de que ambos dados sean un 1 es (1/6)×(1/6) o 1/36.\n\n\nPRÁCTICA GUIADA 3.6\nLos procesos aleatorios incluyen lanzar un dado y lanzar una moneda. (a) Piensa en otro proceso aleatorio. (b) Describe todos los posibles resultados de ese proceso. Por ejemplo, lanzar un dado es un proceso aleatorio con posibles resultados 1, 2, …, 6.\nLo que consideramos procesos aleatorios no son necesariamente aleatorios, pero pueden ser demasiado difíciles de entender exactamente. El cuarto ejemplo en la solución de la nota al pie de la Práctica Guiada 3.6 sugiere que el comportamiento de un compañero de piso es un proceso aleatorio. Sin embargo, incluso si el comportamiento de un compañero de piso no es verdaderamente aleatorio, modelar su comportamiento como un proceso aleatorio puede seguir siendo útil.\n\n\nPRÁCTICA GUIADA 3.7\nEstamos interesados en la probabilidad de sacar un 1, 4 o 5.\n(a) Explica por qué los resultados 1, 4 y 5 son disjuntos.\n(b) Aplica la Regla de la Adición para resultados disjuntos para determinar \\(P(1 \\: o \\: 4 \\: o \\: 5)\\).\n\nRespuesta\n(a) El proceso aleatorio es un lanzamiento de dado, y como máximo uno de estos resultados puede aparecer. Esto significa que son resultados disjuntos. \\(P(1 \\: o \\: 4 \\: o \\: 5) =P(1)+P(4)+P(5)=1/6​+1/6​+1/6​=3/6​=1/2​\\)\n\n\n\nPRÁCTICA GUIADA 3.8\nEn el conjunto de datos de préstamos la variable de propiedad de vivienda describía si el prestatario alquila, tiene una hipoteca o es dueño de su propiedad. De los 10,000 prestatarios, 3858 alquilaban, 4789 tenían una hipoteca y 1353 eran dueños de su casa.\n(a) ¿Son los resultados “alquilar”, “hipoteca” y “ser dueño” disjuntos?\n(b) Determina la proporción de préstamos con valor “hipoteca” y “ser dueño” por separado.\n(c) Usa la Regla de la Adición para resultados disjuntos para calcular la probabilidad de que un préstamo seleccionado aleatoriamente del conjunto de datos sea para alguien que tiene una hipoteca o es dueño de su casa.\n\nRespuesta\n(a) Sí. Cada préstamo se clasifica en un solo nivel de propiedad de la vivienda.\n(b) Hipoteca: 4789/10000​=0.479. Propiedad: 1353/10000​=0.135.\n(c) \\(P(hipoteca\\: o\\: propiedad) = P(hipoteca)+P(propiedad)=0.479+0.135=0.614\\).\n\n\n\nPRÁCTICA GUIADA 3.9\n(a) Verifica que la probabilidad del evento A, P(A), es 1/3 usando la Regla de la Adición.\n(b) Haz lo mismo para el evento B.\n\nRespuesta\n(a) P(A)=P(1 o 2)=P(1)+P(2)=1/6​+1/6​=2/6​=1/3​.\n(b) De manera similar, P(B)=1/3.\n\n\n\nPRÁCTICA GUIADA 3.10\n(a) Usando la como referencia, ¿qué resultados están representados por el evento D?\n(b) ¿Son los eventos B y D disjuntos?\n(c) ¿Son los eventos A y D disjuntos?\n\n\n\n\n\n\nRespuesta\n(a) Resultados 2 y 3.\n(b) Sí, los eventos B y D son disjuntos porque no comparten resultados.\n(c) Los eventos A y D comparten un resultado en común, 2, y por lo tanto no son disjuntos. ${}^{6}$Dado que B y D son eventos disjuntos, usa la Regla de la Adición: P(B o D)=P(B)+P(D)=1/3+1/3​=2/3​.\n\n\n\nPRÁCTICA GUIADA 3.13\n(a) Si A y B son disjuntos, describe por qué esto implica que P(A y B)=0.\n(b) Usando la parte (a), verifica que la Regla General de la Adición se simplifica a la Regla de Adición más simple para eventos disjuntos si A y B son disjuntos.\n\nRespuesta\n(a) Si A y B son disjuntos, A y B no pueden ocurrir simultáneamente. (b) Si A y B son disjuntos, entonces el último término P(A y B) en la fórmula de la Regla General de la Adición es 0 (ver parte (a)) y nos quedamos con la Regla de la Adición para eventos disjuntos.\n\n\n\nPRÁCTICA GUIADA 3.14\nEn el conjunto de datos de préstamos que describe 10,000 préstamos, 1495 préstamos fueron de solicitudes conjuntas (p. ej., una pareja solicitó junta), 4789 solicitantes tenían una hipoteca y 950 tenían ambas características. Crea un diagrama de Venn para esta configuración.\n\nRespuesta\n\n\n\n\n\nSe muestran tanto los recuentos como las probabilidades correspondientes (por ejemplo, 3839/10000=0.384). Ten en cuenta que el número de préstamos representados en el círculo izquierdo corresponde a 3839+950=4789, y el número representado en el círculo derecho es 950+545=1495.\n\n\n\nPRÁCTICA GUIADA 3.15\n(a) Usa tu diagrama de Venn de la Práctica Guiada 3.14 para determinar la probabilidad de que un préstamo extraído aleatoriamente del conjunto de datos de préstamos sea de una solicitud conjunta donde la pareja tenía una hipoteca. (b) ¿Cuál es la probabilidad de que el préstamo tuviera cualquiera de estos atributos?\n\nRespuesta\n(a) La solución está representada por la intersección de los dos círculos: 0.095.\n(b) Esta es la suma de las tres probabilidades disjuntas que se muestran en los círculos: 0.384+0.095+0.055=0.534 (difiere en 0.001 debido a un error de redondeo)."
+  },
+  {
+    "objectID": "notebooks/laboratorio_4.html",
+    "href": "notebooks/laboratorio_4.html",
+    "title": "Estadística I, Laboratorio 4",
+    "section": "",
+    "text": "# cargar librerías\n#library(ggplot2)"
+  },
+  {
+    "objectID": "notebooks/laboratorio_4.html#nombre",
+    "href": "notebooks/laboratorio_4.html#nombre",
+    "title": "Estadística I, Laboratorio 4",
+    "section": "Nombre:",
+    "text": "Nombre:"
+  },
+  {
+    "objectID": "notebooks/laboratorio_4.html#c.i.",
+    "href": "notebooks/laboratorio_4.html#c.i.",
+    "title": "Estadística I, Laboratorio 4",
+    "section": "C.I.:",
+    "text": "C.I.:"
+  },
+  {
+    "objectID": "notebooks/laboratorio_4.html#temas",
+    "href": "notebooks/laboratorio_4.html#temas",
+    "title": "Estadística I, Laboratorio 4",
+    "section": "Temas:",
+    "text": "Temas:\n\nPresentar el tema de la regresión lineal simple y el conjunto de datos a utilizar.\nCálculo del coeficiente de correlación de pearson\nCálculo de los parámetros de una regresión lineal simple\nUsar función lm para obtener una regresión lineal\nGraficos de dispersión y de la recta de la regresión lineal\nVisualizar los residuos\n\n\n1. Exploración Inicial y Gráfico de Dispersión\nAntes de construir cualquier modelo, es crucial visualizar la relación entre nuestras variables. Un gráfico de dispersión nos permitirá observar patrones, tendencias y posibles anomalías en los datos.\n\nEjercicio 1.1: Cargar datos y generar gráfico de dispersión\nCarga el conjunto de datos data. Luego, crea un gráfico de dispersión con GDP en el eje X y m1 en el eje Y. Asegúrate de etiquetar los ejes y darle un título descriptivo al gráfico.\nMás info sobre el conjunto de datos en Dinero Estados Unidos\n\ndatos= read.csv(\"https://raw.githubusercontent.com/javendaXgh/ucveconomiaestadistica1/refs/heads/main/data/datos_rl.csv\")\n\nEstas son las variables contenidas: Una serie temporal que contiene:\n\nm1: logaritmo del stock monetario real M1\ninfl: tasa de inflación trimestral (variación en el logaritmo de los precios), % anual\ncpr: tasa de interés del papel comercial, % anual\nGDP:logaritmo del PIB real (en miles de millones de dólares de 1987)\ntbr: tasa de interés de las letras del Tesoro\n\nRevisar contenido del conjunto de datos:\n\nhead(datos)\n\n\nA data.frame: 6 × 5\n\n\n\nm1\ninfl\ncpr\nGDP\ntbr\n\n\n\n&lt;dbl&gt;\n&lt;dbl&gt;\n&lt;dbl&gt;\n&lt;dbl&gt;\n&lt;dbl&gt;\n\n\n\n\n1\n1.9513787\n6.354598\n7.415055\n2.036667\n1.083667\n\n\n2\n0.9059190\n6.353662\n7.413609\n1.633333\n0.814333\n\n\n3\n0.3596559\n6.362623\n7.425179\n1.363333\n0.869667\n\n\n4\n3.8584455\n6.363803\n7.437383\n1.310000\n1.036333\n\n\n5\n3.0970731\n6.367617\n7.463076\n1.613333\n1.256333\n\n\n6\n4.6957583\n6.361511\n7.472273\n1.966667\n1.514333\n\n\n\n\n\n\n# Genera el gráfico de dispersión aquí\n\n\n\n\n2. Coeficiente de Correlación de Pearson:\nEl coeficiente de correlación de Pearson (r) es una medida que cuantifica la fuerza y dirección de la relación lineal entre dos variables cuantitativas. Su valor oscila entre -1 y 1. Un valor cercano a 1 indica una correlación positiva fuerte (cuando una variable aumenta, la otra también tiende a aumentar). Un valor cercano a -1 indica una correlación negativa fuerte (cuando una variable aumenta, la otra tiende a disminuir). Un valor cercano a 0 indica una correlación lineal débil o nula.\n\nEjercicio 2.1: Cálculo del coeficiente de correlación de Pearson e interpretación\nCalcula el coeficiente de correlación de Pearson entre m1 y GDP utilizando la función cor() en R. Luego, basándote en el valor obtenido, indica el tipo de correlación (positiva/negativa) y su magnitud (fuerte/moderada/débil).\n\n# Ejercicio 2.1: Coeficiente de correlación de Pearson\n\nBasado en el valor del coeficiente de correlación, describe el tipo de correlación (positiva/negativa) y su magnitud (fuerte/moderada/débil) observada entre ‘m1’ y ‘GDP’.\n\n\nSu respuesta:\n\n\n\n3. Creación del Modelo de Regresión Lineal Simple\nLa regresión lineal simple busca encontrar la línea recta que mejor se ajusta a nuestros datos, permitiéndonos modelar la relación lineal entre la variable dependiente (Y) y la variable independiente (X). La ecuación de esta línea se representa como:\n\\(Y=β\n0\n​\n+β\n1\n​\nX+ϵ\\)\nDonde:\n\\(Y\\) es la variable dependiente (m1).\n\\(X\\) es la variable independiente (GDP).\n$β 0 ​ $ es el intercepto (el valor esperado de Y cuando X es 0).\n$β 1 ​ $ es la pendiente (el cambio esperado en Y por cada unidad de cambio en X).\n\\(ϵ\\) es el término de error residual, que representa la variabilidad no explicada por el modelo.\nEn R, podemos ajustar un modelo de regresión lineal utilizando la función lm().\n\n\nEjercicio 3.1: Generar el modelo de regresión lineal\nUtiliza la función lm() para crear un modelo de regresión lineal donde m1 es la variable dependiente y GDP es la variable independiente. Almacena el resultado en un objeto llamado modelo_regresion.\n\n# Ejercicio 3.1: Generar el modelo de regresión lineal\n\n# Crea el modelo de regresión lineal\n\n\n\n4. Extracción de Resultados del Modelo\nUna vez que hemos ajustado nuestro modelo, necesitamos extraer información clave para interpretarlo. Los principales componentes de interés son el coeficiente de determinación \\((R^\n2\n)\\), la pendiente ($β 1 ​ $ ) y el intercepto ($β 0 ​ $ ).\n\nEl \\(R^2\\) nos indica la proporción de la varianza de la variable dependiente que es explicada por el modelo. Un \\(R^2\\) cercano a 1 sugiere que el modelo explica una gran parte de la variabilidad.\nLa pendiente nos dice cuánto cambia m1 por cada unidad de cambio en GDP.\nEl intercepto es el valor de m1 cuando GDP es cero.\n\n\nEjercicio 4.1: Extraer \\(R^2\\) y coeficientes\nDel objeto modelo_regresion, extrae el valor de \\(R^2\\) y los coeficientes (intercepto y pendiente). Puedes usar la función summary() para obtener un resumen completo del modelo. Igualmente asigna summary() a una nueva variable previo a extraer los valores\n\n# Ejercicio 4.1: Extraer R cuadrado y coeficientes\n\n# Muestra el resumen del modelo para extraer R cuadrado y los coeficientes\n\n\n\n\n5. Graficando la Línea de Regresión\nVisualizar la línea de regresión sobre el gráfico de dispersión original nos permite entender cómo el modelo se ajusta a los datos y la dirección de la relación lineal.\n\nEjercicio 5.1: Graficar la línea de regresión\nSobre el gráfico de dispersión que creaste en el Ejercicio 1.1, añade la línea de regresión obtenida de tu modelo_regresion.\n\n# Ejercicio 5.1: Graficar la línea de regresión\n\n# Vuelve a generar el gráfico de dispersión si es necesario, y luego añade la línea de regresión\n\n\n\n\n6. Cálculos Manuales y Comprensión Profunda\nPara afianzar nuestra comprensión, vamos a realizar algunos cálculos “a mano” sin usar las funciones predefinidas de R (o al menos simulando ese proceso). Esto nos ayudará a entender las fórmulas subyacentes.\n\nEjercicio 6.1: Medias y cálculo manual de la correlación\nCalcula la media de m1 y la media de GDP. Luego, calcula el coeficiente de correlación de Pearson sin usar la función cor(), es decir, aplicando la fórmula:\n\\[r = \\frac{\\sum_{i=1}^{n} (x_i - \\bar{x})(y_i - \\bar{y})}{\\sqrt{\\sum_{i=1}^{n} (x_i - \\bar{x})^2} \\sqrt{\\sum_{i=1}^{n} (y_i - \\bar{y})^2}}\\]\nDonde: - \\(n\\) es el número de pares de datos.\n\n\\(x_i\\) y \\(y_i\\) son los valores individuales de las dos variables.\n\\(\\bar{x}\\) es la media de los valores de \\(x\\).\n\\(\\bar{y}\\) es la media de los valores de \\(y\\).\n\n\n# Ejercicio 6.1: Medias y cálculo manual de la correlación\n\n# Calcula la media de 'm1' y 'GDP'\nmedia_m1 &lt;-\nmedia_GDP &lt;-\n\n# Calcula el coeficiente de correlación de Pearson \"a mano\"\n# Puedes descomponer el cálculo en partes para mayor claridad (ej. numerador, denominadores)\n\n\n\nEjercicio 6.2: Cálculo manual de los parámetros de la regresión\nAhora, calcula la pendiente \\[\\beta_1 = r \\frac{s_Y}{s_X} \\quad \\text{o bien} \\quad \\beta_1 = \\frac{\\sum((X_i - \\bar{X})(Y_i - \\bar{Y}))}{\\sum(X_i - \\bar{X})^2}\\]\nDonde:\n\n\\(\\beta_1\\): Es la pendiente del modelo de regresión lineal. Representa cuánto cambia la variable dependiente (\\(Y\\)) por cada unidad de cambio en la variable independiente (\\(X\\)).\n\\(r\\): Es el coeficiente de correlación de Pearson. Mide la fuerza y dirección de la relación lineal entre dos variables.\n\\(s_Y\\): Es la desviación estándar de la variable dependiente (\\(Y\\)). Indica la dispersión de los datos de \\(Y\\) alrededor de su media.\n\\(s_X\\): Es la desviación estándar de la variable independiente (\\(X\\)). Indica la dispersión de los datos de \\(X\\) alrededor de su media.\n\\(X_i\\): Representa un valor individual de la variable independiente.\n\\(Y_i\\): Representa un valor individual de la variable dependiente.\n\\(\\bar{X}\\): Es la media (promedio) de la variable independiente.\n\\(\\bar{Y}\\): Es la media (promedio) de la variable dependiente.\n\\(\\sum\\): Es el símbolo de sumatoria. Indica la suma de una serie de términos.\n\nPosteriormente se puede determinar \\(\\beta_0\\) con:\n\\[\\hat{\\beta}_0 = \\bar{Y} - \\hat{\\beta}_1 \\bar{X}\\]\n\n# Ejercicio 6.2: Cálculo manual de los parámetros de la regresión\n\n# Calcula la desviación estándar de 'm1' y 'GDP' si necesitas la primera fórmula para beta_1\ndesviacion_m1 &lt;-\ndesviacion_GDP &lt;-\n\n# Calcula la pendiente (beta_1)\nbeta_1_manual &lt;-\n\n# Calcula el intercepto (beta_0)\nbeta_0_manual &lt;-\n\n# Compara estos valores con los obtenidos por tu modelo_regresion\n\n\n\n\n7. Errores Residuales y su Interpretación\nLos errores residuales (o simplemente residuos) son las diferencias entre los valores observados de la variable dependiente (m1) y los valores predichos por nuestro modelo de regresión.\n\\(e_i =Y_i − \\hat{Y}_i\\)\nDonde \\(Y_i​\\) es el valor observado y \\(\\hat{Y}_i\\) es el valor predicho por el modelo.\nAnalizar los residuos es fundamental para evaluar la bondad del ajuste del modelo y verificar si se cumplen los supuestos de la regresión lineal.\n\nEjercicio 7.1: Obtención y graficación de los errores residuales\nExtrae los errores residuales de tu modelo_regresion. Luego, crea un gráfico de dispersión donde el eje X sea GDP y el eje Y sean los residuos. ¿Qué patrón observas en este gráfico? ¿Hay alguna tendencia?\n\n# Ejercicio 7.1: Obtención y graficación de los errores residuales\n\n# Extrae los residuos del modelo\nresiduos &lt;-\n\n# Genera el gráfico de los residuos vs. GDP\n\n\n\n\n8. Significado de los Parámetros del Modelo\nFinalmente, es crucial interpretar lo que nos dicen los valores numéricos de la pendiente y el intercepto en el contexto de nuestras variables.\n\nEjercicio 8.1: Interpretación de los parámetros\nUtilizando los valores de intercepto y pendiente que obtuviste de modelo_regresion, explica en tus propias palabras qué significan estos números en relación con m1 y GDP.\n\n\nSu respuesta"
+  },
+  {
+    "objectID": "clases/clase_17.html",
+    "href": "clases/clase_17.html",
+    "title": "Estadística I",
+    "section": "",
+    "text": "Tip\n\n\n\nTodas las láminas que se muestran a continuación pertenecen al proyecto OpenIntroStats openintro.org/os, y se encuentra disponible en su formato original en el siguiente enlace"
+  },
+  {
+    "objectID": "clases/clase_17.html#reglas-para-las-distribuciones-de-probabilidad",
+    "href": "clases/clase_17.html#reglas-para-las-distribuciones-de-probabilidad",
+    "title": "Estadística I",
+    "section": "Reglas para las distribuciones de probabilidad:",
+    "text": "Reglas para las distribuciones de probabilidad:\n\nLos eventos listados deben ser disjuntos.\nCada probabilidad debe estar entre 0 y 1.\nLas probabilidades deben sumar 1.\n\n\nLa distribución de probabilidad para los géneros de dos hijos:\n\n\n\n\nEvento\nMM\nFF\nMF\nFM\n\n\nProbabilidad\n0.25\n0.25\n0.25\n0.25"
+  },
+  {
+    "objectID": "clases/clase_17.html#eventos-complementarios",
+    "href": "clases/clase_17.html#eventos-complementarios",
+    "title": "Estadística I",
+    "section": "Eventos Complementarios",
+    "text": "Eventos Complementarios\nLos eventos complementarios son dos eventos mutuamente excluyentes cuyas probabilidades suman 1.\n\nUna pareja tiene un hijo. Si sabemos que el hijo no es un niño, ¿cuál es el género de este hijo? {M,F}Niño y niña son resultados complementarios.\nUna pareja tiene dos hijos, si sabemos que no son ambas niñas, ¿cuáles son las posibles combinaciones de género para estos hijos? S={MM,FF,FM,MF}"
+  },
+  {
+    "objectID": "clases/clase_17.html#reuniendo-todo-1",
+    "href": "clases/clase_17.html#reuniendo-todo-1",
+    "title": "Estadística I",
+    "section": "Reuniendo todo…",
+    "text": "Reuniendo todo…\nDado que la probabilidad del espacio muestral debe sumar 1:\nP (al menos 1 sin asegurar)\n\n\\(=1−P(ninguno\\, sin\\, asegurar)\\)\n\\(=1−(1−0.255)^5\\)\n\\(=1−0.745^5\\)\n\\(=1−0.23\\)\n\\(=0.77\\)\n\nAl menos 1:\nP(al menos uno)= 1−P (ninguno)"
   }
 ]
