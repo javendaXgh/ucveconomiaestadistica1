@@ -180,7 +180,7 @@ fig%>%
 
 ## Supuestos para aplicar un modelo de R.L. {.small}
 
-1.  **Linearidad:** los datos representados en un gráfico de dispersión deben mostrar una tendencia lineal
+1.  **Linealidad:** los datos representados en un gráfico de dispersión deben mostrar una tendencia lineal
 
 2.  **Residuos casi normales.** Generalmente, los residuos deben ser casi normales. Cuando esta condición resulta irrazonable, suele deberse a **valores atípicos** o a la preocupación por los **puntos influyentes**.
 

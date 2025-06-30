@@ -2,7 +2,9 @@ project:
   type: website
   resources:
     - scripts/
-
+  render:
+    - "*.qmd"      # Incluye todos los archivos .qmd en el directorio raíz
+    - "!clases/" 
 
 website:
   page-navigation: false

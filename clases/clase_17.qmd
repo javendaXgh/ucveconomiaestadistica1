@@ -61,7 +61,7 @@ Popularizada en gran medida por los avances revolucionarios en la tecnología y 
 
 ## Ley de los Largos Números
 
-Cuando se lanza una moneda justa, si sale cara en cada uno de los primeros 10 lanzamientos, ¿cuál crees que es la probabilidad de que salga otra cara en el siguiente lanzamiento? ¿0.5, menos de 0.5 o más de 0.5?
+Cuando se lanza una moneda no cargada, si sale cara en cada uno de los primeros 10 lanzamientos, ¿cuál crees que es la probabilidad de que salga otra cara en el siguiente lanzamiento? ¿0.5, menos de 0.5 o más de 0.5?
 
 ### $C\,|C|\,C |\,C|\, C|\, C|\, C |\,C|\, C|\,C​|\, ?$
 
