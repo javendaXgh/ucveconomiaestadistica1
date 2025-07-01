@@ -115,7 +115,7 @@ La **probabilidad marginal** es la probabilidad de que ocurra un solo evento, 
 $P(\text{recaída y desipramina}) = 10/72 \sim 0.14$
 :::
 
-## Probabilidad Conjunta
+## Probabilidad Conjunta {.small}
 
 Es la probabilidad de que dos o más eventos ocurran *simultáneamente*. Se denota como $P(A∩B)$ o $P(A,B)$ y se lee como "la probabilidad de A y B".
 
@@ -332,7 +332,7 @@ Genéricamente, si $P(A|B) = P(A)$, entonces se dice que los eventos A y B son i
 
 $P(A|B) = \frac{P(A \text{ y } B)}{P(B)} = \frac{P(A) \times P(B)}{P(B)} = P(A)$
 
-## **Independencia y Probabilidades Condicionales**
+## **Independencia y Probabilidades Condicionales** {.small}
 
 Dos eventos, A y B, son **independientes** si la ocurrencia de uno no afecta la probabilidad de ocurrencia del otro.
 
@@ -451,7 +451,7 @@ $P(\text{inf}|+) = \frac{P(\text{inf y +})}{P(+)} = \frac{0.099}{0.03 + 0.099 + 
 
 ![](images/clase19/ejer_2.png){fig-align="center" width="700"}
 
-## **Teorema de Bayes**
+## **Teorema de Bayes** {.xsmall}
 
 Es un resultado fundamental en la teoría de la probabilidad que describe la probabilidad de un evento, basado en el conocimiento previo de condiciones que podrían estar relacionadas con el evento. Es una forma de actualizar nuestras creencias sobre una hipótesis a la luz de nueva evidencia.
 
@@ -475,7 +475,7 @@ Es un resultado fundamental en la teoría de la probabilidad que describe la pro
 
 **El Problema:** Imaginemos que creamos un filtro para detectar correos SPAM. Si un correo tiene la palabra "oferta", ¿qué tan probable es que sea SPAM?
 
-## **Los Datos que Conocemos**
+## **Los Datos que Conocemos** {.small}
 
 Vamos a definir lo que sabemos sobre los correos que llegan:
 
