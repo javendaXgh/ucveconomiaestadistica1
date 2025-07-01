@@ -1179,7 +1179,7 @@ P(\text{resultado } A_1 \text{ de variable 1 | resultado B de variable 2})
 <li class="fragment"><p><span class="math inline">\(P(B∣A)\)</span>&nbsp;es la&nbsp;<strong>verosimilitud (likelihood)</strong>.</p></li>
 <li class="fragment"><p><span class="math inline">\(P(A)\)</span>&nbsp;es la&nbsp;<strong>probabilidad a priori</strong>.</p></li>
 <li class="fragment"><p><span class="math inline">\(P(B)\)</span> es la evidencia marginal, que se puede calcular usando la ley de la probabilidad total:</p>
-<p><span class="math inline">\(P(B)=P(B∣A)P(A)+P(B∣¬A)P(¬A)\)</span></p></li>
+<p><span class="math inline">\(P(B)=P(B∣A)P(A)+P(B∣A^c)P(A^c)\)</span></p></li>
 </ul></li>
 </ul>
 </section>
@@ -1232,7 +1232,7 @@ P(\text{resultado } A_1 \text{ de variable 1 | resultado B de variable 2})
 <li class="fragment"><p>No siendo SPAM y conteniendo “oferta”.</p></li>
 </ol>
 <p>Usamos la Ley de la Probabilidad Total:</p>
-<p><span class="math inline">\(P(B)=P(B∣A)P(A)+P(B∣¬A)P(¬A)\\P(\text "oferta")= [P(\text "oferta"∣\text SPAM)\text P(SPAM)]+[P(\text "oferta"∣\text NO\ SPAM)P(\text NO\ SPAM)]\)</span></p>
+<p><span class="math inline">\(P(B)=P(B∣A)P(A)+P(B∣A^c)P(A^c)\\P(\text "oferta")= [P(\text "oferta"∣\text SPAM)\text P(SPAM)]+[P(\text "oferta"∣\text NO\ SPAM)P(\text NO\ SPAM)]\)</span></p>
 <p>Calculamos:</p>
 <ul>
 <li class="fragment"><p><span class="math inline">\(P(\text NO\ SPAM)=1−P(\text SPAM)=1−0.20=0.80\)</span></p></li>

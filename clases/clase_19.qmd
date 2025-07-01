@@ -268,7 +268,7 @@ $P(\text{desipramina | recaída}) = 10/48 \sim 0.21$
 -   $P(\text{litio | recaída}) = 18/48 \sim 0.38$
 -   $P(\text{placebo | recaída}) = 20/48 \sim 0.42$
 
-## **Probabilidad Condicional** 
+## **Probabilidad Condicional**
 
 La **probabilidad condicional** es la probabilidad de que ocurra un evento A, *dado que* ya ha ocurrido otro evento B. Se denota como $P(A∣B)$ y se lee como "la probabilidad de A dado B".
 
@@ -469,7 +469,7 @@ Es un resultado fundamental en la teoría de la probabilidad que describe la pro
 
     -   $P(B)$ es la evidencia marginal, que se puede calcular usando la ley de la probabilidad total:
 
-        $P(B)=P(B∣A)P(A)+P(B∣¬A)P(¬A)$
+        $P(B)=P(B∣A)P(A)+P(B∣A^c)P(A^c)$
 
 ## ¿Funciona el nuevo filtro de SPAM?
 
@@ -531,7 +531,7 @@ El denominador, $P(\text"oferta")$, es la probabilidad total de que cualquier c
 
 Usamos la Ley de la Probabilidad Total:
 
-$P(B)=P(B∣A)P(A)+P(B∣¬A)P(¬A)\\P(\text "oferta")= [P(\text "oferta"∣\text SPAM)\text P(SPAM)]+[P(\text "oferta"∣\text NO\ SPAM)P(\text NO\ SPAM)]$
+$P(B)=P(B∣A)P(A)+P(B∣A^c)P(A^c)\\P(\text "oferta")= [P(\text "oferta"∣\text SPAM)\text P(SPAM)]+[P(\text "oferta"∣\text NO\ SPAM)P(\text NO\ SPAM)]$
 
 Calculamos:
 

@@ -13,7 +13,7 @@ execute:
   fig-align: center
 ---
 
-## Nota
+## Nota 
 
 ::: callout-tip
 Todas las láminas que se muestran a continuación pertenecen al proyecto OpenIntroStats [openintro.org/os](http://openintro.org/os), y se encuentra disponible en su formato original en el siguiente [enlace](https://docs.google.com/presentation/d/1YI6GzZwI4Wv1eWUXj1qeJkmfe7bBESqxXq1_VigUCbM/edit?slide=id.g16c7214b16_0_247#slide=id.g16c7214b16_0_247)

@@ -3,8 +3,8 @@
     "objectID": "clases/clase_01.html#aproximación-concepto-estadística",
     "href": "clases/clase_01.html#aproximación-concepto-estadística",
     "title": "Estadística I",
-    "section": "",
-    "text": "Los científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible."
+    "section": "Aproximación Concepto “Estadística”",
+    "text": "Aproximación Concepto “Estadística”\nLos científicos buscan responder preguntas utilizando métodos rigurosos y observaciones cuidadosas. Estas observaciones —recogidas a partir de notas de campo, encuestas y experimentos, entre otros— forman la columna vertebral de una investigación estadística y se denominan datos. \nLa estadística es el estudio sobre cómo recolectar, analizar y sacar conclusiones de los datos de la mejor manera posible."
   },
   {
     "objectID": "clases/clase_01.html#estudio-de-caso",
@@ -129,7 +129,7 @@
     "href": "clases/clase_01.html#datos-tabulares",
     "title": "Estadística I",
     "section": "Datos Tabulares",
-    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n34\ntreatment\nno event\n\n\n55\ntreatment\nno event\n\n\n286\ncontrol\nno event\n\n\n383\ncontrol\nno event\n\n\n395\ncontrol\nno event"
+    "text": "Datos Tabulares\nHay observaciones que generalmente en los datos tabulares estarán representados por (filas) , las cuales a su vez contienen distintos atributos o variables, que generalmente corresponden a las (columnas).\n\n\n\n\n\n\n\n\npaciente\ngroup\noutcome\n\n\n\n\n15\ntreatment\nstroke\n\n\n241\ncontrol\nno event\n\n\n284\ncontrol\nno event\n\n\n358\ncontrol\nno event\n\n\n394\ncontrol\nno event"
   },
   {
     "objectID": "clases/clase_01.html#resultados-0-a-30-días",
@@ -259,7 +259,7 @@
     "href": "clases/clase_01.html#variables-conjunto-de-datos",
     "title": "Estadística I",
     "section": "Variables Conjunto de Datos",
-    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n20000\n10.91\n60\nB\nNJ\n42000\nmortgage\n\n\n40000\n20.00\n60\nD\nWI\n168000\nmortgage\n\n\n38500\n12.62\n60\nC\nCA\n160000\nmortgage\n\n\n6000\n9.92\n36\nB\nCA\n60000\nrent\n\n\n12000\n5.31\n36\nA\nHI\n120000\nmortgage\n\n\n6000\n7.96\n36\nA\nCA\n100000\nrent\n\n\n7000\n17.09\n36\nD\nAZ\n55000\nown\n\n\n9000\n15.04\n36\nC\nIN\n45000\nown"
+    "text": "Variables Conjunto de Datos\n\n\n\n\n\n\n\n\nloan_amount\ninterest_rate\nterm\ngrade\nstate\ntotal_income\nhomeownership\n\n\n\n\n25000\n9.43\n60\nB\nOH\n254000\nmortgage\n\n\n16500\n5.31\n36\nA\nNE\n105000\nmortgage\n\n\n18500\n12.62\n60\nC\nFL\n192000\nmortgage\n\n\n10000\n6.71\n36\nA\nTX\n65000\nmortgage\n\n\n15000\n9.92\n36\nB\nCA\n185000\nrent\n\n\n6000\n9.92\n36\nB\nCA\n75000\nrent\n\n\n14500\n6.08\n36\nA\nMO\n80000\nmortgage\n\n\n3000\n7.96\n36\nA\nCA\n34000\nrent"
   },
   {
     "objectID": "clases/clase_01.html#descripción-variables",
@@ -329,7 +329,7 @@
     "href": "clases/clase_01.html#pregunta-clave-a-responder",
     "title": "Estadística I",
     "section": "Pregunta Clave a Responder",
-    "text": "Pregunta Clave a Responder\n\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar."
+    "text": "Pregunta Clave a Responder\n¿Los datos representados muestran que existe una diferencia entre los dos grupos?\nSupongamos que lanzas una moneda 100 veces. Si bien la probabilidad de que salga cara en cualquier lanzamiento es del 50 %, probablemente no observemos exactamente 50 caras. Este tipo de fluctuación forma parte de casi cualquier proceso de generación de datos.\nLa diferencia observada anteriormente entre los dos grupos puede ser real o deberse a la variación natural.\nDado que la diferencia es bastante grande, es más creíble que sea real.\nUtilizamos herramientas estadísticas para determinar si la diferencia es tan grande que deberíamos rechazar la idea de que se debió al azar."
   },
   {
     "objectID": "notebooks/jupyter_intro.html",
@@ -364,7 +364,7 @@
     "href": "clases/clase_01.html#variables-explicativas-y-de-respuesta.",
     "title": "Estadística I",
     "section": "Variables explicativas y de respuesta.",
-    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética."
+    "text": "Variables explicativas y de respuesta.\n\nVariables Explicativas: Se refiere a la variable que se utiliza para explicar o predecir los cambios en otra variable. Por lo tanto, “explicativa” captura esta esencia.\nVariable de Respuesta: Se refiere a la variable que se ve afectada o responde a los cambios en la variable explicativa. Por lo tanto, “de respuesta” es la traducción precisa.\n\n\nCuando hacemos preguntas sobre la relación entre dos variables, a veces también queremos determinar si el cambio en una variable provoca un cambio en la otra. Considere lo siguiente reformulación de una pregunta anterior sobre el conjunto de datos del condado: Si hay un aumento en el ingreso familiar medio en un condado, ¿impulsa esto una aumento de su población? En esta pregunta, nos preguntamos si una variable afecta a otra. Si este es nuestro subyacente creencia, entonces el ingreso familiar medio es la variable explicativa y el cambio poblacional es el variable de respuesta en la relación hipotética.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "notebooks/clase_01_estadistica.html#gráficos-de-dispersión",
@@ -2033,8 +2033,8 @@
     "objectID": "clases/clase_10.html#introducción-a-las-medias",
     "href": "clases/clase_10.html#introducción-a-las-medias",
     "title": "Estadística I",
-    "section": "",
-    "text": "En estadística descriptiva, las medidas de tendencia central nos ayudan a resumir un conjunto de datos en un solo valor representativo.\nAdicionalmente a la media aritmética simple, que no siempre es la mejor medida para evaluar la tendencia central de los datos, existen otras medias que son más apropiadas en ciertos contextos.\n\n1- Media ponderada\n2- Media armónica\n3- Media geométrica"
+    "section": "Introducción a las Medias",
+    "text": "Introducción a las Medias\nEn estadística descriptiva, las medidas de tendencia central nos ayudan a resumir un conjunto de datos en un solo valor representativo.\nAdicionalmente a la media aritmética simple, que no siempre es la mejor medida para evaluar la tendencia central de los datos, existen otras medias que son más apropiadas en ciertos contextos.\n\n1- Media ponderada\n2- Media armónica\n3- Media geométrica"
   },
   {
     "objectID": "clases/clase_10.html#media-ponderada-weighted-mean",
@@ -2069,7 +2069,7 @@
     "href": "clases/clase_10.html#media-armónica-harmonic-mean",
     "title": "Estadística I",
     "section": "2- Media Armónica (Harmonic Mean)",
-    "text": "2- Media Armónica (Harmonic Mean)\nEs útil para calcular promedios de tasas o ratios. Se define como el recíproco1 de la media aritmética de los recíprocos de los valores.\nFórmula:\n\\[H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}\\]\nDonde: \\(x_i\\) representa cada valor del conjunto de datos. \\(n\\) es el número total de valores."
+    "text": "2- Media Armónica (Harmonic Mean)\nEs útil para calcular promedios de tasas o ratios. Se define como el recíproco1 de la media aritmética de los recíprocos de los valores.\nFórmula:\n\\[H = \\frac{n}{\\sum_{i=1}^{n} \\frac{1}{x_i}}\\]\nDonde: \\(x_i\\) representa cada valor del conjunto de datos. \\(n\\) es el número total de valores.\nSi tienes un conjunto de datos como \\(x1​,x2​,...,xn​\\), el recíproco de cada valor es \\(\\frac{1}{x1}​, \\frac{1}{x2}​,..., \\frac{1}{xn}\\)"
   },
   {
     "objectID": "clases/clase_10.html#ejemplo-de-media-armónica",
@@ -2146,7 +2146,7 @@
     "href": "clases/clase_10.html#cómo-decidir-qué-media-usar",
     "title": "Estadística I",
     "section": "¿Cómo decidir qué media usar?",
-    "text": "¿Cómo decidir qué media usar?\n\nRecetario con uso discrecional\n\n¿Importancia desigual? → Media ponderada.\n¿Promedios de tasas? → Media armónica.\n¿Crecimiento o factores multiplicativos? → Media geométrica.\n¿Valores homogéneos? → Media aritmética."
+    "text": "¿Cómo decidir qué media usar?\nRecetario con uso discrecional\n\n¿Importancia desigual? → Media ponderada.\n¿Promedios de tasas? → Media armónica.\n¿Crecimiento o factores multiplicativos? → Media geométrica.\n¿Valores homogéneos? → Media aritmética.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_10_complemento.html",
@@ -2180,8 +2180,8 @@
     "objectID": "clases/clase_11.html#qué-son-los-momentos",
     "href": "clases/clase_11.html#qué-son-los-momentos",
     "title": "Estadística I",
-    "section": "",
-    "text": "Son medidas que nos dan información sobre las características de un conjunto de datos.\nNos ayudan a entender dónde se concentran los datos, cuánto se dispersan y qué forma tienen.\nAlgunos son: la media, la varianza, la asimetría y la curtosis.\n\n\nlos momentos nos dan diferentes “perspectivas” de los datos, más allá del simple promedio."
+    "section": "¿Qué son los Momentos?",
+    "text": "¿Qué son los Momentos?\n\nSon medidas que nos dan información sobre las características de un conjunto de datos.\nNos ayudan a entender dónde se concentran los datos, cuánto se dispersan y qué forma tienen.\nAlgunos son: la media, la varianza, la asimetría y la curtosis.\n\n\nlos momentos nos dan diferentes “perspectivas” de los datos, más allá del simple promedio."
   },
   {
     "objectID": "clases/clase_11.html#el-primer-momento-la-media-barx",
@@ -2272,7 +2272,7 @@
     "href": "clases/clase_11.html#resumen-de-los-momentos",
     "title": "Estadística I",
     "section": "Resumen de los Momentos",
-    "text": "Resumen de los Momentos\n\n\n\n\n\n\n\nMomento\n¿Qué mide?\n\n\nMedia ( \\(\\bar{X}\\) )\nEl centro de los datos\n\n\nVarianza ( \\(s^2\\) )\nLa dispersión de los datos\n\n\nAsimetría ( \\(A_s\\) )\nSi la distribución está sesgada hacia un lado\n\n\nCurtosis ( \\(K_u\\) )\nEl “apuntamiento” y el grosor de las colas"
+    "text": "Resumen de los Momentos\n\n\n\n\n\n\n\nMomento\n¿Qué mide?\n\n\nMedia ( \\(\\bar{X}\\) )\nEl centro de los datos\n\n\nVarianza ( \\(s^2\\) )\nLa dispersión de los datos\n\n\nAsimetría ( \\(A_s\\) )\nSi la distribución está sesgada hacia un lado\n\n\nCurtosis ( \\(K_u\\) )\nEl “apuntamiento” y el grosor de las colas\n\n\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_11.html#ejemplo-varianza",
@@ -2740,8 +2740,8 @@
     "objectID": "clases/clase_12.html#pendientes-y-asignaciones",
     "href": "clases/clase_12.html#pendientes-y-asignaciones",
     "title": "Estadística I",
-    "section": "",
-    "text": "Lectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
+    "section": "Pendientes y Asignaciones",
+    "text": "Pendientes y Asignaciones\n\nLectura cap 3 WSE para 28 de mayo\nTarea 4 pendiente\nTarea 5 por asignar"
   },
   {
     "objectID": "clases/clase_12.html#qué-son-los-números-índices",
@@ -3225,7 +3225,7 @@
     "href": "clases/clase_13.html#gráfico-variaciones-inpc",
     "title": "Estadística I",
     "section": "Gráfico Variaciones INPC",
-    "text": "Gráfico Variaciones INPC\n\n\n\n\n\n\n\n\nUtilidad Análisis Series Temporales\n\nIdentificar patrones y tendencias.\nRealizar pronósticos futuros.\nEvaluar el impacto de eventos.\nComprender la dinámica subyacente de los datos."
+    "text": "Gráfico Variaciones INPC"
   },
   {
     "objectID": "clases/clase_13.html#gráfico-temperatura-caracas-serie-temporal",
@@ -3302,7 +3302,7 @@
     "href": "clases/clase_13.html#modelos-de-descomposición",
     "title": "Estadística I",
     "section": "Modelos de Descomposición",
-    "text": "Modelos de Descomposición\nDos modelos comunes:\n\nModelo Aditivo:\nYt​=Tt​+St​+Ct​+Rt​\nApropiado cuando la magnitud de los componentes no depende del nivel de la serie.\nModelo Multiplicativo:\nYt​=Tt​×St​×Ct​×Rt​\nApropiado cuando la magnitud de los componentes es proporcional al nivel de la serie."
+    "text": "Modelos de Descomposición\nDos modelos comunes:\n\nModelo Aditivo:\nYt​=Tt​+St​+Ct​+Rt​\nApropiado cuando la magnitud de los componentes no depende del nivel de la serie.\nModelo Multiplicativo:\nYt​=Tt​×St​×Ct​×Rt​\nApropiado cuando la magnitud de los componentes es proporcional al nivel de la serie.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_12.html#ejemplo-cálculto-i.f.-año-1",
@@ -3323,7 +3323,7 @@
     "href": "clases/clase_12.html#indíce-nacional-de-precios-al-consumidor-bcv",
     "title": "Estadística I",
     "section": "Indíce Nacional de Precios al Consumidor BCV",
-    "text": "Indíce Nacional de Precios al Consumidor BCV"
+    "text": "Indíce Nacional de Precios al Consumidor BCV\n\n\n\n\n\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_12.html#ejemplo-cálculo-i.f.-año-1",
@@ -3399,8 +3399,8 @@
     "objectID": "clases/clase_14_02coefR.html#coeficiente-de-correlación-de-pearson",
     "href": "clases/clase_14_02coefR.html#coeficiente-de-correlación-de-pearson",
     "title": "Estadística I",
-    "section": "",
-    "text": "El coeficiente de correlación de Pearson (\\(r\\)) es una medida estadística que cuantifica la fuerza y la dirección de la relación lineal entre dos variables cuantitativas.\nEs una herramienta fundamental en estadística para entender cómo se mueven dos variables de un mismo cojunto de datos en distintas observaciones.\nEl valor de \\(r\\) siempre se encuentra entre -1 y +1."
+    "section": "Coeficiente de Correlación de Pearson",
+    "text": "Coeficiente de Correlación de Pearson\n\nEl coeficiente de correlación de Pearson (\\(r\\)) es una medida estadística que cuantifica la fuerza y la dirección de la relación lineal entre dos variables cuantitativas.\nEs una herramienta fundamental en estadística para entender cómo se mueven dos variables de un mismo cojunto de datos en distintas observaciones.\nEl valor de \\(r\\) siempre se encuentra entre -1 y +1."
   },
   {
     "objectID": "clases/clase_14_02coefR.html#interpretación-del-coeficiente-r",
@@ -3449,7 +3449,7 @@
     "href": "clases/clase_14_02coefR.html#resultado-del-ejemplo",
     "title": "Estadística I",
     "section": "Resultado del Ejemplo",
-    "text": "Resultado del Ejemplo\nSustituyendo los valores en la fórmula:\n\\[r = \\frac{3.00}{\\sqrt{2} \\sqrt{4.67}} = \\frac{3.00}{\\sqrt{9.34}} \\approx \\frac{3.00}{3.06} \\approx 0.98\\]\n\nEl valor de \\(r \\approx 0.98\\) indica una correlación lineal positiva muy fuerte entre las horas de estudio y las calificaciones obtenidas en este pequeño conjunto de datos. Esto sugiere que a mayor número de horas de estudio, tiende a haber una mayor calificación."
+    "text": "Resultado del Ejemplo\nSustituyendo los valores en la fórmula:\n\\[r = \\frac{3.00}{\\sqrt{2} \\sqrt{4.67}} = \\frac{3.00}{\\sqrt{9.34}} \\approx \\frac{3.00}{3.06} \\approx 0.98\\]\n\nEl valor de \\(r \\approx 0.98\\) indica una correlación lineal positiva muy fuerte entre las horas de estudio y las calificaciones obtenidas en este pequeño conjunto de datos. Esto sugiere que a mayor número de horas de estudio, tiende a haber una mayor calificación.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_14_03_lm.html#introducción-a-la-regresión-lineal-simple",
@@ -3546,8 +3546,8 @@
     "objectID": "clases/clase_14_01correlaciones.html#repaso",
     "href": "clases/clase_14_01correlaciones.html#repaso",
     "title": "Estadística I",
-    "section": "",
-    "text": "Ecuaciones: afirmaciones matemáticas que establecen una igualdad entre dos expresiones. Ejemplo \\(y = c + mx\\)\nSiendo \\(c = 10\\) y \\(m=1\\) se puede representar la recta de la ecuación anterior"
+    "section": "Repaso",
+    "text": "Repaso\nEcuaciones: afirmaciones matemáticas que establecen una igualdad entre dos expresiones. Ejemplo \\(y = c + mx\\)\nSiendo \\(c = 10\\) y \\(m=1\\) se puede representar la recta de la ecuación anterior"
   },
   {
     "objectID": "clases/clase_14_01correlaciones.html#representaciones-de-ecuaciones-lineales-según-la-pendiente",
@@ -3561,7 +3561,7 @@
     "href": "clases/clase_14_01correlaciones.html#observaciones",
     "title": "Estadística I",
     "section": "Observaciones",
-    "text": "Observaciones\nEn un conjunto de datos una observación es una única medición que se registra para una o varias características específicas de un elemento o entidad.\n\nEjemplo Conjunto de Datos Cars\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22"
+    "text": "Observaciones\nEn un conjunto de datos una observación es una única medición que se registra para una o varias características específicas de un elemento o entidad.\nEjemplo Conjunto de Datos Cars\n\n\n\n\n\nspeed\ndist\n\n\n\n\n4\n2\n\n\n4\n10\n\n\n7\n4\n\n\n7\n22"
   },
   {
     "objectID": "clases/clase_14_01correlaciones.html#gráficos-de-dispersión",
@@ -3610,7 +3610,7 @@
     "href": "clases/clase_14_01correlaciones.html#para-qué-queremos-una-función-que-permita-el-ajuste",
     "title": "Estadística I",
     "section": "¿Para qué queremos una función que permita el ajuste?",
-    "text": "¿Para qué queremos una función que permita el ajuste?\n\nExplicar las relaciones matemáticamente\nPrededir\n\n\nRelaciones Causales:\n\nel que dos variables muestren asociación, no implica causación\nbuscar determinar cuál es la causa y cuál es el efecto"
+    "text": "¿Para qué queremos una función que permita el ajuste?\n\nExplicar las relaciones matemáticamente\nPrededir\n\nRelaciones Causales:\n\nel que dos variables muestren asociación, no implica causación\nbuscar determinar cuál es la causa y cuál es el efecto"
   },
   {
     "objectID": "clases/clase_14_01correlaciones.html#correlaciones",
@@ -3701,7 +3701,7 @@
     "href": "clases/clase_14_01correlaciones.html#determinar-variables-respuesta-tipo-de-relación-presente",
     "title": "Estadística I",
     "section": "3. Determinar variables respuesta, tipo de relación presente",
-    "text": "3. Determinar variables respuesta, tipo de relación presente"
+    "text": "3. Determinar variables respuesta, tipo de relación presente\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_14_03_lm.html",
@@ -3889,8 +3889,8 @@
     "objectID": "clases/clase_15_01_lm.html#introducción-a-la-regresión-lineal-simple",
     "href": "clases/clase_15_01_lm.html#introducción-a-la-regresión-lineal-simple",
     "title": "Estadística I",
-    "section": "",
-    "text": "La regresión lineal simple busca modelar la relación lineal entre una variable dependiente (\\(Y\\)) y una variable independiente (\\(X\\)).\nEl objetivo es encontrar la “mejor” línea recta que describa cómo cambia \\(Y\\) en función de \\(X\\), equivalente a predecir el valor de la variable dependiente basándose en el valor de la variable independiente.\n\nEsta línea se representa con la ecuación: \\[\\hat{y} = \\beta_0 + \\beta_1 x\\]"
+    "section": "Introducción a la Regresión Lineal Simple",
+    "text": "Introducción a la Regresión Lineal Simple\n\nLa regresión lineal simple busca modelar la relación lineal entre una variable dependiente (\\(Y\\)) y una variable independiente (\\(X\\)).\nEl objetivo es encontrar la “mejor” línea recta que describa cómo cambia \\(Y\\) en función de \\(X\\), equivalente a predecir el valor de la variable dependiente basándose en el valor de la variable independiente.\n\nEsta línea se representa con la ecuación: \\[\\hat{y} = \\beta_0 + \\beta_1 x\\]"
   },
   {
     "objectID": "clases/clase_15_01_lm.html#compuesta-por",
@@ -3974,7 +3974,7 @@
     "href": "clases/clase_15_01_lm.html#usos-de-la-rl",
     "title": "Estadística I",
     "section": "Usos de la RL",
-    "text": "Usos de la RL\n\nEvaluar relaciones entre dos variables\nPredecir"
+    "text": "Usos de la RL\n\nEvaluar relaciones entre dos variables\nPredecir\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_15_01_lm.html#mínimo-de-sum_i1n-y_i---haty_i2-por-derivada",
@@ -4156,7 +4156,7 @@
     "href": "clases/clase_15_02_mmc.html#ventajas-del-método-de-mínimos-cuadrados",
     "title": "Estadística I",
     "section": "Ventajas del Método de Mínimos Cuadrados",
-    "text": "Ventajas del Método de Mínimos Cuadrados\n\nSimplicidad y Eficiencia: Es relativamente sencillo de entender y calcular, especialmente con herramientas computacionales.\nEstimadores BLUE (Si se cumplen los supuestos): Bajo ciertos supuestos (que se estudiarán en cursos más avanzados), los estimadores obtenidos por MCO son los Mejores Estimadores Lineales Insesgados (Best Linear Unbiased Estimators - BLUE). Esto significa que son los estimadores más precisos dentro de la clase de estimadores lineales e insesgados.\nBase para Modelos Más Complejos: Es la base para comprender y aplicar modelos de regresión más complejos, como la regresión lineal múltiple y otros modelos econométricos."
+    "text": "Ventajas del Método de Mínimos Cuadrados\n\nSimplicidad y Eficiencia: Es relativamente sencillo de entender y calcular, especialmente con herramientas computacionales.\nEstimadores BLUE (Si se cumplen los supuestos): Bajo ciertos supuestos (que se estudiarán en cursos más avanzados), los estimadores obtenidos por MCO son los Mejores Estimadores Lineales Insesgados (Best Linear Unbiased Estimators - BLUE). Esto significa que son los estimadores más precisos dentro de la clase de estimadores lineales e insesgados.\nBase para Modelos Más Complejos: Es la base para comprender y aplicar modelos de regresión más complejos, como la regresión lineal múltiple y otros modelos econométricos.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_15_02_mmc.html",
@@ -4169,8 +4169,8 @@
     "objectID": "clases/clase_15_02_mmc.html#el-método-de-los-mínimos-cuadrados-mmc",
     "href": "clases/clase_15_02_mmc.html#el-método-de-los-mínimos-cuadrados-mmc",
     "title": "Estadística I",
-    "section": "",
-    "text": "Problema: Cuando tenemos un conjunto de puntos de datos \\((X_i, Y_i)\\) en un gráfico de dispersión, y creemos que existe una relación lineal entre ellos, queremos encontrar la “mejor” línea recta que represente esa relación.\nEl Reto: Hay infinitas líneas posibles que podemos dibujar a través de una nube de puntos. ¿Cuál es la “mejor”?\nLa Solución de MCO: El Método de los Mínimos Cuadrados (MCO) proporciona un criterio objetivo para elegir esa línea. La “mejor” línea es aquella que minimiza la suma de los cuadrados de las distancias verticales entre cada punto observado y la línea predicha."
+    "section": "El Método de los Mínimos Cuadrados (MMC)",
+    "text": "El Método de los Mínimos Cuadrados (MMC)\n\nProblema: Cuando tenemos un conjunto de puntos de datos \\((X_i, Y_i)\\) en un gráfico de dispersión, y creemos que existe una relación lineal entre ellos, queremos encontrar la “mejor” línea recta que represente esa relación.\nEl Reto: Hay infinitas líneas posibles que podemos dibujar a través de una nube de puntos. ¿Cuál es la “mejor”?\nLa Solución de MCO: El Método de los Mínimos Cuadrados (MCO) proporciona un criterio objetivo para elegir esa línea. La “mejor” línea es aquella que minimiza la suma de los cuadrados de las distancias verticales entre cada punto observado y la línea predicha."
   },
   {
     "objectID": "clases/clase_15_03_r.html",
@@ -4498,8 +4498,8 @@
     "objectID": "clases/clase_16_02_r.html#r2",
     "href": "clases/clase_16_02_r.html#r2",
     "title": "Estadística I",
-    "section": "",
-    "text": "Medida estadística que representa la proporción de la varianza de la variable dependiente (\\(Y\\)) que es predecible a partir de la variable independiente (\\(X\\)) en un modelo de regresión lineal.\nForma rápida de indicar lo bien que el modelo de regresión se ajusta a los datos observados.\nSu valor siempre se encuentra entre 0 y 1 (o 0% y 100%)."
+    "section": "\\(R^2\\)",
+    "text": "\\(R^2\\)\n\nMedida estadística que representa la proporción de la varianza de la variable dependiente (\\(Y\\)) que es predecible a partir de la variable independiente (\\(X\\)) en un modelo de regresión lineal.\nForma rápida de indicar lo bien que el modelo de regresión se ajusta a los datos observados.\nSu valor siempre se encuentra entre 0 y 1 (o 0% y 100%)."
   },
   {
     "objectID": "clases/clase_16_02_r.html#importancia",
@@ -4611,7 +4611,7 @@
     "href": "clases/clase_16_02_r.html#cuándo-es-importante-esta-diferencia",
     "title": "Estadística I",
     "section": "¿Cuándo es importante esta diferencia?",
-    "text": "¿Cuándo es importante esta diferencia?\n\nEn regresión lineal simple, se calcula \\(R\\) y luego es elevado al cuadrado para obtener \\(R^2\\)..\nEn regresión lineal múltiple (cuando se tienen dos o más variables independientes), la relación \\(R^2 = (R)^2\\) ya no se sostiene directamente."
+    "text": "¿Cuándo es importante esta diferencia?\n\nEn regresión lineal simple, se calcula \\(R\\) y luego es elevado al cuadrado para obtener \\(R^2\\)..\nEn regresión lineal múltiple (cuando se tienen dos o más variables independientes), la relación \\(R^2 = (R)^2\\) ya no se sostiene directamente.\n\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_16_01.html#estimación-óptimo-2",
@@ -4730,7 +4730,7 @@
     "href": "clases/clase_16_01.html#introducción-a-la-distribución-normal",
     "title": "Estadística I",
     "section": "Introducción a la Distribución Normal",
-    "text": "Introducción a la Distribución Normal\nLa Distribución Normal, también conocida como Distribución Gaussiana o “Campana de Gauss”, es una de las distribuciones de probabilidad más importantes en estadística.\n\nForma de Campana: Su gráfico tiene una forma simétrica y acampanada.\nFundamental: Es crucial en muchas áreas, especialmente en econometría y finanzas, por su capacidad de modelar muchos fenómenos naturales y sociales.\n\n\n\nCaracterísticas Clave\n\nLa distribución normal está completamente definida por dos parámetros:\n\nMedia (μ): Es el centro de la distribución, donde la “campana” alcanza su punto más alto e indica el valor promedio de los datos.\nDesviación Estándar (σ): Mide la dispersión o la “anchura” de la campana. Una σ pequeña significa datos agrupados cerca de la media, mientras que una σ grande indica mayor dispersión.\n\nSimetría: El 50% de los datos están por debajo de la media y el 50% por encima.\n\n\n\n\nLa Regla 68-95-99.7 (Regla Empírica)\nEsta regla es una característica clave de la distribución normal y nos ayuda a entender la dispersión de los datos:\n\nAproximadamente el 68% de los datos caen dentro de 1 desviación estándar (μ±1σ) de la media.\nAproximadamente el 95% de los datos caen dentro de 2 desviaciones estándar (μ±2σ) de la media.\nAproximadamente el 99.7% de los datos caen dentro de 3 desviaciones estándar (μ±3σ) de la media."
+    "text": "Introducción a la Distribución Normal\nLa Distribución Normal, también conocida como Distribución Gaussiana o “Campana de Gauss”, es una de las distribuciones de probabilidad más importantes en estadística.\n\nForma de Campana: Su gráfico tiene una forma simétrica y acampanada.\nFundamental: Es crucial en muchas áreas, especialmente en econometría y finanzas, por su capacidad de modelar muchos fenómenos naturales y sociales."
   },
   {
     "objectID": "clases/clase_16_01.html#estimación-óptimo-1",
@@ -4743,8 +4743,8 @@
     "objectID": "clases/clase_17.html#nota",
     "href": "clases/clase_17.html#nota",
     "title": "Estadística I",
-    "section": "",
-    "text": "Tip\n\n\n\nTodas las láminas que se muestran a continuación pertenecen al proyecto OpenIntroStats openintro.org/os, y se encuentra disponible en su formato original en el siguiente enlace"
+    "section": "Nota",
+    "text": "Nota\n\n\n\n\n\n\nTip\n\n\nTodas las láminas que se muestran a continuación pertenecen al proyecto OpenIntroStats openintro.org/os, y se encuentra disponible en su formato original en el siguiente enlace"
   },
   {
     "objectID": "clases/clase_17.html#procesos-aleatorios",
@@ -4772,7 +4772,7 @@
     "href": "clases/clase_17.html#ley-de-los-largos-números",
     "title": "Estadística I",
     "section": "Ley de los Largos Números",
-    "text": "Ley de los Largos Números\nCuando se lanza una moneda no cargada, si sale cara en cada uno de los primeros 10 lanzamientos, ¿cuál crees que es la probabilidad de que salga otra cara en el siguiente lanzamiento? ¿0.5, menos de 0.5 o más de 0.5?\n\n\\(C\\,|C|\\,C |\\,C|\\, C|\\, C|\\, C |\\,C|\\, C|\\,C​|\\, ?\\)"
+    "text": "Ley de los Largos Números\nCuando se lanza una moneda no cargada, si sale cara en cada uno de los primeros 10 lanzamientos, ¿cuál crees que es la probabilidad de que salga otra cara en el siguiente lanzamiento? ¿0.5, menos de 0.5 o más de 0.5?\n\\(C\\,|C|\\,C |\\,C|\\, C|\\, C|\\, C |\\,C|\\, C|\\,C​|\\, ?\\)"
   },
   {
     "objectID": "clases/clase_17.html#resultados-disjuntos-y-no-disjuntos",
@@ -4863,7 +4863,7 @@
     "href": "clases/clase_17.html#disjunto-vs.-complementario",
     "title": "Estadística I",
     "section": "Disjunto vs. complementario",
-    "text": "Disjunto vs. complementario\n\n¿La suma de las probabilidades de dos eventos disjuntos siempre suma 1?\nNo necesariamente, puede haber más de 2 eventos en el espacio muestral, por ejemplo, la afiliación a un partido.\n\n\n¿La suma de las probabilidades de dos eventos complementarios siempre suma 1?\nSí, esa es la definición de complementario, por ejemplo, caras y cruces."
+    "text": "Disjunto vs. complementario\n¿La suma de las probabilidades de dos eventos disjuntos siempre suma 1?\nNo necesariamente, puede haber más de 2 eventos en el espacio muestral, por ejemplo, la afiliación a un partido.\n¿La suma de las probabilidades de dos eventos complementarios siempre suma 1?\nSí, esa es la definición de complementario, por ejemplo, caras y cruces."
   },
   {
     "objectID": "clases/clase_17.html#reuniendo-todo",
@@ -4884,7 +4884,7 @@
     "href": "clases/clase_17.html#solución",
     "title": "Estadística I",
     "section": "Solución",
-    "text": "Solución\n\\(P( al\\, menos\\, 1\\,vegetariano)\\)\n\\(=1−P(\\,ninguno\\, vegetariano)\\)\n\\(=1−0.8^3\\)\n\\(=1−0.512=0.488\\)"
+    "text": "Solución\n\\(P( al\\, menos\\, 1\\,vegetariano)\\)\n\\(=1−P(\\,ninguno\\, vegetariano)\\)\n\\(=1−0.8^3\\)\n\\(=1−0.512=0.488\\)\n\n\n\n\n🔗 Estadística 1"
   },
   {
     "objectID": "clases/clase_17.html#probabilidad-interpretación-frecuentista",
@@ -4947,7 +4947,7 @@
     "href": "clases/clase_17.html#regla-general-de-la-adición",
     "title": "Estadística I",
     "section": "REGLA GENERAL DE LA ADICIÓN",
-    "text": "REGLA GENERAL DE LA ADICIÓN\nSi A y B son dos eventos cualesquiera, disjuntos o no, entonces la probabilidad de que al menos uno de ellos ocurra es\n\\(P(A\\, o\\, B)=P(A)+P(B)−P(A\\, y \\,B)\\)\ndonde \\(P(A\\, y\\, B)\\) es la probabilidad de que ambos eventos ocurran.\n\n\n\n\n\n\n“o” es inclusivo\n\n\n\nCuando escribimos “o” en estadística, nos referimos a “y/o” a menos que explícitamente declaremos lo contrario. Así, A o B ocurre significa A, B, o ambos A y B ocurren."
+    "text": "REGLA GENERAL DE LA ADICIÓN\nSi A y B son dos eventos cualesquiera, disjuntos o no, entonces la probabilidad de que al menos uno de ellos ocurra es\n\\(P(A\\, o\\, B)=P(A)+P(B)−P(A\\, y \\,B)\\)\ndonde \\(P(A\\, y\\, B)\\) es la probabilidad de que ambos eventos ocurran.\n\n\n\n\n\n\n“o” es inclusivo\n\n\nCuando escribimos “o” en estadística, nos referimos a “y/o” a menos que explícitamente declaremos lo contrario. Así, A o B ocurre significa A, B, o ambos A y B ocurren."
   },
   {
     "objectID": "guia_probabilidad1.html",
@@ -6260,7 +6260,7 @@
     "href": "clases/clase_19.html#teorema-de-bayes-2",
     "title": "Estadística I",
     "section": "Teorema de Bayes",
-    "text": "Teorema de Bayes\nEs un resultado fundamental en la teoría de la probabilidad que describe la probabilidad de un evento, basado en el conocimiento previo de condiciones que podrían estar relacionadas con el evento. Es una forma de actualizar nuestras creencias sobre una hipótesis a la luz de nueva evidencia.\n\nDefinición: El teorema relaciona la probabilidad condicional de dos eventos. Permite calcular la probabilidad de una causa (hipótesis) a partir del efecto observado (evidencia).\nFórmula: \\(P(A∣B)=P(B)P(B∣A)⋅P(A)\\)​\nDonde:\n\n\\(P(A∣B)\\) es la probabilidad a posteriori.\n\\(P(B∣A)\\) es la verosimilitud (likelihood).\n\\(P(A)\\) es la probabilidad a priori.\n\\(P(B)\\) es la evidencia marginal, que se puede calcular usando la ley de la probabilidad total:\n\\(P(B)=P(B∣A)P(A)+P(B∣¬A)P(¬A)\\)"
+    "text": "Teorema de Bayes\nEs un resultado fundamental en la teoría de la probabilidad que describe la probabilidad de un evento, basado en el conocimiento previo de condiciones que podrían estar relacionadas con el evento. Es una forma de actualizar nuestras creencias sobre una hipótesis a la luz de nueva evidencia.\n\nDefinición: El teorema relaciona la probabilidad condicional de dos eventos. Permite calcular la probabilidad de una causa (hipótesis) a partir del efecto observado (evidencia).\nFórmula: \\(P(A∣B)=P(B)P(B∣A)⋅P(A)\\)​\nDonde:\n\n\\(P(A∣B)\\) es la probabilidad a posteriori.\n\\(P(B∣A)\\) es la verosimilitud (likelihood).\n\\(P(A)\\) es la probabilidad a priori.\n\\(P(B)\\) es la evidencia marginal, que se puede calcular usando la ley de la probabilidad total:\n\\(P(B)=P(B∣A)P(A)+P(B∣A^c)P(A^c)\\)"
   },
   {
     "objectID": "clases/clase_19.html#funciona-el-nuevo-filtro-de-spam",
@@ -6295,7 +6295,7 @@
     "href": "clases/clase_19.html#paso-2---calcular-el-denominador-la-evidencia",
     "title": "Estadística I",
     "section": "Paso 2 - Calcular el Denominador (La Evidencia)",
-    "text": "Paso 2 - Calcular el Denominador (La Evidencia)\nEl denominador, \\(P(\\text\"oferta\")\\), es la probabilidad total de que cualquier correo contenga la palabra “oferta”. Un correo puede contener “oferta” de dos maneras:\n\nSiendo SPAM y conteniendo “oferta”.\nNo siendo SPAM y conteniendo “oferta”.\n\nUsamos la Ley de la Probabilidad Total:\n\\(P(B)=P(B∣A)P(A)+P(B∣¬A)P(¬A)\\\\P(\\text \"oferta\")= [P(\\text \"oferta\"∣\\text SPAM)\\text P(SPAM)]+[P(\\text \"oferta\"∣\\text NO\\ SPAM)P(\\text NO\\ SPAM)]\\)\nCalculamos:\n\n\\(P(\\text NO\\ SPAM)=1−P(\\text SPAM)=1−0.20=0.80\\)\n\\(P(\\text\"oferta\")=(0.50\\times 0.20)+(0.01\\times 0.80)\\)\n\\(P(\\text\"oferta\")=0.10+0.008=0.108\\)\n\nLa probabilidad total de que un correo contenga la palabra “oferta” es del 10.8%."
+    "text": "Paso 2 - Calcular el Denominador (La Evidencia)\nEl denominador, \\(P(\\text\"oferta\")\\), es la probabilidad total de que cualquier correo contenga la palabra “oferta”. Un correo puede contener “oferta” de dos maneras:\n\nSiendo SPAM y conteniendo “oferta”.\nNo siendo SPAM y conteniendo “oferta”.\n\nUsamos la Ley de la Probabilidad Total:\n\\(P(B)=P(B∣A)P(A)+P(B∣A^c)P(A^c)\\\\P(\\text \"oferta\")= [P(\\text \"oferta\"∣\\text SPAM)\\text P(SPAM)]+[P(\\text \"oferta\"∣\\text NO\\ SPAM)P(\\text NO\\ SPAM)]\\)\nCalculamos:\n\n\\(P(\\text NO\\ SPAM)=1−P(\\text SPAM)=1−0.20=0.80\\)\n\\(P(\\text\"oferta\")=(0.50\\times 0.20)+(0.01\\times 0.80)\\)\n\\(P(\\text\"oferta\")=0.10+0.008=0.108\\)\n\nLa probabilidad total de que un correo contenga la palabra “oferta” es del 10.8%."
   },
   {
     "objectID": "clases/clase_19.html#paso-3---unir-todo-y-obtener-el-resultado",
@@ -6310,5 +6310,26 @@
     "title": "Estadística I",
     "section": "Análisis Resultado",
     "text": "Análisis Resultado\nSi recibes un correo que contiene la palabra “oferta”, hay una probabilidad del 92.6% de que sea SPAM.\nEl Teorema de Bayes nos permitió actualizar nuestra creencia inicial (la probabilidad de que un correo fuera SPAM era solo del 20%), al poder incorporar la nueva evidencia que viene dada por el uso de la palabra “oferta”.\n\n\n\n\n🔗 Estadística 1"
+  },
+  {
+    "objectID": "clases/clase_13coplemento.html",
+    "href": "clases/clase_13coplemento.html",
+    "title": "clase_13complemento",
+    "section": "",
+    "text": "Descomposición Procedimental: Métodos\n\nPromedios Móviles: Para estimar la tendencia suavizada.\nDiferenciación: Para eliminar tendencia o estacionalidad.\nDescomposición Clásica: Estimar tendencia, luego estacionalidad, luego residuo.\n\n\n\n\nLámina 17: Descomposición con Promedios Móviles\n\nCalcula el promedio de un número fijo de observaciones consecutivas.\nAyuda a suavizar las fluctuaciones a corto plazo y revela la tendencia subyacente.\n\n\n\nLámina 18: Ejemplo de Descomposición (Conceptual)\n[Aquí podrías mostrar una serie original y, conceptualmente, cómo se verían sus componentes separados (tendencia suave, patrón estacional repetitivo, etc.).]\n\n\n\nLámina 19: Importancia de la Descomposición\n\nPermite comprender mejor los patrones subyacentes.\nFacilita la modelización y el pronóstico.\nAyuda a identificar las causas de las variaciones en la serie.\n\n\n\n\nLámina 20: Conclusiones y Próximos Pasos\n\nLas series temporales tienen componentes que influyen en su comportamiento.\nIdentificar y descomponer estos componentes es crucial para el análisis.\nExisten diferentes métodos para la descomposición.\n\n¿Qué te parece esta estructura inicial? Podemos ajustar el contenido y la cantidad de láminas según tus necesidades."
+  },
+  {
+    "objectID": "clases/clase_19.html",
+    "href": "clases/clase_19.html",
+    "title": "Estadística I",
+    "section": "",
+    "text": "Tip\n\n\n\nTodas las láminas que se muestran a continuación pertenecen al proyecto OpenIntroStats openintro.org/os, y se encuentra disponible en su formato original en el siguiente enlace"
+  },
+  {
+    "objectID": "clases/clase_20.html",
+    "href": "clases/clase_20.html",
+    "title": "Estadística I",
+    "section": "",
+    "text": "Una variable aleatoria es una cantidad numérica cuyo valor depende del resultado de un evento aleatorio.\n\nUsamos una letra mayúscula, como X, para denotar una variable aleatoria.\nLos valores de una variable aleatoria se denotan con una letra minúscula, en este caso x.\nPor ejemplo, \\(P(X=x)\\)."
   }
 ]
