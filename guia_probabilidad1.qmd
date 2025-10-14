@@ -84,7 +84,7 @@ En el conjunto de datos de **préstamos** la variable de propiedad de vivienda d
 
 \(c\) ¿Son los eventos A y D disjuntos?
 
-![](clases/images/clase17/ diagrama.png){fig-align="center"}
+![](clases/images/clase17/%20diagrama.png){fig-align="center"}
 
 #### Respuesta
 
@@ -106,17 +106,35 @@ En el conjunto de datos de **préstamos** la variable de propiedad de vivienda d
 
 ### PRÁCTICA GUIADA 3.14
 
-En el conjunto de datos de *préstamos* que describe 10,000 préstamos, 1495 préstamos fueron de solicitudes conjuntas (p. ej., una pareja solicitó junta), 4789 solicitantes tenían una hipoteca y 950 tenían ambas características. Crea un diagrama de Venn para esta configuración.
+En el conjunto de datos de *préstamos* que describe 10,000 préstamos,
+
+1495 préstamos fueron de solicitudes conjuntas\\
+
+(p. ej., una pareja solicitó junta),
+
+4789 solicitantes tenían una hipoteca y 950 tenían ambas características.
+
+Crea un diagrama de Venn para esta configuración.
 
 #### Respuesta
 
 ![](images/ven_solucion.png){fig-align="center"}
 
-Se muestran tanto los recuentos como las probabilidades correspondientes (por ejemplo, 3839/10000=0.384). Ten en cuenta que el número de préstamos representados en el círculo izquierdo corresponde a 3839+950=4789, y el número representado en el círculo derecho es 950+545=1495.
+Se muestran tanto los recuentos como las probabilidades correspondientes (por ejemplo, 3839/10000=0.384).
+
+Ten en cuenta que el número de préstamos representados en el círculo izquierdo corresponde a 3839+950=4789,
+
+y el número representado en el círculo derecho es 950+545=1495.
 
 ### PRÁCTICA GUIADA 3.15
 
-\(a\) Usa tu diagrama de Venn de la Práctica Guiada 3.14 para determinar la probabilidad de que un préstamo extraído aleatoriamente del conjunto de datos de *préstamos* sea de una solicitud conjunta donde la pareja tenía una hipoteca. (b) ¿Cuál es la probabilidad de que el préstamo tuviera cualquiera de estos atributos?
+\(a\) Usa tu diagrama de Venn de la Práctica Guiada 3.14 para determinar la probabilidad de que un préstamo
+
+extraído aleatoriamente del conjunto de datos de *préstamos* sea de una solicitud conjunta donde
+
+la pareja tenía una hipoteca.
+
+(b) ¿Cuál es la probabilidad de que el préstamo tuviera cualquiera de estos atributos?
 
 #### Respuesta
 
